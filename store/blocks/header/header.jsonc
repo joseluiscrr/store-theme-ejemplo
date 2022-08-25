@@ -1,0 +1,181 @@
+{
+  "header": {
+    "title": "Header",
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "title": "Header",
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#header__top",
+      "header-row#header__middle"
+    ]
+  },
+  "header-row#header__top": {
+    "title": "Header top",
+    "children": [
+      "logo#header__top--logo",
+      "header-spacer",
+      "login",
+      // "modal-trigger#header__top--login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header__top"
+    }
+  },
+  // "modal-trigger#header__top--login": {
+  //   "children": [
+  //     "rich-text#header__top--login",
+  //     "modal-layout#header__top--login"
+  //   ]
+  // },
+  // "rich-text#header__top--login": {
+  //   "props": {
+  //     "text": "Login"
+  //   }
+  // },
+  // "modal-layout#header__top--login": {
+  //   "children": [
+  //     "login-content"
+  //   ]
+  // },
+  "login": {
+    "props": {
+      "optionsTitle": "Accede con",
+      "emailAndPasswordTitle": "Log in",
+      "emailPlaceholder": "Email",
+      "passwordPlaceholder": "Contraseña",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true
+    }
+  },
+  "rich-text#test": {
+    "props": {
+      "text": "Texto de pruebaaaaaaaaa"
+    }
+  },
+  "logo#header__top--logo": {
+    "title": "Logo",
+    "props": {
+      "url": "assets/img/vtex-white-logo.svg",
+      "width": 120,
+      "href": "/"
+    }
+  },
+  "header-row#header__middle": {
+    "title": "Header middle",
+    "children": [
+      "drawer#header__mobile--menu"
+    ],
+    "props": {
+      "blockClass": "header__middle"
+    }
+  },
+  "drawer#header__mobile--menu": {
+    "children": [
+      "menu#header__menu"
+      // "vtex.rich-text@0.x:rich-text#test-app-version"
+    ]
+    // "props": {
+    //   "orientation": "vertical"
+    // }
+    // "blocks": [
+    //   "drawer-trigger"
+    // ]
+  },
+  // "drawer-trigger": {
+  //   "children": [
+  //     "rich-text#test"
+  //   ]
+  // }
+  "menu#header__menu": {
+    "children": [
+      "menu-item#deparment__one",
+      "menu-item#deparment__two"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#deparment__one": {
+    "props": {
+      "id": "deparment__one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Google Title",
+        "text": "Google"
+      }
+    },
+    "blocks": ["submenu.accordion#deparment__one"]
+  },
+  "submenu.accordion#deparment__one": {
+    "children": [
+      "menu#deparment__one"
+    ]
+  },
+  "menu#deparment__one": {
+    "children": [
+      "menu-item#category__one",
+      "menu-item#category__two"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category__one": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Google Drive",
+        "text": "Google Drive"
+      }
+    }
+  },
+  "menu-item#category__two": {
+    "props": {
+      "id": "category-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Google Meet",
+        "text": "Google Meet"
+      }
+    }
+  },
+  "menu-item#deparment__two": {
+    "props": {
+      "id": "deparment__two",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.bing.com/?setlang=es",
+        "noFollow": true,
+        "tagTitle": "Bing Title",
+        "text": "Bing"
+      }
+    }
+  }
+  // "vtex.rich-text@0.x:rich-text#test-app-version": {
+  //   "props": {
+  //     "text": "Test App Version"
+  //   }
+  // }
+}

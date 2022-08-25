@@ -1,0 +1,15 @@
+{
+  "store.home": { 
+    "blocks": [
+      "rich-text#home___text--uno"
+    ]
+  },
+  "rich-text#home___text--uno": { 
+    "props": { 
+      "text": "Texto de prueba",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  }
+}

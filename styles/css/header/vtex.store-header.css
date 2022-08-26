@@ -1,3 +1,13 @@
+.headerStickyRow--header__top {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 35px;
+    padding-left: 35px;
+    background-color: #ffe800;
+}
 .headerRowBackground--header__top, .headerRowBackground--header__middle {
-    background-color: #E31C58;
+    background-color: #ffe800;
+}
+:global(.vtex-minicart-2-x-openIconContainer--minicart-icon) {
+    padding: 0;
 }

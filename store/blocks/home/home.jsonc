@@ -8,56 +8,91 @@
       // "responsive-layout.mobile#home__info--mobile",
       // "responsive-layout.tablet#home__info--tablet",
       // "responsive-layout.desktop#home__info--desktop"
-      "slider-layout#home__slider--children",
-      "modal-trigger#home__modal--children",
-      "modal-trigger#home__modal--event"
+      "slider-layout#home__slider--children"
+      // "modal-trigger#home__modal--children",
+      // "modal-trigger#home__modal--event",
+      // "search-result-layout.customQuery#home-search"
     ]
-  },
-  "modal-trigger#home__modal--children": {
-    "children": [
-      "rich-text#home__modal--trigger",
-      "modal-layout#home__modal--layout"
-    ]
-  },
-  "rich-text#home__modal--trigger": {
-    "props": {
-      "text": "Términos y condiciones"
-    }
-  },
-  "modal-layout#home__modal--layout": {
-    "children": [
-      "rich-text#home__modal--content"
-    ]
-  },
-  "rich-text#home__modal--content": {
-    "props": {
-    "text": "Términos y condiciones \n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ante massa, auctor non purus at, malesuada dignissim metus. Proin malesuada vulputate dolor, facilisis consequat nulla feugiat nec. In consectetur interdum felis vitae tempus. Suspendisse tristique ex dignissim, bibendum est sed, sollicitudin turpis. Proin vitae ornare augue. Curabitur vel vehicula tellus. Suspendisse mollis, dui et ultricies lacinia, nunc sem scelerisque nulla, non ullamcorper lacus purus vel lacus. Nullam elit magna, consequat tincidunt posuere quis, pellentesque vel mauris."
-    }
-  },
-  "modal-trigger#home__modal--event": {
-    "children": [
-      "modal-layout#home__modal--event"
-    ],
-    "props": {
-      "trigger": "event",
-      "customPixelEventName": "pageView"
-    }
-  },
-  "modal-layout#home__modal--event": {
-    "children": [
-      "modal-header#home__modal--event",
-      "rich-text#home__modal--event-content"
-    ]
-  },
-  "rich-text#home__modal--event-content": {
-    "props": {
-      "text": "Evento de DOM Loaded",
-      "font": "t-heading-3"
-    }
-  },
-  "modal-header#home__modal--event": {
-    "props": {
-      "showCloseButton": true
-    }
   }
+  // "search-result-layout.customQuery#home-search": {
+  //   "props": {
+  //     "querySchema": {
+  //       "skusFilter": "ALL",
+  //       "simulationBehavior": "skip"
+  //     }
+  //   },
+  //   "blocks": [
+  //     "search-result-layout.desktop#home__search--desktop",
+  //     "search-result-layout.mobile#home__search--mobile",
+  //     "search-not-found-layout"
+  //   ]
+  // },
+  // "search-result-layout.desktop#home__search--desktop": {
+  //   "children": [
+  //     "flex-layout.row#home__results"
+  //   ]
+  // },
+  // "search-result-layout.mobile#home__search--mobile": {
+  //   "children": [
+  //     "flex-layout.row#home__results"
+  //   ]
+  // },
+  // "flex-layout.row#home__results": {
+  //   "children": [
+  //     "flex-layout.col#home__results--search"
+  //   ]
+  // },
+  // "flex-layout.col#home__results--search": {
+  //   "children": [
+  //     "search-content#home__results--search"
+  //   ]
+  // },
+  // "search-content#home__results--search": {
+  //   "blocks": [
+  //     "gallery",
+  //     "not-found"
+  //   ]
+  // },
+  // "gallery": {
+  //   "blocks": [
+  //     "product-summary.shelf"
+  //   ]
+  // }
 }
+
+// {
+//   "store.home": {
+//     "blocks": ["rich-text", "info-card#button-right", "info-card#button-left"]
+//   },
+//   "rich-text": {
+//     "props": {
+//       "text": "*Hello, World!*",
+//       "textPosition": "RIGHT"
+//     }
+//   },
+//   "info-card#button-right": {
+//     "props": {
+//       "isFullModeStyle": false,
+//       "textPosition": "right",
+//       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+//       "headline": "Vintage Pink",
+//       "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
+//       "callToActionMode": "button",
+//       "callToActionText": "Explore",
+//       "callToActionUrl": "/sale/d",
+//       "textAlignment": "center"
+//     }
+//   },
+//   "info-card#button-left": {
+//     "props": {
+//     "isFullModeStyle": false,
+//     "textPosition": "left",
+//     "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
+//     "headline": "Shining chrome",
+//     "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
+//     "callToActionMode": "link",
+//     "callToActionText": "Go to collection",
+//     "textAlignment": "center"
+//     }
+//   }
+// }

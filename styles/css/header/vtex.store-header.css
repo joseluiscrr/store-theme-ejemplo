@@ -5,9 +5,8 @@
     padding-left: 35px;
     background-color: #ffe800;
 }
-.headerRowBackground--header__top, .headerRowBackground--header__middle {
+
+.headerRowBackground--header__top,
+.headerRowBackground--header__middle {
     background-color: #ffe800;
-}
-:global(.vtex-minicart-2-x-openIconContainer--minicart-icon) {
-    padding: 0;
 }

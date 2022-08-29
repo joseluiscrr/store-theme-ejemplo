@@ -1,6 +1,43 @@
 .paginationDotsContainer--home__slider {
-    transform: translateY(30px);
+    transform: translateY(-8px);
 }
-.sliderTrackContainer--home__slider {
-    height: 380px;
+
+.sliderLeftArrow--home__slider {
+    z-index: 1;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 22%);
+    padding: 12px 14px;
+    background-color: hsla(0,0%,89.8%,.75)!important;
+    display: flex;
+    opacity: .5;
+    transition: all .2s ease;
+    border-radius: 50px 50px;
+    margin-left: 20px;
 }
+
+.sliderRightArrow--home__slider {
+    z-index: 1;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 22%);
+    padding: 12px 14px;
+    background-color: hsla(0,0%,89.8%,.75)!important;
+    display: flex;
+    opacity: .5;
+    transition: all .2s ease;
+    border-radius: 50px 50px;
+    margin-right: 20px;
+}
+
+.paginationDot--home__slider--isActive {
+    background-color: #8b8787;
+}
+
+.paginationDot--home__slider {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+/* .sliderTrackContainer--home__slider {
+    height: 100%;
+    width: 70%;
+} */

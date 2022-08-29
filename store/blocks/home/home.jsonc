@@ -2,18 +2,391 @@
   "store.home": {
     "blocks": [
       // "rich-text#home__text--uno",
-      // "slider-layout#home__slider--children"
-      // "flex-layout.row#home__section--one"
+      "flex-layout.row#home__section--zero-image",
+      "flex-layout.row#home__section--one",
       // "responsive-layout.phone#home__info--phone",
       // "responsive-layout.mobile#home__info--mobile",
       // "responsive-layout.tablet#home__info--tablet",
       // "responsive-layout.desktop#home__info--desktop"
-      "slider-layout#home__slider--children"
       // "modal-trigger#home__modal--children",
       // "modal-trigger#home__modal--event",
       // "search-result-layout.customQuery#home-search"
+      "flex-layout.row#home__section--categories"
     ]
+  },
+  ///////////////////////////////////////////////////////////////////////
+  "flex-layout.row#home__section--zero-image": {
+    "children": [
+      "image#home__section--zero"
+    ],
+    "props": {
+      "marginTop": 5,
+      "marginBottom": 3,
+      "blockClass": "home__section--zero-image"
+    }
+  },
+  "image#home__section--zero": {
+    "props": {
+      "src": "assets/img/main-gif-1.gif"
+    }
+  },
+  "flex-layout.row#home__section--one": {
+    "children": [
+      "flex-layout.col#col__section--one",
+      "flex-layout.col#col__section--two"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "home__section--one"
+    }
+  },
+  "flex-layout.col#col__section--one": {
+    "children": [
+      "slider-layout#home__slider--children"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "section__one-slider",
+      "width": "70%",
+      "marginRight": 2
+    }
+  },
+  "flex-layout.col#col__section--two": {
+    "children": [
+      "image#home__section--one"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "section__one-image",
+      "width": "30%",
+      "marginLeft": 2
+    }
+  },
+  "image#home__section--one": {
+    "props": {
+      "src": "assets/img/image-section-one.webp"
+    }
+  },
+  ///////////////////////////////////////////////////////////////////
+  "flex-layout.row#home__section--categories": {
+    "children": [
+      "flex-layout.col#categories__container"
+    ],
+    "props": {
+      "blockClass": "home__section--categories"
+    }
+  },
+  "flex-layout.col#categories__container": {
+    "children": [
+      "rich-text#home__categories--title",
+      "flex-layout.col#categories__container--list"
+    ]
+  },
+  "rich-text#home__categories--title": {
+    "props": {
+      "text": "#### Compra por categorías",
+      "blockClass": "home__categories--title"
+    }
+  },
+  "flex-layout.col#categories__container--list": {
+    "children": [
+      "flex-layout.row#container__list--one",
+      "flex-layout.row#container__list--two"
+    ]
+  },
+  "flex-layout.row#container__list--one": {
+    "children": [
+      "flex-layout.col#category__item-1",
+      "flex-layout.col#category__item-2",
+      "flex-layout.col#category__item-3",
+      "flex-layout.col#category__item-4",
+      "flex-layout.col#category__item-5",
+      "flex-layout.col#category__item-6"
+    ],
+    "props": {
+      "blockClass": "container__list--one"
+    }
+  },
+  "flex-layout.col#category__item-1": {
+    "children": [
+      "image#item__1--image",
+      "rich-text#item__1--title"
+    ],
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "font": "t-heading-1",
+      "blockClass": "category__item"
+    }
+  },
+  "rich-text#item__1--title": {
+    "props": {
+      "text": "Mercaweek"
+    }
+  },
+  "image#item__1--image": {
+    "props": {
+      "src": "assets/img/category-item-1.webp"
+    }
+  },
+  "flex-layout.col#category__item-2": {
+    "children": [
+      "image#item__2--image",
+      "rich-text#item__2--title"
+    ],
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "font": "t-heading-1",
+      "blockClass": "category__item"
+    }
+  },
+  "rich-text#item__2--title": {
+    "props": {
+      "text": "Mercado"
+    }
+  },
+  "image#item__2--image": {
+    "props": {
+      "src": "assets/img/category-item-2.webp"
+    }
+  },
+  "flex-layout.col#category__item-3": {
+    "children": [
+      "image#item__3--image",
+      "rich-text#item__3--title"
+    ],
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "font": "t-heading-1",
+      "blockClass": "category__item"
+    }
+  },
+  "rich-text#item__3--title": {
+    "props": {
+      "text": "Moda"
+    }
+  },
+  "image#item__3--image": {
+    "props": {
+      "src": "assets/img/category-item-3.webp"
+    }
+  },
+  "flex-layout.col#category__item-4": {
+    "children": [
+      "image#item__4--image",
+      "rich-text#item__4--title"
+    ],
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "font": "t-heading-1",
+      "blockClass": "category__item"
+    }
+  },
+  "rich-text#item__4--title": {
+    "props": {
+      "text": "Celulares"
+    }
+  },
+  "image#item__4--image": {
+    "props": {
+      "src": "assets/img/category-item-4.webp"
+    }
+  },
+  "flex-layout.col#category__item-5": {
+    "children": [
+      "image#item__5--image",
+      "rich-text#item__5--title"
+    ],
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "font": "t-heading-1",
+      "blockClass": "category__item"
+    }
+  },
+  "rich-text#item__5--title": {
+    "props": {
+      "text": "Televisores"
+    }
+  },
+  "image#item__5--image": {
+    "props": {
+      "src": "assets/img/category-item-5.webp"
+    }
+  },
+  "flex-layout.col#category__item-6": {
+    "children": [
+      "image#item__6--image",
+      "rich-text#item__6--title"
+    ],
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "font": "t-heading-1",
+      "blockClass": "category__item"
+    }
+  },
+  "rich-text#item__6--title": {
+    "props": {
+      "text": "Computadores"
+    }
+  },
+  "image#item__6--image": {
+    "props": {
+      "src": "assets/img/category-item-6.webp"
+    }
+  },
+  "flex-layout.row#container__list--two": {
+    "children": [
+      "flex-layout.col#category__item-7",
+      "flex-layout.col#category__item-8",
+      "flex-layout.col#category__item-9",
+      "flex-layout.col#category__item-10",
+      "flex-layout.col#category__item-11",
+      "flex-layout.col#category__item-12"
+    ],
+    "props": {
+      "blockClass": "container__list--one"
+    }
+  },
+  "flex-layout.col#category__item-7": {
+    "children": [
+      "image#item__7--image",
+      "rich-text#item__7--title"
+    ],
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "font": "t-heading-7",
+      "blockClass": "category__item"
+    }
+  },
+  "rich-text#item__7--title": {
+    "props": {
+      "text": "Colchones"
+    }
+  },
+  "image#item__7--image": {
+    "props": {
+      "src": "assets/img/category-item-7.webp"
+    }
+  },
+  "flex-layout.col#category__item-8": {
+    "children": [
+      "image#item__8--image",
+      "rich-text#item__8--title"
+    ],
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "font": "t-heading-1",
+      "blockClass": "category__item"
+    }
+  },
+  "rich-text#item__8--title": {
+    "props": {
+      "text": "Electrodomésticos"
+    }
+  },
+  "image#item__8--image": {
+    "props": {
+      "src": "assets/img/category-item-8.webp"
+    }
+  },
+  "flex-layout.col#category__item-9": {
+    "children": [
+      "image#item__9--image",
+      "rich-text#item__9--title"
+    ],
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "font": "t-heading-1",
+      "blockClass": "category__item"
+    }
+  },
+  "rich-text#item__9--title": {
+    "props": {
+      "text": "Mundo cocina"
+    }
+  },
+  "image#item__9--image": {
+    "props": {
+      "src": "assets/img/category-item-9.webp"
+    }
+  },
+  "flex-layout.col#category__item-10": {
+    "children": [
+      "image#item__10--image",
+      "rich-text#item__10--title"
+    ],
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "font": "t-heading-1",
+      "blockClass": "category__item"
+    }
+  },
+  "rich-text#item__10--title": {
+    "props": {
+      "text": "Deportes"
+    }
+  },
+  "image#item__10--image": {
+    "props": {
+      "src": "assets/img/category-item-10.webp"
+    }
+  },
+  "flex-layout.col#category__item-11": {
+    "children": [
+      "image#item__11--image",
+      "rich-text#item__11--title"
+    ],
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "font": "t-heading-1",
+      "blockClass": "category__item"
+    }
+  },
+  "rich-text#item__11--title": {
+    "props": {
+      "text": "Bebés"
+    }
+  },
+  "image#item__11--image": {
+    "props": {
+      "src": "assets/img/category-item-11.webp"
+    }
+  },
+  "flex-layout.col#category__item-12": {
+    "children": [
+      "image#item__12--image",
+      "rich-text#item__12--title"
+    ],
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "font": "t-heading-1",
+      "blockClass": "category__item"
+    }
+  },
+  "rich-text#item__12--title": {
+    "props": {
+      "text": "Juguetería"
+    }
+  },
+  "image#item__12--image": {
+    "props": {
+      "src": "assets/img/category-item-12.webp"
+    }
   }
+
+
+
   // "search-result-layout.customQuery#home-search": {
   //   "props": {
   //     "querySchema": {
@@ -59,7 +432,6 @@
   //   ]
   // }
 }
-
 // {
 //   "store.home": {
 //     "blocks": ["rich-text", "info-card#button-right", "info-card#button-left"]

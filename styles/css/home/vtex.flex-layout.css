@@ -1,0 +1,21 @@
+.flexRowContent--home__section--one,
+.flexRowContent--home__section--categories {
+    max-width: 1280px;
+    margin: 0 auto 30px;
+}
+
+.flexRowContent--container__list--one {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.flexColChild--category__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .stretchChildrenWidth {
+    width: 100%;
+} */

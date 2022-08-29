@@ -1,4 +1,49 @@
-.sliderLayoutContainer--home__slider {
-    width: 70%;
-    margin: auto;
+.flexCol--section__one-slider {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logoContainer--header__top--logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 80px;
+    min-height: 35px;
+    padding: 0 1rem;
+}
+
+.searchBarContainer,
+.searchBarInnerContainer--header__top--search,
+.autoCompleteOuterContainer--header__top--search {
+    height: 36px;
+    padding: 0;
+}
+
+:global(.vtex-input-prefix__group) {
+    box-shadow: 0 2px 6px rgb(0 0 0 / 16%);
+    height: 36px;
+    border-radius: 10px;
+    border: none;
+    box-sizing: border-box;
+}
+
+:global(.vtex-styleguide-9-x-input) {
+    height: 36px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+}
+
+:global(.vtex-input__suffix) {
+    height: 36px;
+    background-color: #676767;
+    padding: 0 10px;
+}
+
+:global(.vtex-input-prefix__group) {
+    height: 36px !important;
+}
+
+.searchBarIcon--header__top--search {
+    color: white;
 }

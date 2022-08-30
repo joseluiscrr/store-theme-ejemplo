@@ -1,0 +1,153 @@
+{
+  "store.home": {
+    "blocks": [
+      "mega-menu#desktop",
+      "flex-layout.row#home__top",
+      "flex-layout.row#home__section--one",
+      "flex-layout.row#home__categories"
+    ]
+  },
+  ///////////////////////////////////////////////////////////////////////
+  // "mega-menu#desktop": {
+  //   "props": {
+  //     "openOnly": "horizontal"
+  //   }
+  // },
+  ///////////////////////////////////////////////////////////////////////
+  "flex-layout.row#home__top": {
+    "props": {
+      "blockClass": "home__top",
+      "marginBottom": 3,
+      "marginTop": 5
+    },
+    "children": [
+      "image#home__top--gif"
+    ]
+  },
+  "image#home__top--gif": {
+    "props": {
+      "src": "assets/img/main-gif-1.gif"
+    }
+  },
+  ///////////////////////////////////////////////////////////////////////
+  "flex-layout.row#home__section--one": {
+    "children": [
+      "flex-layout.col#section__one--col-one",
+      "flex-layout.col#section__one--col-two"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "home__section--one"
+    }
+  },
+  "flex-layout.col#section__one--col-one": {
+    "children": [
+      "slider-layout#home__slider--children"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "section__one--col-one",
+      "width": "70%",
+      "marginRight": 2
+    }
+  },
+  "flex-layout.col#section__one--col-two": {
+    "children": [
+      "image#col__two--image"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "section__one-image",
+      "width": "30%",
+      "marginLeft": 2
+    }
+  },
+  "image#col__two--image": {
+    "props": {
+      "src": "assets/img/image-section-one.webp"
+    }
+  }
+  ///////////////////////////////////////////////////////////////////////
+}
+///////////////////////////////////////////////////////////////////
+// "search-result-layout.customQuery#home-search": {
+//   "props": {
+//     "querySchema": {
+//       "skusFilter": "ALL",
+//       "simulationBehavior": "skip"
+//     }
+//   },
+//   "blocks": [
+//     "search-result-layout.desktop#home__search--desktop",
+//     "search-result-layout.mobile#home__search--mobile",
+//     "search-not-found-layout"
+//   ]
+// },
+// "search-result-layout.desktop#home__search--desktop": {
+//   "children": [
+//     "flex-layout.row#home__results"
+//   ]
+// },
+// "search-result-layout.mobile#home__search--mobile": {
+//   "children": [
+//     "flex-layout.row#home__results"
+//   ]
+// },
+// "flex-layout.row#home__results": {
+//   "children": [
+//     "flex-layout.col#home__results--search"
+//   ]
+// },
+// "flex-layout.col#home__results--search": {
+//   "children": [
+//     "search-content#home__results--search"
+//   ]
+// },
+// "search-content#home__results--search": {
+//   "blocks": [
+//     "gallery",
+//     "not-found"
+//   ]
+// },
+// "gallery": {
+//   "blocks": [
+//     "product-summary.shelf"
+//   ]
+// }
+///////////////////////////////////////////////////////////////////////
+// {
+//   "store.home": {
+//     "blocks": ["rich-text", "info-card#button-right", "info-card#button-left"]
+//   },
+//   "rich-text": {
+//     "props": {
+//       "text": "*Hello, World!*",
+//       "textPosition": "RIGHT"
+//     }
+//   },
+//   "info-card#button-right": {
+//     "props": {
+//       "isFullModeStyle": false,
+//       "textPosition": "right",
+//       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+//       "headline": "Vintage Pink",
+//       "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
+//       "callToActionMode": "button",
+//       "callToActionText": "Explore",
+//       "callToActionUrl": "/sale/d",
+//       "textAlignment": "center"
+//     }
+//   },
+//   "info-card#button-left": {
+//     "props": {
+//     "isFullModeStyle": false,
+//     "textPosition": "left",
+//     "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
+//     "headline": "Shining chrome",
+//     "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
+//     "callToActionMode": "link",
+//     "callToActionText": "Go to collection",
+//     "textAlignment": "center"
+//     }
+//   }
+// }

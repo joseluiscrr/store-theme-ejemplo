@@ -1,0 +1,26 @@
+{
+  "drawer#header__main--menu": {
+    "props": {
+      "blockClass": "header__main--menu"
+    },
+    "children": [
+      // "menu#header__menu"
+      // "mega-menu#desktop"
+      "category-menu"
+    ]
+  },
+  "mega-menu#desktop": {
+    "props": {
+      "openOnly": "horizontal"
+    }
+  },
+  "category-menu": {
+    "props": {
+      "showAllDepartments": false,
+      "showSubcategories": true,
+      "menuDisposition": "left",
+      "departments": [],
+      "sortSubcategories": "name"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "header": {
+    "title": "Header",
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "title": "Header",
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#header__main"
+    ]
+  },
+  "header-row#header__main": {
+    "props": {
+      "blockClass": "header__main",
+      "sticky": true
+    },
+    "children": [
+      "drawer#header__main--menu",
+      // "mega-menu-trigger-btn",
+      "logo#header__main--logo",
+      "search-bar#header__main--search",
+      "header-spacer",
+      "login",
+      "minicart.v2#header__main--minicart"
+    ]
+  },
+  "mega-menu-trigger-btn": {
+    "props": {
+      "Drawer": "drawer#header__main--menu"
+    }
+  },
+  "logo#header__main--logo": {
+    "props": {
+      "blockClass": "header__main--logo",
+      "url": "assets/img/exito-logo.svg",
+      "width": 80,
+      "href": "/"
+    }
+  },
+  "search-bar#header__main--search": {
+    "props": {
+      "blockClass": "header__main--search",
+      "placeholder": "Buscar en exito.com"
+    }
+  },
+  "login": {
+    "props": {
+      "showPasswordVerificationIntoTooltip": true,
+      "passwordPlaceholder": "Contraseña",
+      "emailAndPasswordTitle": "Log in",
+      "optionsTitle": "Accede con",
+      "emailPlaceholder": "Email",
+      "showIconProfile": true
+    }
+  }
+}

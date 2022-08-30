@@ -1,4 +1,4 @@
-.headerStickyRow--header__top {
+.headerStickyRow--header__main {
     padding-top: 25px;
     padding-bottom: 25px;
     padding-right: 35px;
@@ -6,7 +6,7 @@
     background-color: #ffe800;
 }
 
-.headerRowBackground--header__top,
+.headerRowBackground--header__main,
 .headerRowBackground--header__middle {
     background-color: #ffe800;
 }

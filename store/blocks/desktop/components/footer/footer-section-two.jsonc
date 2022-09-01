@@ -1,0 +1,202 @@
+{
+  "flex-layout.row#footer__section--2": {
+    "children": [
+      "flex-layout.col#footer__section--2-1",
+      "flex-layout.col#footer__section--2-2",
+      "flex-layout.col#footer__section--2-3"
+    ]
+  },
+  "flex-layout.col#footer__section--2-1": {
+    "children": [
+      "flex-layout.col#section__2--1",
+      "flex-layout.col#section__2--2"
+    ]
+  },
+  "flex-layout.col#section__2--1": {
+    "children": [
+      "rich-text#section__2--1-text"
+    ]
+  },
+  "rich-text#section__2--1-text": {
+    "props": {
+      "text": "Contáctanos"
+    }
+  },
+  "flex-layout.col#section__2--2": {
+    "children": [
+      "flex-layout.row#section__2--2-1"
+    ]
+  },
+  "flex-layout.row#section__2--2-1": {
+    "children": [
+      "flex-layout.col#section__2--col"
+    ]
+  },
+  "flex-layout.col#section__2--col": {
+    "children": [
+      "rich-text#1-col__1",
+      "rich-text#1-col__2",
+      "rich-text#1-col__3",
+      "rich-text#1-col__4",
+      "rich-text#1-col__5",
+      "rich-text#1-col__6"
+    ]
+  },
+  "rich-text#1-col__1": {
+    "props": {
+      "text": "Ventas telefónicas (601) 4242400"
+    }
+  },
+  "rich-text#1-col__2": {
+    "props": {
+      "text": "Ventas Whatsapp (+57) 305 482 90 46"
+    }
+  },
+  "rich-text#1-col__3": {
+    "props": {
+      "text": "Servicio al cliente Whatsapp (+57) 305 261 54 42"
+    }
+  },
+  "rich-text#1-col__4": {
+    "props": {
+      "text": "Línea de servicio al cliente nacional: 01 8000 428 800"
+    }
+  },
+  "rich-text#1-col__5": {
+    "props": {
+      "text": "Medellín: (4) 604 19 19"
+    }
+  },
+  "rich-text#1-col__6": {
+    "props": {
+      "text": "Resto de ciudades"
+    }
+  },
+  ///////////////////////////////////////////////////////////////////
+  "flex-layout.col#footer__section--2-2": {
+    "children": [
+      "rich-text#section__2--2-1",
+      "rich-text#section__2--2-2",
+      "flex-layout.row#section__2--2-3"
+    ]
+  },
+  "rich-text#section__2--2-1": {
+    "props": {
+      "text": "Suscríbete a nuestro newsletter"
+    }
+  },
+  "rich-text#section__2--2-2": {
+    "props": {
+      "text": "Entérate de nuestras ofertas y lanzamientos exclusivos"
+    }
+  },
+  "flex-layout.row#section__2--2-3": {
+    "children": [
+      "flex-layout.col#2-col__1"
+    ]
+  },
+  "flex-layout.col#2-col__1": {
+    "children": [
+      "flex-layout.col#2-col__1--1",
+      "flex-layout.col#2-col__1--2"
+    ]
+  },
+  "flex-layout.col#2-col__1--1": {
+    "children": [
+      "rich-text#2-col__1--1-text"
+    ]
+  },
+  "flex-layout.col#2-col__1--2": {
+    "children": [
+      "rich-text#2-col__1--1-text"
+    ]
+  },
+  "rich-text#2-col__1--1-text": {
+    "props": {
+      "text": "Input e input radio"
+    }
+  },
+  ///////////////////////////////////////////////////////////////////
+  "flex-layout.col#footer__section--2-3": {
+    "children": [
+      "flex-layout.row#section__2--3-1",
+      "flex-layout.row#section__2--3-2"
+    ]
+  },
+  "flex-layout.row#section__2--3-1": {
+    "children": [
+      "flex-layout.col#3__col--1"
+    ]
+  },
+  "flex-layout.col#3__col--1": {
+    "children": [
+      "rich-text#3-col__1--text",
+      "flex-layout.row#3-col__1--row"
+    ]
+  },
+  "rich-text#3-col__1--text": {
+    "props": {
+      "text": "¡Descarga gratis la app!"
+    }
+  },
+  "flex-layout.row#3-col__1--row": {
+    "children": [
+      "image#3-col__1--image-1",
+      "rich-text#3-col__1--text-app",
+      "image#3-col__1--image-2"
+    ]
+  },
+  "image#3-col__1--image-1": {
+    "props": {
+      "src": "assets/img/footer-section--2-1.webp"
+    }
+  },
+  "rich-text#3-col__1--text-app": {
+    "props": {
+      "text": "APP"
+    }
+  },
+  "image#3-col__1--image-2": {
+    "props": {
+      "src": "assets/img/footer-section--2-2.png"
+    }
+  },
+  "flex-layout.row#section__2--3-2": {
+    "children": [
+      "flex-layout.col#3__col--2"
+    ]
+  },
+  "flex-layout.col#3__col--2": {
+    "children": [
+      "rich-text#3-col__2--text",
+      "social-networks"
+    ]
+  },
+  "rich-text#3-col__2--text": {
+    "props": {
+      "text": "Síguenos en:"
+    }
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https://facebook.com/foo",
+          "name": "Facebook"
+        },
+        {
+          "url": "https://twitter.com/foo",
+          "name": "Twitter"
+        },
+        {
+          "url": "https://instagram.com/foo",
+          "name": "Instagram"
+        },
+        {
+          "url": "https://youtube.com/foo",
+          "name": "YouTube"
+        }
+      ]
+    }
+  }
+}

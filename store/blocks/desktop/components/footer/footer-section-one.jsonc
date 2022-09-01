@@ -1,0 +1,116 @@
+{
+    "flex-layout.row#footer__section--1": {
+    "children": [
+      "flex-layout.col#footer__section--1-1",
+      "flex-layout.col#footer__section--1-2",
+      "flex-layout.col#footer__section--1-3",
+      "flex-layout.col#footer__section--1-4",
+      "flex-layout.col#footer__section--1-5"
+    ]
+  },
+  "flex-layout.col#footer__section--1-1": {
+    "children": [
+      "flex-layout.row#section__1"
+    ]
+  },
+  "flex-layout.row#section__1": {
+    "children": [
+      "image#section__1--image",
+      "rich-text#section__1--text"
+    ]
+  },
+  "image#section__1--image": {
+    "props": {
+      "src": "assets/img/footer-section--1-1.webp"
+    }
+  },
+  "rich-text#section__1--text": {
+    "props": {
+      "text": "Retail eCommerce Award 2022"
+    }
+  },
+  "flex-layout.col#footer__section--1-2": {
+    "children": [
+      "flex-layout.row#section__2"
+    ]
+  },
+  "flex-layout.row#section__2": {
+    "children": [
+      "logo#section__2--logo",
+      "rich-text#section__2--text"
+    ]
+  },
+  "logo#section__2--logo": {
+    "props": {
+      "url": "assets/img/footer-section--1-2.svg"
+    }
+  },
+  "rich-text#section__2--text": {
+    "props": {
+      "text": "Más de 400 mil productos"
+    }
+  },
+  "flex-layout.col#footer__section--1-3": {
+    "children": [
+      "flex-layout.row#section__3"
+    ]
+  },
+  "flex-layout.row#section__3": {
+    "children": [
+      "logo#section__3--logo",
+      "rich-text#section__3--text"
+    ]
+  },
+  "logo#section__3--logo": {
+    "props": {
+      "url": "assets/img/footer-section--1-3.svg"
+    }
+  },
+  "rich-text#section__3--text": {
+    "props": {
+      "text": "Compras seguras"
+    }
+  },
+  "flex-layout.col#footer__section--1-4": {
+    "children": [
+      "flex-layout.row#section__4"
+    ]
+  },
+  "flex-layout.row#section__4": {
+    "children": [
+      "logo#section__4--logo",
+      "rich-text#section__4--text"
+    ]
+  },
+  "logo#section__4--logo": {
+    "props": {
+      "url": "assets/img/footer-section--1-4.svg"
+    }
+  },
+  "rich-text#section__4--text": {
+    "props": {
+      "text": "Acumulas Puntos"
+    }
+  },
+  "flex-layout.col#footer__section--1-5": {
+    "children": [
+      "flex-layout.row#section__5"
+    ]
+  },
+  "flex-layout.row#section__5": {
+    "children": [
+      "logo#section__5--logo",
+      "rich-text#section__5--text"
+    ]
+  },
+  "logo#section__5--logo": {
+    "props": {
+      "url": "assets/img/footer-section--1-5.svg"
+    }
+  },
+  "rich-text#section__5--text": {
+    "props": {
+      "text": "Paga en línea o en efectivo"
+    }
+  }
+}

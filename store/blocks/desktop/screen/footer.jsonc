@@ -1,0 +1,89 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer__section--1",
+      "flex-layout.row#footer__section--2",
+      "flex-layout.row#footer__section--3",
+      "flex-layout.row#footer__section--4"
+    ]
+  },
+  "flex-layout.row#footer__section--4": {
+    "children": [
+      "flex-layout.col#footer__section--4-1",
+      "flex-layout.col#footer__section--4-2"
+    ]
+  },
+  "flex-layout.col#footer__section--4-1": {
+    "children": [
+      "flex-layout.row#section__4--1"
+    ]
+  },
+  "flex-layout.row#section__4--1": {
+    "children": [
+      "flex-layout.col#section__4--1-1",
+      "flex-layout.col#section__4--1-2"
+    ]
+  },
+  "flex-layout.col#section__4--1-1": {
+    "children": [
+      "rich-text#visita"
+    ]
+  },
+  "flex-layout.col#section__4--1-2": {
+    "children": [
+      "flex-layout.row#section__4--1-2-logos"
+    ]
+  },
+  "flex-layout.row#section__4--1-2-logos": {
+    "children": [
+      "logo#logo__1",
+      "logo#logo__2",
+      "logo#logo__3",
+      "logo#logo__4"
+    ]
+  },
+  "logo#logo__1": {
+    "props": {
+      "url": "assets/img/footer-carulla.svg"
+    }
+  },
+  "logo#logo__2": {
+    "props": {
+      "url": "assets/img/footer-viva.svg"
+    }
+  },
+  "logo#logo__3": {
+    "props": {
+      "url": "assets/img/footer-superinter.svg"
+    }
+  },
+  "logo#logo__4": {
+    "props": {
+      "url": "assets/img/footer-surtimax.svg"
+    }
+  },
+  "flex-layout.col#footer__section--4-2": {
+    "children": [
+      "rich-text#derechos"
+    ]
+  },
+  "rich-text#visita": {
+    "props": {
+      "text": "Visita también:",
+      "textAlignment": "center",
+      "textPosition": "center"
+    }
+  },
+  "rich-text#derechos": {
+    "props": {
+      "text": "2022 Éxito ® NIT 890900608-9. Todos los derechos reservados.",
+      "textAlignment": "center",
+      "textPosition": "center"
+    }
+  }
+}

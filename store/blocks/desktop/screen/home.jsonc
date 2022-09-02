@@ -11,8 +11,7 @@
   "mega-menu#home__menu": {
     "props": {
       "blockClass": "home__menu",
-      "openOnly": "horizontal",
-      "height": "100%"
+      "openOnly": "horizontal"
     }
   },
   ///////////////////////////////////////////////////////////////////////

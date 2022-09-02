@@ -1,5 +1,4 @@
 {
-  
   "flex-layout.row#footer__section--3": {
     "children": [
       "flex-layout.col#footer__section--3-1"
@@ -30,7 +29,27 @@
       "flex-layout.col#section__3--2-5"
     ]
   },
+  // "disclosure-layout-group#footer": {
+  //   "children": [
+  //     "disclosure-layout#1",
+  //     "disclosure-layout#2",
+  //     "disclosure-layout#3",
+  //     "disclosure-layout#4",
+  //     "disclosure-layout#5"
+  //   ]
+  // },
   "flex-layout.col#section__3--2-1": {
+    "children": [
+      "disclosure-layout#1"
+    ]
+  },
+  "disclosure-layout#1": {
+    "children": [
+      "disclosure-trigger#1",
+      "disclosure-content#1"
+    ]
+  },
+  "disclosure-trigger#1": {
     "children": [
       "rich-text#section__3--3-1"
     ]
@@ -40,7 +59,91 @@
       "text": "Centro de ayuda"
     }
   },
+  "disclosure-content#1": {
+    "children": [
+      "flex-layout.row#section__3--3-1"
+    ]
+  },
+  "flex-layout.row#section__3--3-1": {
+    "children": [
+      "flex-layout.col#section__3--3-1-col"
+    ]
+  },
+  "flex-layout.col#section__3--3-1-col": {
+    "children": [
+      "rich-text#preguntas-frecuentes",
+      "rich-text#politicas-de-cambio",
+      "rich-text#politicas-de-garantia",
+      "rich-text#contacto",
+      "rich-text#cambia-tu-producto-facil",
+      "rich-text#almacenes",
+      "rich-text#escribenos",
+      "rich-text#gestion-mi-pedido",
+      "rich-text#actualiza-tus-datos"
+    ]
+  },
+  "rich-text#preguntas-frecuentes": {
+    "props": {
+      "text": "Preguntas Frecuentes"
+    }
+  },
+  "rich-text#politicas-de-cambio": {
+    "props": {
+      "text": "Políticas de Cambios y Devoluciones"
+    }
+  },
+  "rich-text#politicas-de-garantia": {
+    "props": {
+      "text": "Política de garantías"
+    }
+  },
+  "rich-text#contacto": {
+    "props": {
+      "text": "Contacto"
+    }
+  },
+  "rich-text#cambia-tu-producto-facil": {
+    "props": {
+      "text": "Cambia tu producto fácil"
+    }
+  },
+  "rich-text#almacenes": {
+    "props": {
+      "text": "Almacenes"
+    }
+  },
+  "rich-text#escribenos": {
+    "props": {
+      "text": "Escríbenos (PQRS)"
+    }
+  },
+  "rich-text#gestion-mi-pedido": {
+    "props": {
+      "text": "¿Cómo gestionar mi pedido"
+    }
+  },
+  "rich-text#actualiza-tus-datos": {
+    "props": {
+      "text": "Actualiza tus datos"
+    }
+  },
   "flex-layout.col#section__3--2-2": {
+    "children": [
+      "disclosure-layout#2"
+    ]
+  },
+  "disclosure-layout#2": {
+    "children": [
+      "disclosure-trigger#2",
+      "disclosure-content#2"
+    ]
+  },
+  "disclosure-trigger#2": {
+    "children": [
+      "rich-text#section__3--3-2"
+    ]
+  },
+  "disclosure-content#2": {
     "children": [
       "rich-text#section__3--3-2"
     ]
@@ -52,6 +155,22 @@
   },
   "flex-layout.col#section__3--2-3": {
     "children": [
+      "disclosure-layout#3"
+    ]
+  },
+  "disclosure-layout#3": {
+    "children": [
+      "disclosure-trigger#3",
+      "disclosure-content#3"
+    ]
+  },
+  "disclosure-trigger#3": {
+    "children": [
+      "rich-text#section__3--3-3"
+    ]
+  },
+  "disclosure-content#3": {
+    "children": [
       "rich-text#section__3--3-3"
     ]
   },
@@ -61,6 +180,22 @@
     }
   },
   "flex-layout.col#section__3--2-4": {
+    "children": [
+      "disclosure-layout#4"
+    ]
+  },
+  "disclosure-layout#4": {
+    "children": [
+      "disclosure-trigger#4",
+      "disclosure-content#4"
+    ]
+  },
+  "disclosure-trigger#4": {
+    "children": [
+      "rich-text#section__3--3-4"
+    ]
+  },
+  "disclosure-content#4": {
     "children": [
       "rich-text#section__3--3-4"
     ]
@@ -72,6 +207,23 @@
   },
   "flex-layout.col#section__3--2-5": {
     "children": [
+      "disclosure-layout#5"
+    ]
+  },
+  "disclosure-layout#5": {
+    "children": [
+      "disclosure-trigger#5",
+      "disclosure-content#5"
+    ]
+  },
+  "disclosure-trigger#5": {
+    "children": [
+      "rich-text#section__3--3-5",
+      "disclosure-state-indicator"
+    ]
+  },
+  "disclosure-content#5": {
+    "children": [
       "rich-text#section__3--3-5"
     ]
   },
@@ -80,4 +232,46 @@
       "text": "Información legal"
     }
   }
+  ////////////////////////////////////////////////////
+  // "disclosure-layout-group#group": {
+  //   "children": ["disclosure-layout#first", "disclosure-layout#second"]
+  // },
+  // "disclosure-layout#first": {
+  //   "children": ["disclosure-trigger#first", "disclosure-content#first"]
+  // },
+  // "disclosure-trigger#first": {
+  //   "children": ["rich-text#question1"]
+  // },
+  // "disclosure-content#first": {
+  //   "children": ["rich-text#answer1"]
+  // },
+  // "rich-text#question1": {
+  //   "props": {
+  //     "text": "How can I change my shipping address?1"
+  //   }
+  // },
+  // "rich-text#answer1": {
+  //   "props": {
+  //     "text": "Call us at the number (212) 1234-1234.1"
+  //   }
+  // },
+  // "disclosure-layout#second": {
+  //   "children": ["disclosure-trigger#second", "disclosure-content#second"]
+  // },
+  // "disclosure-trigger#second": {
+  //   "children": ["rich-text#question2"]
+  // },
+  // "disclosure-content#second": {
+  //   "children": ["rich-text#answer2"]
+  // },
+  // "rich-text#question2": {
+  //   "props": {
+  //     "text": "How can I track my order?2"
+  //   }
+  // },
+  // "rich-text#answer2": {
+  //   "props": {
+  //     "text": "After logging into your account, you can find this info at the link Orders.2"
+  //   }
+  // }
 }

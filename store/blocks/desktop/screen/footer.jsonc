@@ -14,9 +14,28 @@
   },
   "flex-layout.row#footer__section--4": {
     "children": [
-      "flex-layout.col#footer__section--4-1",
-      "flex-layout.col#footer__section--4-2"
+      "disclosure-layout#simple"
+      // "flex-layout.col#footer__section--4-2"
     ]
+  },
+  "disclosure-layout#simple": {
+    "children": ["disclosure-trigger#simple", "disclosure-content#simple"]
+  },
+  "disclosure-trigger#simple": {
+    "children": ["rich-text#question"]
+  },
+  "disclosure-content#simple": {
+    "children": ["rich-text#answer"]
+  },
+  "rich-text#question": {
+    "props": {
+      "text": "How can I change my shipping address?"
+    }
+  },
+  "rich-text#answer": {
+    "props": {
+      "text": "Call us at the number (212) 1234-1234"
+    }
   },
   "flex-layout.col#footer__section--4-1": {
     "children": [

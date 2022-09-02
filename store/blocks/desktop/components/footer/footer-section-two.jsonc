@@ -103,7 +103,7 @@
   },
   "flex-layout.col#2-col__1--1": {
     "children": [
-      "rich-text#2-col__1--1-text"
+      "newsletter"
     ]
   },
   "flex-layout.col#2-col__1--2": {
@@ -113,7 +113,7 @@
   },
   "rich-text#2-col__1--1-text": {
     "props": {
-      "text": "Input e input radio"
+      "text": "Input e input radi"
     }
   },
   ///////////////////////////////////////////////////////////////////

@@ -5,6 +5,17 @@
     z-index: 1000;
 }
 
-.menuContainer, .submenuContainer {
+.menuContainer {
     max-height: 100% !important;
+    width: 336px !important;
+    min-width: 336px;
+}
+
+.submenuContainer {
+    max-height: 100% !important;
+    width: 790px !important;
+}
+
+.styledLinkText--home__menu:hover {
+    text-decoration: underline;
 }

@@ -1,3 +1,111 @@
 .heading-level-4 {
     margin: 0;
 }
+
+.paragraph--section__1--text,
+.paragraph--section__2--text,
+.paragraph--section__3--text,
+.paragraph--section__4--text,
+.paragraph--section__5--text {
+    color: #373737;
+    font-size: 14px;
+    line-height: normal;
+}
+
+.paragraph--visita,
+.paragraph--derechos {
+    color: #4d5766;
+    font-size: 12px;
+    margin: auto 50px;
+}
+
+.wrapper--section__2--1-text {
+    width: 100% !important;
+}
+
+.paragraph--section__2--1-text {
+    color: #222;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.paragraph--1-col__1--2-text,
+.paragraph--1-col__2--2-text,
+.paragraph--1-col__3--2-text,
+.paragraph--1-col__4--2-text,
+.paragraph--1-col__5--2-text,
+.paragraph--1-col__6--2-text {
+    color: #414141;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 5px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.paragraph--1-col__1--1-text,
+.paragraph--1-col__2--1-text,
+.paragraph--1-col__3--1-text,
+.paragraph--1-col__4--1-text,
+.paragraph--1-col__5--1-text {
+    color: #414141;
+    font-size: 13px;
+    font-weight: 500;
+    height: 15px;
+}
+
+.paragraph--1-col__6--1-text {
+    color: #414141;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: underline;
+    height: 15px;
+}
+
+.paragraph--section__2--2-1-text {
+    color: #222;
+    font-size: 15px;
+    height: 17px;
+}
+
+.wrapper--section__2--2-1-text {
+    width: 100% !important;
+}
+
+.paragraph--section__2--2-2-text {
+    color: #222;
+    font-size: 13px;
+    height: 15px;
+}
+
+.paragraph--3-col__1--text {
+    color: #222;
+    font-size: 15px;
+    height: 17px;
+}
+
+.paragraph--3-col__1--text-app {
+    border-left: 2px solid #d3d3d3;
+    color: #222;
+    font-size: 23px;
+    font-weight: 700;
+    margin: 0 0 0 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.paragraph--3-col__2--text {
+    color: #222;
+    font-size: 12px;
+    font-weight: 600;
+    height: 14px;
+}
+
+.flexCol--footer__section--2-3 {
+    padding-left: 102px !important;
+}
+
+.wrapper--more__information {
+    margin: auto;
+}

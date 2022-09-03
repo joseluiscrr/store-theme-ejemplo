@@ -47,3 +47,58 @@
 .searchBarIcon--header__main--search {
     color: white;
 }
+
+.logoImage--section__1--logo,
+.logoImage--section__2--logo,
+.logoImage--section__3--logo,
+.logoImage--section__4--logo,
+.logoImage--section__5--logo {
+    width: 55px;
+    height: 33px;
+}
+
+.logoContainer--section__1--logo,
+.logoContainer--section__2--logo,
+.logoContainer--section__3--logo,
+.logoContainer--section__4--logo,
+.logoContainer--section__5--logo {
+    padding: 0;
+    max-width: 55px;
+    min-width: 55px;
+    max-height: 33px;
+    margin: auto;
+}
+
+.logoImage--logo__1,
+.logoImage--logo__2,
+.logoImage--logo__3,
+.logoImage--logo__4 {
+    height: 30px;
+}
+
+.logoContainer--logo__1,
+.logoContainer--logo__2,
+.logoContainer--logo__3,
+.logoContainer--logo__4 {
+    padding: 0;
+    max-width: 50px;
+    min-width: 50px;
+    max-height: 30px;
+    margin: auto;
+}
+
+.container--footer__newsletter,
+.inputGroup--footer__newsletter {
+    padding: 0;
+}
+
+.imageElement--3-col__1--image-1 {
+    width: 75px;
+}
+
+.imageElement--3-col__1--image-2 {
+    aspect-ratio: 41/41;
+    height: 41px;
+    padding-left: 22px;
+    width: 41px;
+}

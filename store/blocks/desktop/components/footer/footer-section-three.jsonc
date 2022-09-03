@@ -2,13 +2,19 @@
   "flex-layout.row#footer__section--3": {
     "children": [
       "flex-layout.col#footer__section--3-1"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer__section--3"
+    }
   },
   "flex-layout.col#footer__section--3-1": {
     "children": [
       "flex-layout.row#section__3--1",
       "flex-layout.row#section__3--2"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer__section--3-1"
+    }
   },
   "flex-layout.row#section__3--1": {
     "children": [
@@ -17,7 +23,8 @@
   },
   "rich-text#more__information": {
     "props": {
-      "text": "Más información"
+      "text": "Más información",
+      "blockClass": "more__information"
     }
   },
   "flex-layout.row#section__3--2": {
@@ -27,17 +34,11 @@
       "flex-layout.col#section__3--2-3",
       "flex-layout.col#section__3--2-4",
       "flex-layout.col#section__3--2-5"
-    ]
+    ],
+    "props": {
+      "blockClass": "section__3--2"
+    }
   },
-  // "disclosure-layout-group#footer": {
-  //   "children": [
-  //     "disclosure-layout#1",
-  //     "disclosure-layout#2",
-  //     "disclosure-layout#3",
-  //     "disclosure-layout#4",
-  //     "disclosure-layout#5"
-  //   ]
-  // },
   "flex-layout.col#section__3--2-1": {
     "children": [
       "disclosure-layout#1"
@@ -119,7 +120,7 @@
   },
   "rich-text#gestion-mi-pedido": {
     "props": {
-      "text": "¿Cómo gestionar mi pedido"
+      "text": "¿Cómo gestionar mi pedido?"
     }
   },
   "rich-text#actualiza-tus-datos": {
@@ -143,14 +144,65 @@
       "rich-text#section__3--3-2"
     ]
   },
-  "disclosure-content#2": {
-    "children": [
-      "rich-text#section__3--3-2"
-    ]
-  },
   "rich-text#section__3--3-2": {
     "props": {
       "text": "exito.com"
+    }
+  },
+  "disclosure-content#2": {
+    "children": [
+      "flex-layout.row#section__3--3-2"
+    ]
+  },
+  "flex-layout.row#section__3--3-2": {
+    "children": [
+      "flex-layout.col#section__3--3-2-col"
+    ]
+  },
+  "flex-layout.col#section__3--3-2-col": {
+    "children": [
+      "rich-text#compra-y-recoge",
+      "rich-text#domicilio-telefonico",
+      "rich-text#garantia-extendida",
+      "rich-text#vende-en-exito",
+      "rich-text#paute-con-nosotros",
+      "rich-text#afiliados-clickam",
+      "rich-text#revista-virtual"
+    ]
+  },
+  "rich-text#compra-y-recoge": {
+    "props": {
+      "text": "Preguntas Frecuentes"
+    }
+  },
+  "rich-text#domicilio-telefonico": {
+    "props": {
+      "text": "Domicilio telefónico"
+    }
+  },
+  "rich-text#garantia-extendida": {
+    "props": {
+      "text": "Garantía extendida"
+    }
+  },
+  "rich-text#vende-en-exito": {
+    "props": {
+      "text": "Vende en exito.com"
+    }
+  },
+  "rich-text#paute-con-nosotros": {
+    "props": {
+      "text": "Paute con nosotros"
+    }
+  },
+  "rich-text#afiliados-clickam": {
+    "props": {
+      "text": "Afiliados Clickam"
+    }
+  },
+  "rich-text#revista-virtual": {
+    "props": {
+      "text": "Revista virtual"
     }
   },
   "flex-layout.col#section__3--2-3": {
@@ -169,14 +221,59 @@
       "rich-text#section__3--3-3"
     ]
   },
-  "disclosure-content#3": {
-    "children": [
-      "rich-text#section__3--3-3"
-    ]
-  },
   "rich-text#section__3--3-3": {
     "props": {
       "text": "Nuestra compañía"
+    }
+  },
+  "disclosure-content#3": {
+    "children": [
+      "flex-layout.row#section__3--3-3"
+    ]
+  },
+  "flex-layout.row#section__3--3-3": {
+    "children": [
+      "flex-layout.col#section__3--3-3-col"
+    ]
+  },
+  "flex-layout.col#section__3--3-3-col": {
+    "children": [
+      "rich-text#grupo-exito",
+      "rich-text#fundacion-exito",
+      "rich-text#donar-goticas",
+      "rich-text#inversionistas",
+      "rich-text#centas-empresariales",
+      "rich-text#oportunidades-de-empleo"
+    ]
+  },
+  "rich-text#grupo-exito": {
+    "props": {
+      "text": "Grupo éxito"
+    }
+  },
+  "rich-text#fundacion-exito": {
+    "props": {
+      "text": "Fundación éxito"
+    }
+  },
+  "rich-text#donar-goticas": {
+    "props": {
+      "text": "Donar goticas"
+    }
+  },
+  "rich-text#inversionistas": {
+    "props": {
+      "text": "Inversionistas"
+    }
+  },
+  "rich-text#centas-empresariales": {
+    "props": {
+      "text": "Ventas empresariales"
+    }
+  },
+  "rich-text#oportunidades-de-empleo": {
+    "props": {
+      "text": "Oportunidades de empleo"
     }
   },
   "flex-layout.col#section__3--2-4": {
@@ -195,14 +292,35 @@
       "rich-text#section__3--3-4"
     ]
   },
-  "disclosure-content#4": {
-    "children": [
-      "rich-text#section__3--3-4"
-    ]
-  },
   "rich-text#section__3--3-4": {
     "props": {
       "text": "Comunidades"
+    }
+  },
+  "disclosure-content#4": {
+    "children": [
+      "flex-layout.row#section__3--3-4"
+    ]
+  },
+  "flex-layout.row#section__3--3-4": {
+    "children": [
+      "flex-layout.col#section__3--3-4-col"
+    ]
+  },
+  "flex-layout.col#section__3--3-4-col": {
+    "children": [
+      "rich-text#vivevinos",
+      "rich-text#exploradores-exito"
+    ]
+  },
+  "rich-text#vivevinos": {
+    "props": {
+      "text": "Vivevinos"
+    }
+  },
+  "rich-text#exploradores-exito": {
+    "props": {
+      "text": "Exploradores éxito"
     }
   },
   "flex-layout.col#section__3--2-5": {
@@ -222,14 +340,71 @@
       "disclosure-state-indicator"
     ]
   },
-  "disclosure-content#5": {
-    "children": [
-      "rich-text#section__3--3-5"
-    ]
-  },
   "rich-text#section__3--3-5": {
     "props": {
       "text": "Información legal"
+    }
+  },
+  "disclosure-content#5": {
+    "children": [
+      "flex-layout.row#section__3--3-5"
+    ]
+  },
+  "flex-layout.row#section__3--3-5": {
+    "children": [
+      "flex-layout.col#section__3--3-5-col"
+    ]
+  },
+  "flex-layout.col#section__3--3-5-col": {
+    "children": [
+      "rich-text#legales-del-dia",
+      "rich-text#terminos-y-condiciones",
+      "rich-text#terminos-marketplace",
+      "rich-text#politica-de-privacida",
+      "rich-text#autorizacion-de-datos",
+      "rich-text#SIC",
+      "rich-text#derecho-de-retracto",
+      "rich-text#solicitud-de-reversiones"
+    ]
+  },
+  "rich-text#legales-del-dia": {
+    "props": {
+      "text": "Legales del día"
+    }
+  },
+  "rich-text#terminos-y-condiciones": {
+    "props": {
+      "text": "Terminos y condiciones"
+    }
+  },
+  "rich-text#terminos-marketplace": {
+    "props": {
+      "text": "Términos de la Marketplace"
+    }
+  },
+  "rich-text#politica-de-privacida": {
+    "props": {
+      "text": "Política de privacidad"
+    }
+  },
+  "rich-text#autorizacion-de-datos": {
+    "props": {
+      "text": "Autorización tratamiento de datos"
+    }
+  },
+  "rich-text#SIC": {
+    "props": {
+      "text": "Superintendencia de Industria y Comercio - SIC"
+    }
+  },
+  "rich-text#derecho-de-retracto": {
+    "props": {
+      "text": "Derecho de retracto"
+    }
+  },
+  "rich-text#solicitud-de-reversiones": {
+    "props": {
+      "text": "Solicitud de reversiones"
     }
   }
   ////////////////////////////////////////////////////

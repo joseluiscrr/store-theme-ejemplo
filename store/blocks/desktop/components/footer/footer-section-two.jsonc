@@ -4,138 +4,297 @@
       "flex-layout.col#footer__section--2-1",
       "flex-layout.col#footer__section--2-2",
       "flex-layout.col#footer__section--2-3"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer__section--2"
+    }
   },
   "flex-layout.col#footer__section--2-1": {
     "children": [
-      "flex-layout.col#section__2--1",
-      "flex-layout.col#section__2--2"
-    ]
+      "flex-layout.row#section__2--1",
+      "flex-layout.row#section__2--2"
+    ],
+    "props": {
+      "blockClass": "footer__section--2-1"
+    }
   },
-  "flex-layout.col#section__2--1": {
+  "flex-layout.row#section__2--1": {
     "children": [
       "rich-text#section__2--1-text"
-    ]
+    ],
+    "props": {
+      "blockClass": "section__2--1"
+    }
   },
   "rich-text#section__2--1-text": {
     "props": {
+      "blockClass": "section__2--1-text",
       "text": "Contáctanos"
     }
   },
-  "flex-layout.col#section__2--2": {
+  "flex-layout.row#section__2--2": {
     "children": [
-      "flex-layout.row#section__2--2-1"
+      "flex-layout.col#section__2--2-1"
     ]
   },
-  "flex-layout.row#section__2--2-1": {
+  "flex-layout.col#section__2--2-1": {
     "children": [
-      "flex-layout.col#section__2--col"
-    ]
+      "flex-layout.row#1-col__1",
+      "flex-layout.row#1-col__2",
+      "flex-layout.row#1-col__3",
+      "flex-layout.row#1-col__4",
+      "flex-layout.row#1-col__5",
+      "flex-layout.row#1-col__6"
+    ],
+    "props": {
+      "blockClass": "section__2--2-1"
+    }
   },
-  "flex-layout.col#section__2--col": {
+  "flex-layout.row#1-col__1": {
     "children": [
-      "rich-text#1-col__1",
-      "rich-text#1-col__2",
-      "rich-text#1-col__3",
-      "rich-text#1-col__4",
-      "rich-text#1-col__5",
-      "rich-text#1-col__6"
-    ]
-  },
-  "rich-text#1-col__1": {
+      "rich-text#1-col__1--1-text",
+      "rich-text#1-col__1--2-text"
+    ],
     "props": {
-      "text": "Ventas telefónicas (601) 4242400"
+      "blockClass": "1-col__1",
+      "colSizing": "auto",
+      "colJustify": "left"
     }
   },
-  "rich-text#1-col__2": {
+  "rich-text#1-col__1--1-text": {
     "props": {
-      "text": "Ventas Whatsapp (+57) 305 482 90 46"
+      "blockClass": "1-col__1--1-text",
+      "text": "Ventas telefónicas"
     }
   },
-  "rich-text#1-col__3": {
+  "rich-text#1-col__1--2-text": {
     "props": {
-      "text": "Servicio al cliente Whatsapp (+57) 305 261 54 42"
+      "blockClass": "1-col__1--2-text",
+      "text": "(601) 4242400"
     }
   },
-  "rich-text#1-col__4": {
+  "flex-layout.row#1-col__2": {
+    "children": [
+      "rich-text#1-col__2--1-text",
+      "rich-text#1-col__2--2-text"
+    ],
     "props": {
-      "text": "Línea de servicio al cliente nacional: 01 8000 428 800"
+      "blockClass": "1-col__2",
+      "colSizing": "auto",
+      "colJustify": "left"
     }
   },
-  "rich-text#1-col__5": {
+  "rich-text#1-col__2--1-text": {
     "props": {
-      "text": "Medellín: (4) 604 19 19"
+      "blockClass": "1-col__2--1-text",
+      "text": "Ventas Whatsapp"
     }
   },
-  "rich-text#1-col__6": {
+  "rich-text#1-col__2--2-text": {
     "props": {
+      "blockClass": "1-col__2--2-text",
+      "text": "(+57) 305 482 90 46"
+    }
+  },
+  "flex-layout.row#1-col__3": {
+    "children": [
+      "rich-text#1-col__3--1-text",
+      "rich-text#1-col__3--2-text"
+    ],
+    "props": {
+      "blockClass": "1-col__3",
+      "colSizing": "auto",
+      "colJustify": "left"
+    }
+  },
+  "rich-text#1-col__3--1-text": {
+    "props": {
+      "blockClass": "1-col__3--1-text",
+      "text": "Servicio al cliente Whatsapp"
+    }
+  },
+  "rich-text#1-col__3--2-text": {
+    "props": {
+      "blockClass": "1-col__3--2-text",
+      "text": "(+57) 305 261 54 42"
+    }
+  },
+  "flex-layout.row#1-col__4": {
+    "children": [
+      "rich-text#1-col__4--1-text",
+      "rich-text#1-col__4--2-text"
+    ],
+    "props": {
+      "blockClass": "1-col__4",
+      "colSizing": "auto",
+      "colJustify": "left"
+    }
+  },
+  "rich-text#1-col__4--1-text": {
+    "props": {
+      "blockClass": "1-col__4--1-text",
+      "text": "Línea de servicio al cliente nacional:"
+    }
+  },
+  "rich-text#1-col__4--2-text": {
+    "props": {
+      "blockClass": "1-col__4--2-text",
+      "text": "01 8000 428 800"
+    }
+  },
+  "flex-layout.row#1-col__5": {
+    "children": [
+      "rich-text#1-col__5--1-text",
+      "rich-text#1-col__5--2-text"
+    ],
+    "props": {
+      "blockClass": "1-col__5",
+      "colSizing": "auto",
+      "colJustify": "left"
+    }
+  },
+  "rich-text#1-col__5--1-text": {
+    "props": {
+      "blockClass": "1-col__5--1-text",
+      "text": "Medellín:"
+    }
+  },
+  "rich-text#1-col__5--2-text": {
+    "props": {
+      "blockClass": "1-col__5--2-text",
+      "text": "(4) 604 19 19"
+    }
+  },
+  "flex-layout.row#1-col__6": {
+    "children": [
+      "rich-text#1-col__6--1-text"
+    ],
+    "props": {
+      "blockClass": "1-col__1",
+      "colSizing": "auto",
+      "colJustify": "left"
+    }
+  },
+  "rich-text#1-col__6--1-text": {
+    "props": {
+      "blockClass": "1-col__6--1-text",
       "text": "Resto de ciudades"
     }
   },
   ///////////////////////////////////////////////////////////////////
   "flex-layout.col#footer__section--2-2": {
     "children": [
-      "rich-text#section__2--2-1",
-      "rich-text#section__2--2-2",
-      "flex-layout.row#section__2--2-3"
+      "flex-layout.row#section__2--2-1",
+      "flex-layout.row#section__2--2-2"
+    ],
+    "props": {
+      "blockClass": "footer__section--2-2"
+    }
+  },
+  "flex-layout.row#section__2--2-1": {
+    "children": [
+      "flex-layout.col#col__2--2-1"
     ]
   },
-  "rich-text#section__2--2-1": {
+  "flex-layout.col#col__2--2-1": {
+    "children": [
+      "rich-text#section__2--2-1-text",
+      "rich-text#section__2--2-2-text"
+    ],
     "props": {
+      "blockClass": "col__2--2-1"
+    }
+  },
+  "rich-text#section__2--2-1-text": {
+    "props": {
+      "blockClass": "section__2--2-1-text",
       "text": "Suscríbete a nuestro newsletter"
     }
   },
-  "rich-text#section__2--2-2": {
+  "rich-text#section__2--2-2-text": {
     "props": {
+      "blockClass": "section__2--2-2-text",
       "text": "Entérate de nuestras ofertas y lanzamientos exclusivos"
     }
   },
-  "flex-layout.row#section__2--2-3": {
+  "flex-layout.row#section__2--2-2": {
     "children": [
       "flex-layout.col#2-col__1"
     ]
   },
   "flex-layout.col#2-col__1": {
     "children": [
-      "flex-layout.col#2-col__1--1",
-      "flex-layout.col#2-col__1--2"
+      "flex-layout.row#newsletter"
+      // "flex-layout.row#2-row__1--2"
     ]
   },
-  "flex-layout.col#2-col__1--1": {
+  "flex-layout.row#newsletter": {
     "children": [
-      "newsletter"
-    ]
-  },
-  "flex-layout.col#2-col__1--2": {
-    "children": [
-      "rich-text#2-col__1--1-text"
-    ]
-  },
-  "rich-text#2-col__1--1-text": {
+      "newsletter-form#footer__newsletter"
+    ],
     "props": {
-      "text": "Input e input radi"
+      "blockClass": "newsletter"
     }
   },
+  "newsletter-form#footer__newsletter": {
+    "children": [
+      "newsletter-input-email#newsletter__email",
+      "newsletter-submit#newsletter__submit",
+      "newsletter-checkbox-confirmation"
+    ],
+    "props": {
+      "blockClass": "footer__newsletter"
+    }
+  },
+  "newsletter-input-email#newsletter__email": {
+    "props": {
+      "CustomCSSClasses": {
+        "classes": "newsletter__email"
+      },
+      "placeholderText": "Ingresa tu correo"
+    }
+  },
+  "newsletter-submit#newsletter__submit": {
+    "props": {
+      "blockClass": "newsletter__submit",
+      "submitButtonLabel": "Suscríbete"
+    }
+  },
+  // "newsletter-checkbox-confirmation": {
+  //   "props": {
+  //     "checkboxLabel": "Acepto términos y condiciones, términos y condiciones marketplace y autorizo el tratamiento de mis datos personales con las siguientes condiciones."
+  //   }
+  // },
   ///////////////////////////////////////////////////////////////////
   "flex-layout.col#footer__section--2-3": {
     "children": [
       "flex-layout.row#section__2--3-1",
       "flex-layout.row#section__2--3-2"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer__section--2-3"
+    }
   },
   "flex-layout.row#section__2--3-1": {
     "children": [
       "flex-layout.col#3__col--1"
-    ]
+    ],
+    "props": {
+      "blockClass": "section__2--3-1"
+    }
   },
   "flex-layout.col#3__col--1": {
     "children": [
       "rich-text#3-col__1--text",
       "flex-layout.row#3-col__1--row"
-    ]
+    ],
+    "props": {
+      "blockClass": "3__col--1"
+    }
   },
   "rich-text#3-col__1--text": {
     "props": {
+      "blockClass": "3-col__1--text",
       "text": "¡Descarga gratis la app!"
     }
   },
@@ -144,41 +303,55 @@
       "image#3-col__1--image-1",
       "rich-text#3-col__1--text-app",
       "image#3-col__1--image-2"
-    ]
+    ],
+    "props": {
+      "blockClass": "3-col__1--row"
+    }
   },
   "image#3-col__1--image-1": {
     "props": {
+      "blockClass": "3-col__1--image-1",
       "src": "assets/img/footer-section--2-1.webp"
     }
   },
   "rich-text#3-col__1--text-app": {
     "props": {
-      "text": "APP"
+      "blockClass": "3-col__1--text-app",
+      "text": "app"
     }
   },
   "image#3-col__1--image-2": {
     "props": {
+      "blockClass": "3-col__1--image-2",
       "src": "assets/img/footer-section--2-2.png"
     }
   },
   "flex-layout.row#section__2--3-2": {
     "children": [
       "flex-layout.col#3__col--2"
-    ]
+    ],
+    "props": {
+      "blockClass": "section__2--3-2"
+    }
   },
   "flex-layout.col#3__col--2": {
     "children": [
       "rich-text#3-col__2--text",
-      "social-networks"
-    ]
+      "social-networks#3-col__2--social"
+    ],
+    "props": {
+      "blockClass": "3__col--2"
+    }
   },
   "rich-text#3-col__2--text": {
     "props": {
+      "blockClass": "3-col__2--text",
       "text": "Síguenos en:"
     }
   },
-  "social-networks": {
+  "social-networks#3-col__2--social": {
     "props": {
+      "blockClass": "3-col__2--social",
       "socialNetworks": [
         {
           "url": "https://facebook.com/foo",

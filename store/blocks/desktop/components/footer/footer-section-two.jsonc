@@ -238,19 +238,22 @@
   },
   "newsletter-form#footer__newsletter": {
     "children": [
-      "newsletter-input-email#newsletter__email",
-      "newsletter-submit#newsletter__submit",
-      "newsletter-checkbox-confirmation"
+      "flex-layout.row#footer__newsletter--row",
+      "newsletter-checkbox-confirmation#newsletter__checkbox"
     ],
     "props": {
       "blockClass": "footer__newsletter"
     }
   },
+  "flex-layout.row#footer__newsletter--row": {
+    "children": [
+      "newsletter-input-email#newsletter__email",
+      "newsletter-submit#newsletter__submit"
+    ]
+  },
   "newsletter-input-email#newsletter__email": {
     "props": {
-      "CustomCSSClasses": {
-        "classes": "newsletter__email"
-      },
+      "blockClass": "newsletter__email",
       "placeholderText": "Ingresa tu correo"
     }
   },
@@ -260,11 +263,12 @@
       "submitButtonLabel": "Suscríbete"
     }
   },
-  // "newsletter-checkbox-confirmation": {
-  //   "props": {
-  //     "checkboxLabel": "Acepto términos y condiciones, términos y condiciones marketplace y autorizo el tratamiento de mis datos personales con las siguientes condiciones."
-  //   }
-  // },
+  "newsletter-checkbox-confirmation#newsletter__checkbox": {
+    "props": {
+      "blockClass": "newsletter__checkbox",
+      "checkboxLabel": "Acepto términos y condiciones, términos y condiciones marketplace y autorizo el tratamiento de mis datos personales con las siguientes condiciones."
+    }
+  },
   ///////////////////////////////////////////////////////////////////
   "flex-layout.col#footer__section--2-3": {
     "children": [

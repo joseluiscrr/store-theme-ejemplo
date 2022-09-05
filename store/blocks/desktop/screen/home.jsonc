@@ -4,7 +4,8 @@
       "mega-menu#home__menu",
       "flex-layout.row#home__top",
       "flex-layout.row#home__section--one",
-      "flex-layout.row#home__categories"
+      "flex-layout.row#home__categories",
+      "search-result-layout.customQuery#home__search"
     ]
   },
   ///////////////////////////////////////////////////////////////////////

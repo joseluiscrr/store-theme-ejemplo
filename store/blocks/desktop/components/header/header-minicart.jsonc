@@ -25,6 +25,39 @@
       "flex-layout.row#minicart-footer"
     ]
   },
+  "minicart-empty-state": {
+    "children": [
+      "flex-layout.row#empty-state"
+    ]
+  },
+  "flex-layout.row#empty-state": {
+    "children": [
+      "flex-layout.col#empty-state"
+    ]
+  },
+  "flex-layout.col#empty-state": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "rowGap": 5
+    },
+    "children": [
+      "icon-cart#minicart-empty-state",
+      "rich-text#minicart-default-empty-state"
+    ]
+  },
+  "icon-cart#minicart-empty-state": {
+    "props": {
+      "size": 64,
+      "blockClass": "minicart-empty-state",
+      "id": "hpa-cart"
+    }
+  },
+  "rich-text#minicart-default-empty-state": {
+    "props": {
+      "text": "Tu carrito está vacío."
+    }
+  },
   "flex-layout.row#minicart-footer": {
     "props": {
       "blockClass": "minicart-footer"
@@ -74,39 +107,6 @@
     "props": {
       "showTotal": true,
       "showDeliveryTotal": false
-    }
-  },
-  "minicart-empty-state": {
-    "children": [
-      "flex-layout.row#empty-state"
-    ]
-  },
-  "flex-layout.row#empty-state": {
-    "children": [
-      "flex-layout.col#empty-state"
-    ]
-  },
-  "flex-layout.col#empty-state": {
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "middle",
-      "rowGap": 5
-    },
-    "children": [
-      "icon-cart#minicart-empty-state",
-      "rich-text#minicart-default-empty-state"
-    ]
-  },
-  "icon-cart#minicart-empty-state": {
-    "props": {
-      "size": 64,
-      "blockClass": "minicart-empty-state",
-      "id": "hpa-cart"
-    }
-  },
-  "rich-text#minicart-default-empty-state": {
-    "props": {
-      "text": "Tu carrito está vacío."
     }
   }
 }

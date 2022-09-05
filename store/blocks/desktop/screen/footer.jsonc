@@ -106,8 +106,8 @@
     "props": {
       "blockClass": "derechos",
       "text": "2022 Éxito ® NIT 890900608-9. Todos los derechos reservados.",
-      "textAlignment": "center",
-      "textPosition": "center"
+      "textAlignment": "right",
+      "textPosition": "right"
     }
   }
 }

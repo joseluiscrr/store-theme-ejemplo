@@ -43,14 +43,43 @@
       }
     }
   },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop": {
+    "children": [
+      "flex-layout.col#1"
+    ]
+  },
+  "search-result-layout.mobile": {
+    "children": [
+      "flex-layout.col#1"
+    ]
+  },
+  "flex-layout.col#1": {
+    "children": [
+      "rich-text#1"
+    ]
+  },
+  "rich-text#1": {
+    "props": {
+      "text": "Uno"
+    }
+  },
   "product-summary.shelf": {
     "children": [
+      "add-to-list-btn",
       "product-summary-image",
       "product-summary-name",
+      "product-rating-inline",
       "product-list-price",
       "product-selling-price",
       "product-summary-sku-selector",
-      // "add-to-cart-btn"
+      "add-to-cart-button",
       "modal-trigger#global__quick-view"
     ]
   },
@@ -66,41 +95,41 @@
   },
   "modal-trigger#global__quick-view": {
     "children": [
-      "rich-text#global__quick--view-trigger",
-      "modal-layout#global__quick--view-modal"
+      "rich-text#global__quick-view-trigger",
+      "modal-layout#global__quick-view--modal"
     ]
   },
-  "rich-text#global__quick--view-trigger": {
+  "rich-text#global__quick-view-trigger": {
     "props": {
-      "text": "Vista rápida",
-      "blockClass": "quick--view-trigger"
+      "text": "Vista Rapida",
+      "blockClass": "quick-view__trigger"
     }
   },
-  "modal-layout#global__quick--view-modal": {
+  "modal-layout#global__quick-view--modal": {
     "children": [
-      "flex-layout.row#quick--view-modal"
+      "flex-layout.row#quick-view__modal"
     ]
   },
-  "flex-layout.row#quick--view-modal": {
+  "flex-layout.row#quick-view__modal": {
     "children": [
-      "flex-layout.col#quick--view-modal-image",
-      "flex-layout.col#quick--view-modal-info"
+      "flex-layout.col#quick-view__modal--image",
+      "flex-layout.col#quick-view__modal--info"
     ]
   },
-  "flex-layout.col#quick--view-modal-image": {
+  "flex-layout.col#quick-view__modal--image": {
     "children": [
       "vtex.store-components:product-images"
     ]
   },
-  "flex-layout.col#quick--view-modal-info": {
+  "flex-layout.col#quick-view__modal--info": {
     "children": [
       "add-to-list-btn",
-      "vtex.product-list:product-name",
-      "product-rating-inline",
+      "vtex.store-components:product-name",
       "vtex.store-components:product-brand",
-      "product-price",
-      "share",
-      "product-quantity"
+      "vtex.store-components:product-description",
+      "vtex.store-components:share",
+      "product-quantity",
+      "add-to-cart-button"
     ]
   }
 }

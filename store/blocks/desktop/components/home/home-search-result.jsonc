@@ -36,13 +36,13 @@
   },
   "gallery#home__one": {
     "blocks": [
-      "product-summary.shelf#adidas"
+      "product-summary.shelf#exito"
     ],
     "props": {
       "blockClass": "home__one"
     }
   },
-  "product-summary.shelf#adidas": {
+  "product-summary.shelf#exito": {
     "children": [
       "flex-layout.row#home__products"
     ]

@@ -2,7 +2,7 @@
   "minicart.v2#header__main--minicart": {
     "props": {
       "blockClass": "header__main--minicart",
-      "MinicartIcon": "icon-cart#minicart__icon"
+      "MinicartIcon": "icon#2"
       // "variation": "link",
       // "linkVariationUrl": "/cart"
     },
@@ -14,6 +14,11 @@
     "props": {
       "id": "hpa-cart",
       "size": 20
+    }
+  },
+  "icon#2": {
+    "props": {
+      "id": "hpa-cart2"
     }
   },
   "minicart-base-content": {

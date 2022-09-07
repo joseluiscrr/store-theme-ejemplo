@@ -1,6 +1,7 @@
 {
   "search-result-layout.customQuery#home__search": {
     "props": {
+      "blockClass": "home__search",
       "querySchema": {
         "skusFilter": "ALL",
         "simulationBehavior": "skip"

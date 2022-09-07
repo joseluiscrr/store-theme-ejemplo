@@ -38,6 +38,7 @@
       "flex-layout.row#filter__department"
     ],
     "props": {
+      "width": "20%",
       "blockClass": "container__filter--department"
     }
   },
@@ -62,6 +63,7 @@
       "search-content#products__gallery"
     ],
     "props": {
+      "width": "79%",
       "blockClass": "container__content--gallery"
     }
   },
@@ -84,17 +86,17 @@
   },
   "product-summary.shelf#deparment": {
     "children": [
-      "flex-layout.row#add__list--button",
-      "flex-layout.row#name__product",
+      "flex-layout.row#add__list--button-deparment",
+      "flex-layout.row#name__product-deparment",
       "product-rating-inline",
       //"flex-layout.row#description__product",
-      "flex-layout.row#image__product",
-      "flex-layout.row#cartbutton__product",
-      "flex-layout.row#price__product",
-      "modal-trigger#global__quick-view"
+      "flex-layout.row#image__product-deparment",
+      "flex-layout.row#cartbutton__product-deparment",
+      "flex-layout.row#price__product-deparment",
+      "modal-trigger#global__quick-view-deparment"
     ]
   },
-  "flex-layout.row#add__list--button": {
+  "flex-layout.row#add__list--button-deparment": {
     "children": [
       "add-to-list-btn"
     ],
@@ -102,15 +104,15 @@
       "blockClass": "add__list-button"
     }
   },
-  "flex-layout.row#name__product": {
+  "flex-layout.row#name__product-deparment": {
     "children": [
-      "product-summary-name"
+      "product-summary-name#name__product"
     ],
     "props": {
       "blockClass": "product-name"
     }
   },
-  "product-summary-name": {
+  "product-summary-name#name__product": {
     "props": {
       "tag": "h3"
     }
@@ -120,7 +122,7 @@
       "product-summary-description"
     ]
   },
-  "flex-layout.row#image__product": {
+  "flex-layout.row#image__product-deparment": {
     "children": [
       "product-summary-image"
     ],
@@ -128,46 +130,46 @@
       "blockClass": "product--image"
     }
   },
-  "flex-layout.row#cartbutton__product": {
+  "flex-layout.row#cartbutton__product-deparment": {
     "children": [
       "add-to-cart-button"
     ]
   },
-  "flex-layout.row#price__product": {
+  "flex-layout.row#price__product-deparment": {
     "children": [
       "product-summary-price",
       "product-selling-price"
     ]
   },
-  "modal-trigger#global__quick-view": {
+  "modal-trigger#global__quick-view-deparment": {
     "children": [
-      "rich-text#global__quick-view-trigger",
-      "modal-layout#global__quick-view--modal"
+      "rich-text#global__quick-view-trigger-deparment",
+      "modal-layout#global__quick-view--modal-deparment"
     ]
   },
-  "rich-text#global__quick-view-trigger": {
+  "rich-text#global__quick-view-trigger-deparment": {
     "props": {
       "text": "Vista Rapida",
       "blockClass": "quick-view__trigger"
     }
   },
-  "modal-layout#global__quick-view--modal": {
+  "modal-layout#global__quick-view--modal-deparment": {
     "children": [
-      "flex-layout.row#quick-view__modal"
+      "flex-layout.row#quick-view__modal-deparment"
     ]
   },
-  "flex-layout.row#quick-view__modal": {
+  "flex-layout.row#quick-view__modal-deparment": {
     "children": [
-      "flex-layout.col#quick-view__modal--image",
-      "flex-layout.col#quick-view__modal--info"
+      "flex-layout.col#quick-view__modal--image-deparment",
+      "flex-layout.col#quick-view__modal--info-deparment"
     ]
   },
-  "flex-layout.col#quick-view__modal--image": {
+  "flex-layout.col#quick-view__modal--image-deparment": {
     "children": [
       "vtex.store-components:product-images"
     ]
   },
-  "flex-layout.col#quick-view__modal--info": {
+  "flex-layout.col#quick-view__modal--info-deparment": {
     "children": [
       "add-to-list-btn",
       "vtex.store-components:product-name",

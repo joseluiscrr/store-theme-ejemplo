@@ -9,6 +9,7 @@
       "blockClass": "footer__section--2"
     }
   },
+  ///////////////////////////////////////////////////////////////////
   "flex-layout.col#footer__section--2-1": {
     "children": [
       "flex-layout.row#section__2--1",
@@ -70,7 +71,7 @@
   "rich-text#1-col__1--2-text": {
     "props": {
       "blockClass": "1-col__1--2-text",
-      "text": "(601) 4242400"
+      "text": "[(601) 4242400](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "flex-layout.row#1-col__2": {
@@ -93,7 +94,7 @@
   "rich-text#1-col__2--2-text": {
     "props": {
       "blockClass": "1-col__2--2-text",
-      "text": "(+57) 305 482 90 46"
+      "text": "[(+57) 305 482 90 46](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "flex-layout.row#1-col__3": {
@@ -116,7 +117,7 @@
   "rich-text#1-col__3--2-text": {
     "props": {
       "blockClass": "1-col__3--2-text",
-      "text": "(+57) 305 261 54 42"
+      "text": "[(+57) 305 261 54 42](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "flex-layout.row#1-col__4": {
@@ -139,7 +140,7 @@
   "rich-text#1-col__4--2-text": {
     "props": {
       "blockClass": "1-col__4--2-text",
-      "text": "01 8000 428 800"
+      "text": "[01 8000 428 800](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "flex-layout.row#1-col__5": {
@@ -162,7 +163,7 @@
   "rich-text#1-col__5--2-text": {
     "props": {
       "blockClass": "1-col__5--2-text",
-      "text": "(4) 604 19 19"
+      "text": "[(4) 604 19 19](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "flex-layout.row#1-col__6": {
@@ -178,7 +179,7 @@
   "rich-text#1-col__6--1-text": {
     "props": {
       "blockClass": "1-col__6--1-text",
-      "text": "Resto de ciudades"
+      "text": "[Resto de ciudades](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   ///////////////////////////////////////////////////////////////////

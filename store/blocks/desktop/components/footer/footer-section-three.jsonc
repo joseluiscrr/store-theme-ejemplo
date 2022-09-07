@@ -29,46 +29,92 @@
   },
   "flex-layout.row#section__3--2": {
     "children": [
-      "flex-layout.col#section__3--2-1",
-      "flex-layout.col#section__3--2-2",
-      "flex-layout.col#section__3--2-3",
-      "flex-layout.col#section__3--2-4",
-      "flex-layout.col#section__3--2-5"
+      "flex-layout.col#section__3--2"
     ],
     "props": {
       "blockClass": "section__3--2"
     }
   },
-  "flex-layout.col#section__3--2-1": {
+  "flex-layout.col#section__3--2": {
     "children": [
       "disclosure-layout#1"
-    ]
+    ],
+    "props": {
+      "blockClass": "section__3--2"
+    }
   },
   "disclosure-layout#1": {
     "children": [
       "disclosure-trigger#1",
       "disclosure-content#1"
-    ]
+    ],
+    "props": {
+      "blockClass": "1"
+    }
   },
   "disclosure-trigger#1": {
     "children": [
-      "rich-text#section__3--3-1"
-    ]
+      "flex-layout.row#section__3--3-1-1",
+      "flex-layout.row#section__3--3-1-2",
+      "flex-layout.row#section__3--3-1-3",
+      "flex-layout.row#section__3--3-1-4",
+      "flex-layout.row#section__3--3-1-5"
+    ],
+    "props": {
+      "blockClass": "1"
+    }
+  },
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon-caret#down",
+      "Hide": "icon-caret#up",
+      "blockClass": "state--disclosure"
+    }
+  },
+  "icon-caret#down": {
+    "props": {
+      "orientation": "up"
+    }
+  },
+  "icon-caret#up": {
+    "props": {
+      "orientation": "down"
+    }
+  },
+  "flex-layout.row#section__3--3-1-1": {
+    "children": [
+      "rich-text#section__3--3-1",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "section__3--3-1-1"
+    }
   },
   "rich-text#section__3--3-1": {
     "props": {
+      "blockClass": "section__3--3-1",
       "text": "Centro de ayuda"
     }
   },
   "disclosure-content#1": {
     "children": [
-      "flex-layout.row#section__3--3-1"
-    ]
+      "flex-layout.row#section__3--3-1",
+      "flex-layout.row#section__3--3-2",
+      "flex-layout.row#section__3--3-3",
+      "flex-layout.row#section__3--3-4",
+      "flex-layout.row#section__3--3-5"
+    ],
+    "props": {
+      "blockClass": "1"
+    }
   },
   "flex-layout.row#section__3--3-1": {
     "children": [
       "flex-layout.col#section__3--3-1-col"
-    ]
+    ],
+    "props": {
+      "blockClass": "section__3--3-1"
+    }
   },
   "flex-layout.col#section__3--3-1-col": {
     "children": [
@@ -81,51 +127,63 @@
       "rich-text#escribenos",
       "rich-text#gestion-mi-pedido",
       "rich-text#actualiza-tus-datos"
-    ]
+    ],
+    "props": {
+      "blockClass": "section__3--3-1-col"
+    }
   },
   "rich-text#preguntas-frecuentes": {
     "props": {
-      "text": "Preguntas Frecuentes"
+      "blockClass": "disclosure__links",
+      "text": "[Preguntas Frecuentes](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#politicas-de-cambio": {
     "props": {
-      "text": "Políticas de Cambios y Devoluciones"
+      "blockClass": "disclosure__links",
+      "text": "[Políticas de Cambios y Devoluciones](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#politicas-de-garantia": {
     "props": {
-      "text": "Política de garantías"
+      "blockClass": "disclosure__links",
+      "text": "[Política de garantías](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#contacto": {
     "props": {
-      "text": "Contacto"
+      "blockClass": "disclosure__links",
+      "text": "[Contacto](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#cambia-tu-producto-facil": {
     "props": {
-      "text": "Cambia tu producto fácil"
+      "blockClass": "disclosure__links",
+      "text": "[Cambia tu producto fácil](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#almacenes": {
     "props": {
-      "text": "Almacenes"
+      "blockClass": "disclosure__links",
+      "text": "[Almacenes](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#escribenos": {
     "props": {
-      "text": "Escríbenos (PQRS)"
+      "blockClass": "disclosure__links",
+      "text": "[Escríbenos (PQRS)](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#gestion-mi-pedido": {
     "props": {
-      "text": "¿Cómo gestionar mi pedido?"
+      "blockClass": "disclosure__links",
+      "text": "[¿Cómo gestionar mi pedido?](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#actualiza-tus-datos": {
     "props": {
-      "text": "Actualiza tus datos"
+      "blockClass": "disclosure__links",
+      "text": "[Actualiza tus datos](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "flex-layout.col#section__3--2-2": {
@@ -144,8 +202,18 @@
       "rich-text#section__3--3-2"
     ]
   },
+  "flex-layout.row#section__3--3-1-2": {
+    "children": [
+      "rich-text#section__3--3-1",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "section__3--3-1-1"
+    }
+  },
   "rich-text#section__3--3-2": {
     "props": {
+      "blockClass": "section__3--3-2",
       "text": "exito.com"
     }
   },
@@ -157,7 +225,10 @@
   "flex-layout.row#section__3--3-2": {
     "children": [
       "flex-layout.col#section__3--3-2-col"
-    ]
+    ],
+    "props": {
+      "blockClass": "section__3--3-2"
+    }
   },
   "flex-layout.col#section__3--3-2-col": {
     "children": [
@@ -172,37 +243,44 @@
   },
   "rich-text#compra-y-recoge": {
     "props": {
-      "text": "Preguntas Frecuentes"
+      "blockClass": "disclosure__links",
+      "text": "[Compra y recoge](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#domicilio-telefonico": {
     "props": {
-      "text": "Domicilio telefónico"
+      "blockClass": "disclosure__links",
+      "text": "[Domicilio telefónico](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#garantia-extendida": {
     "props": {
-      "text": "Garantía extendida"
+      "blockClass": "disclosure__links",
+      "text": "[Garantía extendida](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#vende-en-exito": {
     "props": {
-      "text": "Vende en exito.com"
+      "blockClass": "disclosure__links",
+      "text": "[Vende en exito.com](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#paute-con-nosotros": {
     "props": {
-      "text": "Paute con nosotros"
+      "blockClass": "disclosure__links",
+      "text": "[Paute con nosotros](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#afiliados-clickam": {
     "props": {
-      "text": "Afiliados Clickam"
+      "blockClass": "disclosure__links",
+      "text": "[Afiliados Clickam](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#revista-virtual": {
     "props": {
-      "text": "Revista virtual"
+      "blockClass": "disclosure__links",
+      "text": "[Revista virtual](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "flex-layout.col#section__3--2-3": {
@@ -221,8 +299,18 @@
       "rich-text#section__3--3-3"
     ]
   },
+  "flex-layout.row#section__3--3-1-3": {
+    "children": [
+      "rich-text#section__3--3-1",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "section__3--3-1-1"
+    }
+  },
   "rich-text#section__3--3-3": {
     "props": {
+      "blockClass": "section__3--3-3",
       "text": "Nuestra compañía"
     }
   },
@@ -234,7 +322,10 @@
   "flex-layout.row#section__3--3-3": {
     "children": [
       "flex-layout.col#section__3--3-3-col"
-    ]
+    ],
+    "props": {
+      "blockClass": "section__3--3-3"
+    }
   },
   "flex-layout.col#section__3--3-3-col": {
     "children": [
@@ -248,32 +339,38 @@
   },
   "rich-text#grupo-exito": {
     "props": {
-      "text": "Grupo éxito"
+      "blockClass": "disclosure__links",
+      "text": "[Grupo éxito](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#fundacion-exito": {
     "props": {
-      "text": "Fundación éxito"
+      "blockClass": "disclosure__links",
+      "text": "[Fundación éxito](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#donar-goticas": {
     "props": {
-      "text": "Donar goticas"
+      "blockClass": "disclosure__links",
+      "text": "[Donar goticas](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#inversionistas": {
     "props": {
-      "text": "Inversionistas"
+      "blockClass": "disclosure__links",
+      "text": "[Inversionistas](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#centas-empresariales": {
     "props": {
-      "text": "Ventas empresariales"
+      "blockClass": "disclosure__links",
+      "text": "[Ventas empresariales](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#oportunidades-de-empleo": {
     "props": {
-      "text": "Oportunidades de empleo"
+      "blockClass": "disclosure__links",
+      "text": "[Oportunidades de empleo](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "flex-layout.col#section__3--2-4": {
@@ -292,8 +389,18 @@
       "rich-text#section__3--3-4"
     ]
   },
+  "flex-layout.row#section__3--3-1-4": {
+    "children": [
+      "rich-text#section__3--3-1",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "section__3--3-1-1"
+    }
+  },
   "rich-text#section__3--3-4": {
     "props": {
+      "blockClass": "section__3--3-4",
       "text": "Comunidades"
     }
   },
@@ -305,7 +412,10 @@
   "flex-layout.row#section__3--3-4": {
     "children": [
       "flex-layout.col#section__3--3-4-col"
-    ]
+    ],
+    "props": {
+      "blockClass": "section__3--3-4"
+    }
   },
   "flex-layout.col#section__3--3-4-col": {
     "children": [
@@ -315,12 +425,14 @@
   },
   "rich-text#vivevinos": {
     "props": {
-      "text": "Vivevinos"
+      "blockClass": "disclosure__links",
+      "text": "[Vivevinos](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#exploradores-exito": {
     "props": {
-      "text": "Exploradores éxito"
+      "blockClass": "disclosure__links",
+      "text": "[Exploradores éxito](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "flex-layout.col#section__3--2-5": {
@@ -340,8 +452,18 @@
       "disclosure-state-indicator"
     ]
   },
+  "flex-layout.row#section__3--3-1-5": {
+    "children": [
+      "rich-text#section__3--3-1",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "section__3--3-1-1"
+    }
+  },
   "rich-text#section__3--3-5": {
     "props": {
+      "blockClass": "section__3--3-5",
       "text": "Información legal"
     }
   },
@@ -353,7 +475,10 @@
   "flex-layout.row#section__3--3-5": {
     "children": [
       "flex-layout.col#section__3--3-5-col"
-    ]
+    ],
+    "props": {
+      "blockClass": "section__3--3-5"
+    }
   },
   "flex-layout.col#section__3--3-5-col": {
     "children": [
@@ -369,84 +494,50 @@
   },
   "rich-text#legales-del-dia": {
     "props": {
-      "text": "Legales del día"
+      "blockClass": "disclosure__links",
+      "text": "[Legales del día](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#terminos-y-condiciones": {
     "props": {
-      "text": "Terminos y condiciones"
+      "blockClass": "disclosure__links",
+      "text": "[Terminos y condiciones](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#terminos-marketplace": {
     "props": {
-      "text": "Términos de la Marketplace"
+      "blockClass": "disclosure__links",
+      "text": "[Términos de la Marketplace](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#politica-de-privacida": {
     "props": {
-      "text": "Política de privacidad"
+      "blockClass": "disclosure__links",
+      "text": "[Política de privacidad](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#autorizacion-de-datos": {
     "props": {
-      "text": "Autorización tratamiento de datos"
+      "blockClass": "disclosure__links",
+      "text": "[Autorización tratamiento de datos](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#SIC": {
     "props": {
-      "text": "Superintendencia de Industria y Comercio - SIC"
+      "blockClass": "disclosure__links",
+      "text": "[Superintendencia de Industria y Comercio - SIC](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#derecho-de-retracto": {
     "props": {
-      "text": "Derecho de retracto"
+      "blockClass": "disclosure__links",
+      "text": "[Derecho de retracto](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#solicitud-de-reversiones": {
     "props": {
-      "text": "Solicitud de reversiones"
+      "blockClass": "disclosure__links",
+      "text": "[Solicitud de reversiones](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   }
-  ////////////////////////////////////////////////////
-  // "disclosure-layout-group#group": {
-  //   "children": ["disclosure-layout#first", "disclosure-layout#second"]
-  // },
-  // "disclosure-layout#first": {
-  //   "children": ["disclosure-trigger#first", "disclosure-content#first"]
-  // },
-  // "disclosure-trigger#first": {
-  //   "children": ["rich-text#question1"]
-  // },
-  // "disclosure-content#first": {
-  //   "children": ["rich-text#answer1"]
-  // },
-  // "rich-text#question1": {
-  //   "props": {
-  //     "text": "How can I change my shipping address?1"
-  //   }
-  // },
-  // "rich-text#answer1": {
-  //   "props": {
-  //     "text": "Call us at the number (212) 1234-1234.1"
-  //   }
-  // },
-  // "disclosure-layout#second": {
-  //   "children": ["disclosure-trigger#second", "disclosure-content#second"]
-  // },
-  // "disclosure-trigger#second": {
-  //   "children": ["rich-text#question2"]
-  // },
-  // "disclosure-content#second": {
-  //   "children": ["rich-text#answer2"]
-  // },
-  // "rich-text#question2": {
-  //   "props": {
-  //     "text": "How can I track my order?2"
-  //   }
-  // },
-  // "rich-text#answer2": {
-  //   "props": {
-  //     "text": "After logging into your account, you can find this info at the link Orders.2"
-  //   }
-  // }
 }

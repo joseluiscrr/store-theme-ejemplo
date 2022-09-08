@@ -110,22 +110,9 @@
 }
 
 .wrapper--more__information {
-    margin: auto;
-    align-items: center;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    margin-bottom: -1px;
-    z-index: 2;
-    background: #f7f7f7;
-    border: 1px solid #ededed;
-    border-bottom: none;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: 4px 20px;
     font-size: 13px;
     font-weight: 600;
-    color: #000;
+    margin-right: 15px;
 }
 
 .paragraph--disclosure__links {
@@ -138,14 +125,14 @@
     text-decoration: underline;
 }
 
-.paragraph--section__3--3-1,
-.paragraph--section__3--3-2,
-.paragraph--section__3--3-3,
-.paragraph--section__3--3-4,
-.paragraph--section__3--3-5 {
-    cursor: pointer;
+.paragraph--help__center-trigger,
+.paragraph--exito__com-trigger,
+.paragraph--our__company-trigger,
+.paragraph--community-trigger,
+.paragraph--legal__information-trigger {
+    margin-right: 15px;
+    line-height: 15px !important;
     color: #000;
     font-weight: 700;
     font-size: 13px;
-    margin-right: 15px;
 }

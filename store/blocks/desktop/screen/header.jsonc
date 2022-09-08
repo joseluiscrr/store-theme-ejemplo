@@ -24,7 +24,6 @@
       "sticky": true
     },
     "children": [
-      // "drawer#header__main--menu",
       "mega-menu-trigger-btn",
       "logo#header__main--logo",
       "search-bar#header__main--search",
@@ -32,11 +31,6 @@
       "login",
       "minicart.v2#header__main--minicart"
     ]
-  },
-  "mega-menu-trigger-btn": {
-    "props": {
-      "Drawer": "drawer#header__main--menu"
-    }
   },
   "logo#header__main--logo": {
     "props": {

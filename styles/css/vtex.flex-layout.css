@@ -27,10 +27,6 @@
     justify-content: space-around;
 }
 
-/* .stretchChildrenWidth {
-    width: auto !important;
-} */
-
 .flexRowContent--section__4--1-2-logos {
     width: 307px;
     display: flex;
@@ -45,6 +41,7 @@
 .flexColChild--footer__section--4-2 {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 }
 
 .flexRowContent--footer__section--4 {
@@ -123,10 +120,56 @@
     justify-content: center;
 }
 
-.flexColChild--section__3--2 {
+.flexColChild--container__filter--department {
+    height: auto !important;
+}
+
+.flexColChild--footer__section--2-1 :global(.vtex-rich-text-0-x-link) {
+    color: black !important;
+}
+
+.flexRowContent--footer__section--3 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    display: flex;
+    flex-direction: column;
+}
+.flexRowContent--help__center-trigger :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: auto !important;
+}
+
+.flexRowContent--exito__com-trigger :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: auto !important;
+}
+
+.flexRowContent--our__company-trigger :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: auto !important;
+}
+
+.flexRowContent--community-trigger :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: auto !important;
+}
+
+.flexRowContent--legal__information-trigger :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: auto !important;
+}
+
+.flexRowContent--help__center-trigger,
+.flexRowContent--exito__com-trigger,
+.flexRowContent--our__company-trigger,
+.flexRowContent--community-trigger,
+.flexRowContent--legal__information-trigger {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.flexRow--s3-disclosure__trigger-2 {
     background-color: #f7f7f7;
     color: #4d5766;
     border: 1px solid #ededed;
+    border-bottom: transparent;
+    display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     height: auto;
@@ -134,41 +177,59 @@
     min-height: 67px;
     padding: 0 20px;
     width: 100%;
+    align-items: center;
 }
 
-.flexRow--section__3--3-1,
-.flexRow--section__3--3-2,
-.flexRow--section__3--3-3,
-.flexRow--section__3--3-4,
-.flexRow--section__3--3-5 {
-    width: 20%;
+.flexRowContent--s3-disclosure__content {
+    background-color: #f7f7f7;
+    color: #4d5766;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.flexRowContent--s3-disclosure__content :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    line-height: 15px;
+    overflow: hidden;
     padding-bottom: 10px;
     padding-right: 30px;
     max-height: 500px;
     transition: max-height .25s ease-in;
 }
 
-.flexRow--section__3--3-1-1 {
-    padding-top: 15px;
-    width: 20%;
-    align-items: center;
-    color: #000;
-    display: flex;
-    font-weight: 700;
-    font-size: 13px;
-    justify-content: flex-start;
-    margin-bottom: 5px;
-    padding-right: 0;
-    padding-bottom: 0;
+.flexColChild--help__center-content,
+.flexColChild--exito__com-content,
+.flexColChild--our__company-content,
+.flexColChild--community-content,
+.flexColChild--legal__information-content {
+    height: auto !important;
 }
 
-.flexRowContent--section__3--3-1-1 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+.flexRowContent--s3-disclosure__trigger-1 {
     display: flex;
     justify-content: center;
+    max-width: 172px;
+    margin: auto;
+    margin: auto;
     align-items: center;
-    width: auto !important;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -1px;
+    z-index: 2;
+    background: #f7f7f7;
+    border: 1px solid #ededed;
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 4px 20px;
+    color: #000;
+    transform: translateY(0px);
 }
 
-.flexColChild--container__filter--department {
-    height: auto !important;
+.flexRowContent--s3-disclosure__trigger-1 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: auto !important;
 }

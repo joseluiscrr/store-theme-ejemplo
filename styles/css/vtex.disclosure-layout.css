@@ -1,8 +1,6 @@
-.trigger--1--hidden, .trigger--1--visible, .content--1--visible {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    padding: 0;
+.trigger--s3-disclosure__trigger--hidden, .trigger--s3-disclosure__trigger--visible {
+    background: transparent;
     border-color: transparent;
-    background-color: #f7f7f7;
+    padding: 0;
+    border: 0;
 }

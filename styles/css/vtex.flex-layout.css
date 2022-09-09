@@ -233,3 +233,12 @@
 .flexRowContent--s3-disclosure__trigger-1 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     width: auto !important;
 }
+
+.flexRowContent--header__main--order :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: auto !important;
+}
+
+.flexRowContent--header__main--order {
+    display: flex;
+    align-items: center;
+}

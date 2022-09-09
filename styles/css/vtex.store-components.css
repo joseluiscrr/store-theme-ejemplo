@@ -102,3 +102,8 @@
     padding-left: 22px;
     width: 41px;
 }
+
+:global(.vtex-store-components-3-x-searchBarContainer) {
+    max-width: 466px;
+    margin-left: 10px;
+}

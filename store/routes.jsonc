@@ -1,5 +1,8 @@
 {
   "store.custum#about-us": {
     "path": "/about-us"
+  },
+  "store.custum#cart": {
+    "path": "/cart"
   }
 }

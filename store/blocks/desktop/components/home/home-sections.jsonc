@@ -1,0 +1,215 @@
+{
+  "list-context.image-list#home__section--two": {
+    "children": [
+      "slider-layout#home__section--two-list"
+    ],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/img/home-section--2-1.webp",
+          "description": "Slide 1"
+        },
+        {
+          "image": "assets/img/home-section--2-2.webp",
+          "description": "Slide 2"
+        },
+        {
+          "image": "assets/img/home-section--2-3.webp",
+          "description": "Slide 3"
+        },
+        {
+          "image": "assets/img/home-section--2-4.webp",
+          "description": "Slide 4"
+        }
+      ]
+    }
+  },
+  "slider-layout#home__section--two-list": {
+    "props": {
+      "itemPerPage": {
+        "desktop": 4,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home__section--two-list",
+      "fullWidth": false
+    }
+  },
+  "flex-layout.row#home__section-three": {
+    "children": [
+      "image#hsection__three--image-1",
+      "image#hsection__three--image-2"
+    ],
+    "props": {
+      "blockClass": "home__section-three"
+    }
+  },
+  "image#hsection__three--image-1": {
+    "props": {
+      "src": "assets/img/home-section--3-1.webp"
+    }
+  },
+  "image#hsection__three--image-2": {
+    "props": {
+      "src": "assets/img/home-section--3-2.webp"
+    }
+  },
+  "flex-layout.row#home__section-three-1": {
+    "children": [
+      "image#hsection__three--image-1-1"
+    ]
+  },
+  "image#hsection__three--image-1-1": {
+    "props": {
+      "blockClass": "hsection__three--image-1-1",
+      "src": "assets/img/home-section--3-1-1.webp"
+    }
+  },
+  "flex-layout.row#home__section-fourth": {
+    "children": [
+      "image#hsection__fourth--image-1",
+      "image#hsection__fourth--image-2",
+      "image#hsection__fourth--image-3"
+    ],
+    "props": {
+      "blockClass": "home__section-fourth"
+    }
+  },
+  "image#hsection__fourth--image-1": {
+    "props": {
+      "blockClass": "hsection__fourth--image-1",
+      "src": "assets/img/home-section--4-1.webp"
+    }
+  },
+  "image#hsection__fourth--image-2": {
+    "props": {
+      "blockClass": "hsection__fourth--image-2",
+      "src": "assets/img/home-section--4-2.webp"
+    }
+  },
+  "image#hsection__fourth--image-3": {
+    "props": {
+      "blockClass": "hsection__fourth--image-3",
+      "src": "assets/img/home-section--4-3.webp"
+    }
+  },
+  "flex-layout.row#home__section-fourth-1": {
+    "children": [
+      "image#hsection__fourth--image-1-1"
+    ],
+    "props": {
+      "blockClass": "home__section-fourth-1"
+    }
+  },
+  "image#hsection__fourth--image-1-1": {
+    "props": {
+      "blockClass": "hsection__fourth--image-1-1",
+      "src": "assets/img/home-section--4-1-1.png"
+    }
+  },
+  "flex-layout.row#home__section-five": {
+    "children": [
+      "image#hsection__five--image-1",
+      "image#hsection__five--image-2",
+      "image#hsection__five--image-3"
+    ],
+    "props": {
+      "blockClass": "home__section-five"
+    }
+  },
+  "image#hsection__five--image-1": {
+    "props": {
+      "blockClass": "hsection__five--image-1",
+      "src": "assets/img/home-section--5-1.webp"
+    }
+  },
+  "image#hsection__five--image-2": {
+    "props": {
+      "blockClass": "hsection__five--image-2",
+      "src": "assets/img/home-section--5-2.webp"
+    }
+  },
+  "image#hsection__five--image-3": {
+    "props": {
+      "blockClass": "hsection__five--image-3",
+      "src": "assets/img/home-section--5-3.webp"
+    }
+  },
+  "flex-layout.row#home__section-six": {
+    "children": [
+      "flex-layout.col#home__section-six"
+    ]
+  },
+  "flex-layout.col#home__section-six": {
+    "children": [
+      "rich-text#hsection__six--title",
+      "slider-layout#hsection__six--slider"
+    ]
+  },
+  "rich-text#hsection__six--title": {
+    "props": {
+      "text": "Lo nuevo de exito.com"
+    }
+  },
+  "slider-layout#hsection__six--slider": {
+    "children": [
+      "image#hsection__six--image-1",
+      "image#hsection__six--image-2",
+      "image#hsection__six--image-3",
+      "image#hsection__six--image-4",
+      "image#hsection__six--image-5",
+      "image#hsection__six--image-6",
+      "image#hsection__six--image-7"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      },
+      "arrowSize": 25
+    }
+  },
+  "image#hsection__six--image-1": {
+    "props": {
+      "src": "assets/img/home-section--6-1.webp"
+    }
+  },
+  "image#hsection__six--image-2": {
+    "props": {
+      "src": "assets/img/home-section--6-2.webp"
+    }
+  },
+  "image#hsection__six--image-3": {
+    "props": {
+      "src": "assets/img/home-section--6-3.webp"
+    }
+  },
+  "image#hsection__six--image-4": {
+    "props": {
+      "src": "assets/img/home-section--6-4.webp"
+    }
+  },
+  "image#hsection__six--image-5": {
+    "props": {
+      "src": "assets/img/home-section--6-5.webp"
+    }
+  },
+  "image#hsection__six--image-6": {
+    "props": {
+      "src": "assets/img/home-section--6-1.webp"
+    }
+  },
+  "image#hsection__six--image-7": {
+    "props": {
+      "src": "assets/img/home-section--6-2.webp"
+    }
+  }
+}

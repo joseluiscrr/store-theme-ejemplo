@@ -26,6 +26,7 @@
     "children": [
       "mega-menu-trigger-btn",
       "logo#header__main--logo",
+      "flex-layout.row#header__main--order",
       "search-bar#header__main--search",
       "header-spacer",
       "login",
@@ -38,6 +39,34 @@
       "url": "assets/img/exito-logo.svg",
       "width": 80,
       "href": "/"
+    }
+  },
+  "flex-layout.row#header__main--order": {
+    "children": [
+      "icon#location",
+      "rich-text#receive__order",
+      "icon#nav-caret--right"
+    ],
+    "props": {
+      "blockClass": "header__main--order"
+    }
+  },
+  "icon#location": {
+    "props": {
+      "id": "hpa-location-marker",
+      "size": 12
+    }
+  },
+  "rich-text#receive__order": {
+    "props": {
+      "blockClass": "receive__order",
+      "text": "**¿Cómo quieres recibir tu pedido?**"
+    }
+  },
+  "icon#nav-caret--right": {
+    "props": {
+      "id": "nav-caret--right",
+      "size": 9
     }
   },
   "search-bar#header__main--search": {

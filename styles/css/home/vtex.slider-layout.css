@@ -37,7 +37,13 @@
     height: 8px !important;
 }
 
-/* .sliderTrackContainer--home__slider {
-    height: 100%;
-    width: 70%;
-} */
+.imageElement--home__section--two-list {
+    width: 259px !important;
+    height: 100px !important;
+}
+
+.sliderLayoutContainer--home__section--two-list {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    margin-bottom: 50px;
+}

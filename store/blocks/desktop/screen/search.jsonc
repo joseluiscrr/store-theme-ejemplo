@@ -12,7 +12,7 @@
   },
   "store.search#category": {
     "blocks": [
-      "search-result-layout#department"
+      "search-result-layout"
     ],
     "props": {
       "context": {
@@ -23,7 +23,7 @@
   },
   "store.search#subcategory": {
     "blocks": [
-      "search-result-layout#department"
+      "search-result-layout"
     ],
     "props": {
       "context": {
@@ -34,7 +34,7 @@
   },
   "store.search#brand": {
     "blocks": [
-      "search-result-layout#department"
+      "search-result-layout"
     ],
     "props": {
       "context": {
@@ -43,7 +43,6 @@
       }
     }
   },
-  
   "search-result-layout": {
     "blocks": [
       "search-result-layout.desktop",
@@ -53,15 +52,15 @@
   },
   "search-result-layout.desktop": {
     "children": [
-      "flex-layout.col#1"
+      "flex-layout.row#1"
     ]
   },
   "search-result-layout.mobile": {
     "children": [
-      "flex-layout.col#1"
+      "flex-layout.row#1"
     ]
   },
-  "flex-layout.col#1": {
+  "flex-layout.row#1": {
     "children": [
       "rich-text#1"
     ]

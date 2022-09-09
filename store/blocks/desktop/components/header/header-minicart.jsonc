@@ -2,9 +2,9 @@
   "minicart.v2#header__main--minicart": {
     "props": {
       "blockClass": "header__main--minicart",
-      "MinicartIcon": "icon-cart#minicart__icon"
-      // "variation": "link",
-      // "linkVariationUrl": "/cart"
+      "MinicartIcon": "icon-cart#minicart__icon",
+      "variation": "link",
+      "linkVariationUrl": "/cart"
     },
     "children": [
       "minicart-base-content"

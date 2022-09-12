@@ -84,5 +84,22 @@
       "emailPlaceholder": "Email",
       "showIconProfile": true
     }
+  },
+    "minicart.v2#header__main--minicart": {
+    "props": {
+      "blockClass": "header__main--minicart",
+      "MinicartIcon": "icon-cart#minicart__icon",
+      "variation": "link",
+      "linkVariationUrl": "/cart"
+    },
+    "children": [
+      "minicart-base-content"
+    ]
+  },
+  "icon-cart#minicart__icon": {
+    "props": {
+      "id": "hpa-cart",
+      "size": 20
+    }
   }
 }

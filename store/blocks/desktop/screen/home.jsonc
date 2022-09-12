@@ -1,116 +1,15 @@
 {
   "store.home": {
     "blocks": [
-      // "mega-menu#home__menu",
-      "flex-layout.row#home__top",
-      "flex-layout.row#home__section--one",
-      "flex-layout.row#home__categories",
-      "list-context.image-list#home__section--two",
-      "flex-layout.row#home__section-three",
-      "flex-layout.row#home__section-three-1",
-      "flex-layout.row#home__section-fourth",
-      "flex-layout.row#home__section-fourth-1",
-      "flex-layout.row#home__section-five",
-      "flex-layout.row#home__section-six"
+      "mega-menu#home__menu",
+      "flex-layout.row#home__sections"
       // "search-result-layout.customQuery#home__search"
     ]
   },
-  ///////////////////////////////////////////////////////////////////////
   "mega-menu#home__menu": {
     "props": {
       "blockClass": "home__menu",
       "openOnly": "horizontal"
     }
-  },
-  ///////////////////////////////////////////////////////////////////////
-  "flex-layout.row#home__top": {
-    "props": {
-      "blockClass": "home__top",
-      "marginBottom": 3,
-      "marginTop": 5
-    },
-    "children": [
-      "image#home__top--gif"
-    ]
-  },
-  "image#home__top--gif": {
-    "props": {
-      "src": "assets/img/main-gif-1.gif"
-    }
-  },
-  ///////////////////////////////////////////////////////////////////////
-  "flex-layout.row#home__section--one": {
-    "children": [
-      "flex-layout.col#section__one--col-one",
-      "flex-layout.col#section__one--col-two"
-    ],
-    "props": {
-      "fullWidth": true,
-      "blockClass": "home__section--one"
-    }
-  },
-  "flex-layout.col#section__one--col-one": {
-    "children": [
-      "slider-layout#home__slider--children"
-    ],
-    "props": {
-      "horizontalAlign": "center",
-      "blockClass": "section__one--col-one",
-      "width": "70%",
-      "marginRight": 2
-    }
-  },
-  "flex-layout.col#section__one--col-two": {
-    "children": [
-      "image#col__two--image"
-    ],
-    "props": {
-      "horizontalAlign": "center",
-      "blockClass": "section__one-image",
-      "width": "30%",
-      "marginLeft": 2
-    }
-  },
-  "image#col__two--image": {
-    "props": {
-      "src": "assets/img/image-section-one.webp"
-    }
   }
 }
-///////////////////////////////////////////////////////////////////////
-// {
-//   "store.home": {
-//     "blocks": ["rich-text", "info-card#button-right", "info-card#button-left"]
-//   },
-//   "rich-text": {
-//     "props": {
-//       "text": "*Hello, World!*",
-//       "textPosition": "RIGHT"
-//     }
-//   },
-//   "info-card#button-right": {
-//     "props": {
-//       "isFullModeStyle": false,
-//       "textPosition": "right",
-//       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
-//       "headline": "Vintage Pink",
-//       "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
-//       "callToActionMode": "button",
-//       "callToActionText": "Explore",
-//       "callToActionUrl": "/sale/d",
-//       "textAlignment": "center"
-//     }
-//   },
-//   "info-card#button-left": {
-//     "props": {
-//     "isFullModeStyle": false,
-//     "textPosition": "left",
-//     "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
-//     "headline": "Shining chrome",
-//     "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
-//     "callToActionMode": "link",
-//     "callToActionText": "Go to collection",
-//     "textAlignment": "center"
-//     }
-//   }
-// }

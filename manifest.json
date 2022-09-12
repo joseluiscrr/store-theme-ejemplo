@@ -59,7 +59,9 @@
   },
   "peerDependencies": {
     "vtex.mega-menu": "2.x",
-    "vtex.wish-list": "1.x"
+    "vtex.wish-list": "1.x",
+    "itgloberspartnercl.whatsapp-button": "0.x",
+    "itgloberspartnercl.bullets-diagramation": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

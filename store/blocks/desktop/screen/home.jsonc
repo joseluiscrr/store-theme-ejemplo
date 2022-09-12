@@ -2,7 +2,9 @@
   "store.home": {
     "blocks": [
       "mega-menu#home__menu",
-      "flex-layout.row#home__sections"
+      "whatsapp-button",
+      "bullets-diagramation"
+      // "flex-layout.row#home__sections"
       // "search-result-layout.customQuery#home__search"
     ]
   },
@@ -10,6 +12,13 @@
     "props": {
       "blockClass": "home__menu",
       "openOnly": "horizontal"
+    }
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/logo-whatsapp.png",
+      "phone": "3228628568",
+      "message": "VTEX U RLZ"
     }
   }
 }

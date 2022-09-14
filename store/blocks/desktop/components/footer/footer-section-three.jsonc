@@ -16,460 +16,524 @@
       "orientation": "down"
     }
   },
-  "flex-layout.row#footer__section--3": {
+  "flex-layout.row#footer__desktop--section-three": {
+    "title": "Footer Section 3",
     "children": [
-      "disclosure-layout#fsection__3--disclosure"
+      "disclosure-layout#disclosure__desktop"
     ],
     "props": {
-      "blockClass": "footer__section--3"
+      "blockClass": "footer__desktop--section-three"
     }
   },
-  "disclosure-layout#fsection__3--disclosure": {
+  ////////////////////////////////////////////////////// Disclosure Layout
+  "disclosure-layout#disclosure__desktop": {
+    "title": "Disclosure Layout",
     "children": [
-      "disclosure-trigger#s3-disclosure__trigger",
-      "disclosure-content#s3-disclosure__content"
+      "disclosure-trigger#disclosure__desktop",
+      "disclosure-content#disclosure__desktop"
     ],
     "props": {
-      "blockClass": "fsection__3--disclosure"
+      "blockClass": "disclosure__desktop"
     }
   },
-  "disclosure-trigger#s3-disclosure__trigger": {
+  ////////////////////////////////////////////////////// Disclosure Trigger
+  "disclosure-trigger#disclosure__desktop": {
+    "title": "Disclosure Trigger",
     "children": [
-      "flex-layout.row#s3-disclosure__trigger-1",
-      "flex-layout.row#s3-disclosure__trigger-2"
+      "flex-layout.row#trigger__desktop--mas-informacion",
+      "flex-layout.row#trigger__desktop--titles"
     ],
     "props": {
-      "blockClass": "s3-disclosure__trigger"
+      "blockClass": "disclosure__desktop"
     }
   },
-  "flex-layout.row#s3-disclosure__trigger-1": {
+  ////////////////////////////////////////////////////// Trigger Más información
+  "flex-layout.row#trigger__desktop--mas-informacion": {
+    "title": "Trigger Más información",
     "children": [
-      "rich-text#more__information",
+      "rich-text#mas__informacion",
       "disclosure-state-indicator"
     ],
     "props": {
-      "blockClass": "s3-disclosure__trigger-1"
+      "blockClass": "trigger__desktop--mas-informacion"
     }
   },
-  "rich-text#more__information": {
+  "rich-text#mas__informacion": {
+    "title": "Text Más información",
     "props": {
       "text": "Más información",
-      "blockClass": "more__information"
+      "blockClass": "mas__informacion"
     }
   },
-  "flex-layout.row#s3-disclosure__trigger-2": {
+  ////////////////////////////////////////////////////// Trigger Titles
+  "flex-layout.row#trigger__desktop--titles": {
+    "title": "Trigger Titles",
     "children": [
-      "flex-layout.col#help__center-trigger",
-      "flex-layout.col#exito__com-trigger",
-      "flex-layout.col#our__company-trigger",
-      "flex-layout.col#community-trigger",
-      "flex-layout.col#legal__information-trigger"
+      "flex-layout.col#trigger__centro--ayuda",
+      "flex-layout.col#trigger__exito--com",
+      "flex-layout.col#trigger__nuestra--compania",
+      "flex-layout.col#trigger__comunidad",
+      "flex-layout.col#trigger__informacion--legal"
     ],
     "props": {
-      "blockClass": "s3-disclosure__trigger-2"
+      "blockClass": "trigger__desktop--titles"
     }
   },
-  /////////////////////////////////////////////////////////////
-  "flex-layout.col#help__center-trigger": {
+  ////////////////////////////////////////////////////// Centro de ayuda
+  "flex-layout.col#trigger__centro--ayuda": {
+    "title": "Column Centro de ayuda",
     "children": [
-      "flex-layout.row#help__center-trigger"
+      "flex-layout.row#trigger__centro--ayuda"
     ],
     "props": {
-      "blockClass": "help__center-trigger"
+      "blockClass": "trigger__centro--ayuda"
     }
   },
-  "flex-layout.row#help__center-trigger": {
+  "flex-layout.row#trigger__centro--ayuda": {
+    "title": "Row Centro de ayuda",
     "children": [
-      "rich-text#help__center-trigger",
+      "rich-text#trigger__centro--ayuda",
       "disclosure-state-indicator"
     ],
     "props": {
-      "blockClass": "help__center-trigger"
+      "blockClass": "trigger__centro--ayuda"
     }
   },
-  "rich-text#help__center-trigger": {
+  "rich-text#trigger__centro--ayuda": {
+    "title": "Text Centro de ayuda",
     "props": {
-      "blockClass": "help__center-trigger",
+      "blockClass": "trigger__centro--ayuda",
       "text": "Centro de ayuda"
     }
   },
-  /////////////////////////////////////////////////////////////
-  "flex-layout.col#exito__com-trigger": {
+  ////////////////////////////////////////////////////// exito.com
+  "flex-layout.col#trigger__exito--com": {
+    "title": "Column exito.com",
     "children": [
-      "flex-layout.row#exito__com-trigger"
+      "flex-layout.row#trigger__exito--com"
     ],
     "props": {
-      "blockClass": "exito__com-trigger"
+      "blockClass": "trigger__exito--com"
     }
   },
-  "flex-layout.row#exito__com-trigger": {
+  "flex-layout.row#trigger__exito--com": {
+    "title": "Row exito.com",
     "children": [
-      "rich-text#exito__com-trigger",
+      "rich-text#trigger__exito--com",
       "disclosure-state-indicator"
     ],
     "props": {
-      "blockClass": "exito__com-trigger"
+      "blockClass": "trigger__exito--com"
     }
   },
-  "rich-text#exito__com-trigger": {
+  "rich-text#trigger__exito--com": {
+    "title": "Text exito.com",
     "props": {
-      "blockClass": "exito__com-trigger",
+      "blockClass": "trigger__exito--com",
       "text": "exito.com"
     }
   },
-  /////////////////////////////////////////////////////////////
-  "flex-layout.col#our__company-trigger": {
+  ////////////////////////////////////////////////////// Nuestra compañía
+  "flex-layout.col#trigger__nuestra--compania": {
+    "title": "Column Nuestra compañía",
     "children": [
-      "flex-layout.row#our__company-trigger"
+      "flex-layout.row#trigger__nuestra--compania"
     ],
     "props": {
-      "blockClass": "our__company-trigger"
+      "blockClass": "trigger__nuestra--compania"
     }
   },
-  "flex-layout.row#our__company-trigger": {
+  "flex-layout.row#trigger__nuestra--compania": {
+    "title": "Row Nuestra compañía",
     "children": [
-      "rich-text#our__company-trigger",
+      "rich-text#trigger__nuestra--compania",
       "disclosure-state-indicator"
     ],
     "props": {
-      "blockClass": "our__company-trigger"
+      "blockClass": "trigger__nuestra--compania"
     }
   },
-  "rich-text#our__company-trigger": {
+  "rich-text#trigger__nuestra--compania": {
+    "title": "Text Nuestra compañía",
     "props": {
-      "blockClass": "our__company-trigger",
+      "blockClass": "trigger__nuestra--compania",
       "text": "Nuestra compañía"
     }
   },
-  /////////////////////////////////////////////////////////////
-  "flex-layout.col#community-trigger": {
+  ////////////////////////////////////////////////////// Comunidad
+  "flex-layout.col#trigger__comunidad": {
+    "title": "Column Comunidad",
     "children": [
-      "flex-layout.row#community-trigger"
+      "flex-layout.row#trigger__comunidad"
     ],
     "props": {
-      "blockClass": "community-trigger"
+      "blockClass": "trigger__comunidad"
     }
   },
-  "flex-layout.row#community-trigger": {
+  "flex-layout.row#trigger__comunidad": {
+    "title": "Row Comunidad",
     "children": [
-      "rich-text#community-trigger",
+      "rich-text#trigger__comunidad",
       "disclosure-state-indicator"
     ],
     "props": {
-      "blockClass": "community-trigger"
+      "blockClass": "trigger__comunidad"
     }
   },
-  "rich-text#community-trigger": {
+  "rich-text#trigger__comunidad": {
+    "title": "Text Comunidad",
     "props": {
-      "blockClass": "community-trigger",
+      "blockClass": "trigger__comunidad",
       "text": "Comunidades"
     }
   },
-  /////////////////////////////////////////////////////////////
-  "flex-layout.col#legal__information-trigger": {
+  ////////////////////////////////////////////////////// Información legal
+  "flex-layout.col#trigger__informacion--legal": {
+    "title": "Column Información legal",
     "children": [
-      "flex-layout.row#legal__information-trigger"
+      "flex-layout.row#trigger__informacion--legal"
     ],
     "props": {
-      "blockClass": "legal__information-trigger"
+      "blockClass": "trigger__informacion--legal"
     }
   },
-  "flex-layout.row#legal__information-trigger": {
+  "flex-layout.row#trigger__informacion--legal": {
+    "title": "Row Información legal",
     "children": [
-      "rich-text#legal__information-trigger",
+      "rich-text#trigger__informacion--legal",
       "disclosure-state-indicator"
     ],
     "props": {
-      "blockClass": "legal__information-trigger"
+      "blockClass": "trigger__informacion--legal"
     }
   },
-  "rich-text#legal__information-trigger": {
+  "rich-text#trigger__informacion--legal": {
+    "title": "Text Información legal",
     "props": {
-      "blockClass": "legal__information-trigger",
+      "blockClass": "trigger__informacion--legal",
       "text": "Información legal"
     }
   },
-  /////////////////////////////////////////////////////////////
-  /////////////////////////////////////////////////////////////
-  "disclosure-content#s3-disclosure__content": {
+  ////////////////////////////////////////////////////// Disclosure Content
+  "disclosure-content#disclosure__desktop": {
+    "title": "Disclosure Content",
     "children": [
-      "flex-layout.row#s3-disclosure__content"
+      "flex-layout.row#disclosure__desktop"
     ],
     "props": {
-      "blockClass": "s3-disclosure__content"
+      "blockClass": "disclosure__desktop"
     }
   },
-  "flex-layout.row#s3-disclosure__content": {
+  ////////////////////////////////////////////////////// Content Titles
+  "flex-layout.row#disclosure__desktop": {
+    "title": "Content Titles",
     "children": [
-      "flex-layout.col#help__center-content",
-      "flex-layout.col#exito__com-content",
-      "flex-layout.col#our__company-content",
-      "flex-layout.col#community-content",
-      "flex-layout.col#legal__information-content"
+      "flex-layout.col#content__centro--ayuda",
+      "flex-layout.col#content__exito--com",
+      "flex-layout.col#content__nuestra--compania",
+      "flex-layout.col#content__comunidad",
+      "flex-layout.col#content__informacion--legal"
     ],
     "props": {
-      "blockClass": "s3-disclosure__content"
+      "blockClass": "disclosure__desktop"
     }
   },
-  /////////////////////////////////////////////////////////////
-  "flex-layout.col#help__center-content": {
+  ////////////////////////////////////////////////////// Centro de ayuda
+  "flex-layout.col#content__centro--ayuda": {
+    "title": "Content Centro de ayuda",
     "children": [
-      "rich-text#frequent__questions",
-      "rich-text#exchange__policies",
-      "rich-text#warranty__policies",
-      "rich-text#contact",
-      "rich-text#change__product",
-      "rich-text#warehouses",
-      "rich-text#write__us",
-      "rich-text#manage__order",
-      "rich-text#update__data"
+      "rich-text#preguntas__frequentes",
+      "rich-text#politica__cambios",
+      "rich-text#politica__garantias",
+      "rich-text#contacto",
+      "rich-text#cambio__producto",
+      "rich-text#almacenes",
+      "rich-text#escribenos",
+      "rich-text#mi__pedido",
+      "rich-text#actualizar__datos"
     ],
     "props": {
-      "blockClass": "help__center-content"
+      "blockClass": "content__centro--ayuda"
     }
   },
-  "rich-text#frequent__questions": {
+  "rich-text#preguntas__frequentes": {
+    "title": "Text Preguntas frecuentes",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Preguntas Frecuentes](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#exchange__policies": {
+  "rich-text#politica__cambios": {
+    "title": "Text Política de cambios",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Políticas de Cambios y Devoluciones](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#warranty__policies": {
+  "rich-text#politica__garantias": {
+    "title": "Text Política de garantías",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Política de garantías](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#contact": {
+  "rich-text#contacto": {
+    "title": "Text Contacto",
     "props": {
       "blockClass": "disclosure__links",
-      "text": "[Contacto](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
+      "text": "[contacto](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#change__product": {
+  "rich-text#cambio__producto": {
+    "title": "Text Cambia tu producto",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Cambia tu producto fácil](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#warehouses": {
+  "rich-text#almacenes": {
+    "title": "Text Almacenes",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Almacenes](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#write__us": {
+  "rich-text#escribenos": {
+    "title": "Text Escríbenos (PQRS)",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Escríbenos (PQRS)](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#manage__order": {
+  "rich-text#mi__pedido": {
+    "title": "Text ¿Cómo gestionar mi pedido?",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[¿Cómo gestionar mi pedido?](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#update__data": {
+  "rich-text#actualizar__datos": {
+    "title": "Text Actualiza tus datos",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Actualiza tus datos](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  /////////////////////////////////////////////////////////////
-  "flex-layout.col#exito__com-content": {
+  ////////////////////////////////////////////////////// exito.com
+  "flex-layout.col#content__exito--com": {
+    "title": "Content exito.com",
     "children": [
-      "rich-text#buy__pickup",
-      "rich-text#telephone__addres",
-      "rich-text#extended__warranty",
-      "rich-text#sells__atexito",
-      "rich-text#schedule__us",
-      "rich-text#affiliates-clickam",
-      "rich-text#virtual__magazine"
+      "rich-text#compra__recoge",
+      "rich-text#domicilio__telefonico",
+      "rich-text#garantia__extendida",
+      "rich-text#vende__en",
+      "rich-text#pauta",
+      "rich-text#afiliados__clickam",
+      "rich-text#revista__virtual"
     ],
     "props": {
-      "blockClass": "exito__com-content"
+      "blockClass": "content__exito--com"
     }
   },
-  "rich-text#buy__pickup": {
+  "rich-text#compra__recoge": {
+    "title": "Text Compra y recoge",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Compra y recoge](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#telephone__addres": {
+  "rich-text#domicilio__telefonico": {
+    "title": "Text Domicilio telefónico",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Domicilio telefónico](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#extended__warranty": {
+  "rich-text#garantia__extendida": {
+    "title": "Text Garantía extendida",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Garantía extendida](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#sells__atexito": {
+  "rich-text#vende__en": {
+    "title": "Text Vende en exito.com",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Vende en exito.com](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#schedule__us": {
+  "rich-text#pauta": {
+    "title": "Text Paute con nosotros",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Paute con nosotros](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#affiliates-clickam": {
+  "rich-text#afiliados__clickam": {
+    "title": "Text Afiliados clickam",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Afiliados Clickam](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#virtual__magazine": {
+  "rich-text#revista__virtual": {
+    "title": "Text Revista virtual",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Revista virtual](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  /////////////////////////////////////////////////////////////
-  "flex-layout.col#our__company-content": {
+  ////////////////////////////////////////////////////// Nuestra compañía
+  "flex-layout.col#content__nuestra--compania": {
+    "title": "Content Nuestra compañía",
     "children": [
-      "rich-text#exito__group",
-      "rich-text#exito__foundation",
-      "rich-text#donate__goths",
-      "rich-text#investors",
-      "rich-text#business__sales",
-      "rich-text#employment__opp"
+      "rich-text#grupo__exito",
+      "rich-text#fundacion__exito",
+      "rich-text#donar__goticas",
+      "rich-text#inversionistas",
+      "rich-text#ventas__empresariales",
+      "rich-text#oportunidad__empleo"
     ],
     "props": {
-      "blockClass": "our__company-content"
+      "blockClass": "content__nuestra--compania"
     }
   },
-  "rich-text#exito__group": {
+  "rich-text#grupo__exito": {
+    "title": "Text Grupo éxito",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Grupo éxito](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#exito__foundation": {
+  "rich-text#fundacion__exito": {
+    "title": "Text Fundación éxito",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Fundación éxito](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#donate__goths": {
+  "rich-text#donar__goticas": {
+    "title": "Text Donar goticas",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Donar goticas](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#investors": {
+  "rich-text#inversionistas": {
+    "title": "Text Inversionistas",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Inversionistas](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#business__sales": {
+  "rich-text#ventas__empresariales": {
+    "title": "Text Ventas empresariales",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Ventas empresariales](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#employment__opp": {
+  "rich-text#oportunidad__empleo": {
+    "title": "Text Oportundades de empleo",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Oportunidades de empleo](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  /////////////////////////////////////////////////////////////
-  "flex-layout.col#community-content": {
+  ////////////////////////////////////////////////////// Comunidad
+  "flex-layout.col#content__comunidad": {
+    "title": "Content Comunidad",
     "children": [
       "rich-text#vivevinos",
-      "rich-text#exito__scouts"
+      "rich-text#exploradores__exito"
     ],
     "props": {
-      "blockClass": "community-content"
+      "blockClass": "content__comunidad"
     }
   },
   "rich-text#vivevinos": {
+    "title": "Text Vivevinos",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Vivevinos](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#exito__scouts": {
+  "rich-text#exploradores__exito": {
+    "title": "Text Exploradores éxito",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Exploradores éxito](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  /////////////////////////////////////////////////////////////
-  "flex-layout.col#legal__information-content": {
+  ////////////////////////////////////////////////////// Información legal
+  "flex-layout.col#content__informacion--legal": {
+    "title": "Content Información legal",
     "children": [
-      "rich-text#legal__days",
-      "rich-text#terms__&conditions",
-      "rich-text#marketplace__terms",
-      "rich-text#privacy__policies",
-      "rich-text#data__auth",
+      "rich-text#dia__legal",
+      "rich-text#terminos__condiciones",
+      "rich-text#terminos__marketplace",
+      "rich-text#politica__privacidad",
+      "rich-text#autorizacion__datos",
       "rich-text#SIC",
-      "rich-text#withdrawal__rights",
-      "rich-text#reversal__requests"
+      "rich-text#derecho__retracto",
+      "rich-text#solicitud__reversion"
     ],
     "props": {
-      "blockClass": "legal__information-content"
+      "blockClass": "content__informacion--legal"
     }
   },
-  "rich-text#legal__days": {
+  "rich-text#dia__legal": {
+    "title": "Text Legales del día",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Legales del día](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#terms__&conditions": {
+  "rich-text#terminos__condiciones": {
+    "title": "Text Términos y condiciones",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Terminos y condiciones](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#marketplace__terms": {
+  "rich-text#terminos__marketplace": {
+    "title": "Text Términos de la Marketplace",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Términos de la Marketplace](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#privacy__policies": {
+  "rich-text#politica__privacidad": {
+    "title": "Text Política de privacidad",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Política de privacidad](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#data__auth": {
+  "rich-text#autorizacion__datos": {
+    "title": "Text Autorización tratamiento de datos",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Autorización tratamiento de datos](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
   "rich-text#SIC": {
+    "title": "Text Superintendencia de Industria y Comercio - SIC",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Superintendencia de Industria y Comercio - SIC](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#withdrawal__rights": {
+  "rich-text#derecho__retracto": {
+    "title": "Text Derecho de retracto",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Derecho de retracto](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "rich-text#reversal__requests": {
+  "rich-text#solicitud__reversion": {
+    "title": "Text Solicitud de reversiones",
     "props": {
       "blockClass": "disclosure__links",
       "text": "[Solicitud de reversiones](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"

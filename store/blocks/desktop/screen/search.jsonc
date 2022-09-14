@@ -12,7 +12,7 @@
   },
   "store.search#category": {
     "blocks": [
-      "search-result-layout"
+      "search-result-layout#department"
     ],
     "props": {
       "context": {

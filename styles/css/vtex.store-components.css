@@ -149,5 +149,5 @@
 }
 
 .sizeDesktop {
-    min-width: none !important;
+    min-width: 10px !important;
 }

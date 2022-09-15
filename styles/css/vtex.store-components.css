@@ -131,7 +131,8 @@
 .logoContainer--retail__ecommerce-mobile,
 .logoContainer--400__productos-mobile,
 .logoContainer--compras__seguras-mobile,
-.logoContainer--pago__linea-mobile {
+.logoContainer--pago__linea-mobile,
+.logoContainer--acumula__puntos-mobile {
     padding: 0;
     display: flex;
     align-items: center;
@@ -141,7 +142,12 @@
 .logoImage--retail__ecommerce-mobile,
 .logoImage--400__productos-mobile,
 .logoImage--compras__seguras-mobile,
-.logoImage--pago__linea-mobile {
+.logoImage--pago__linea-mobile,
+.logoImage--acumula__puntos-mobile {
     width: 40px;
     height: 23px;
+}
+
+.sizeDesktop {
+    min-width: none !important;
 }

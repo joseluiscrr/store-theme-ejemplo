@@ -83,11 +83,11 @@
       "modal-trigger#global__quick-view"
     ]
   },
-  "product-summary-name": {
-    "props": {
-      "tag": "h3"
-    }
-  },
+  // "product-summary-name": {
+  //   "props": {
+  //     "tag": "h3"
+  //   }
+  // },
   "product-summary-sku-selector": {
     "props": {
       "hideImpossibleCombinations": false

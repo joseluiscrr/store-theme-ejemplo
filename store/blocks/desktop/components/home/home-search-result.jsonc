@@ -69,7 +69,7 @@
   },
   "flex-layout.row#name-product": {
     "children": [
-      "product-summary-name"
+      // "product-summary-name"
     ]
   },
   "flex-layout.row#price-product": {

@@ -1,362 +1,412 @@
 {
-  "flex-layout.row#footer__section--2": {
+  "flex-layout.row#footer__desktop--section-two": {
+    "title": "Footer Section 2",
     "children": [
-      "flex-layout.col#footer__section--2-1",
-      "flex-layout.col#footer__section--2-2",
-      "flex-layout.col#footer__section--2-3"
+      "flex-layout.col#contactos",
+      "flex-layout.col#newsletter",
+      "flex-layout.col#qr__networks"
     ],
     "props": {
-      "blockClass": "footer__section--2"
+      "blockClass": "footer__desktop--section-two"
     }
   },
-  ///////////////////////////////////////////////////////////////////
-  "flex-layout.col#footer__section--2-1": {
+  ////////////////////////////////////////////////////// Contactos
+  "flex-layout.col#contactos": {
+    "title": "Section Contactos",
     "children": [
-      "flex-layout.row#section__2--1",
-      "flex-layout.row#section__2--2"
+      "flex-layout.row#contactanos",
+      "flex-layout.row#contactos__links"
     ],
     "props": {
-      "blockClass": "footer__section--2-1"
+      "blockClass": "contactos"
     }
   },
-  "flex-layout.row#section__2--1": {
+  "flex-layout.row#contactanos": {
+    "title": "Row Contactos",
     "children": [
-      "rich-text#section__2--1-text"
+      "rich-text#contactanos"
     ],
     "props": {
-      "blockClass": "section__2--1"
+      "blockClass": "contactanos"
     }
   },
-  "rich-text#section__2--1-text": {
+  "rich-text#contactanos": {
+    "title": "Text Contáctanos",
     "props": {
-      "blockClass": "section__2--1-text",
+      "blockClass": "contactanos",
       "text": "Contáctanos"
     }
   },
-  "flex-layout.row#section__2--2": {
+  "flex-layout.row#contactos__links": {
+    "title": "Row Contactos links",
     "children": [
-      "flex-layout.col#section__2--2-1"
+      "flex-layout.col#contactos__content"
     ]
   },
-  "flex-layout.col#section__2--2-1": {
+  "flex-layout.col#contactos__content": {
+    "title": "Column Contactos content",
     "children": [
-      "flex-layout.row#1-col__1",
-      "flex-layout.row#1-col__2",
-      "flex-layout.row#1-col__3",
-      "flex-layout.row#1-col__4",
-      "flex-layout.row#1-col__5",
-      "flex-layout.row#1-col__6"
+      "flex-layout.row#ventas__telefonicas",
+      "flex-layout.row#ventas__whatsapp",
+      "flex-layout.row#servicio__whatsapp",
+      "flex-layout.row#linea__nacional",
+      "flex-layout.row#medellin",
+      "flex-layout.row#resto__ciudades"
     ],
     "props": {
-      "blockClass": "section__2--2-1"
+      "blockClass": "contactos__content"
     }
   },
-  "flex-layout.row#1-col__1": {
+  "flex-layout.row#ventas__telefonicas": {
+    "title": "Container Ventas telefónicas",
     "children": [
-      "rich-text#1-col__1--1-text",
-      "rich-text#1-col__1--2-text"
+      "rich-text#ventas__telefonicas",
+      "rich-text#ventas__telefonicas--numero"
     ],
     "props": {
-      "blockClass": "1-col__1",
+      "blockClass": "ventas__telefonicas",
       "colSizing": "auto",
       "colJustify": "left"
     }
   },
-  "rich-text#1-col__1--1-text": {
+  "rich-text#ventas__telefonicas": {
+    "title": "Text Ventas telefónicas",
     "props": {
-      "blockClass": "1-col__1--1-text",
+      "blockClass": "ventas__telefonicas",
       "text": "Ventas telefónicas"
     }
   },
-  "rich-text#1-col__1--2-text": {
+  "rich-text#ventas__telefonicas--numero": {
+    "title": "Text Ventas telefónicas - número",
     "props": {
-      "blockClass": "1-col__1--2-text",
+      "blockClass": "ventas__telefonicas--numero",
       "text": "[(601) 4242400](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "flex-layout.row#1-col__2": {
+  "flex-layout.row#ventas__whatsapp": {
+    "title": "Container Ventas whatsapp",
     "children": [
-      "rich-text#1-col__2--1-text",
-      "rich-text#1-col__2--2-text"
+      "rich-text#ventas__whatsapp",
+      "rich-text#ventas__whatsapp--numero"
     ],
     "props": {
-      "blockClass": "1-col__2",
+      "blockClass": "ventas__whatsapp",
       "colSizing": "auto",
       "colJustify": "left"
     }
   },
-  "rich-text#1-col__2--1-text": {
+  "rich-text#ventas__whatsapp": {
+    "title": "Text Ventas Whatsapp",
     "props": {
-      "blockClass": "1-col__2--1-text",
+      "blockClass": "ventas__whatsapp",
       "text": "Ventas Whatsapp"
     }
   },
-  "rich-text#1-col__2--2-text": {
+  "rich-text#ventas__whatsapp--numero": {
+    "title": "Text Ventas whatsapp - número",
     "props": {
-      "blockClass": "1-col__2--2-text",
+      "blockClass": "ventas__whatsapp--numero",
       "text": "[(+57) 305 482 90 46](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "flex-layout.row#1-col__3": {
+  "flex-layout.row#servicio__whatsapp": {
+    "title": "Container Servicio whatsapp",
     "children": [
-      "rich-text#1-col__3--1-text",
-      "rich-text#1-col__3--2-text"
+      "rich-text#servicio__whatsapp",
+      "rich-text#servicio__whatsapp--numero"
     ],
     "props": {
-      "blockClass": "1-col__3",
+      "blockClass": "servicio__whatsapp",
       "colSizing": "auto",
       "colJustify": "left"
     }
   },
-  "rich-text#1-col__3--1-text": {
+  "rich-text#servicio__whatsapp": {
+    "title": "Text Servicio al cliente Whatsapp",
     "props": {
-      "blockClass": "1-col__3--1-text",
+      "blockClass": "servicio__whatsapp",
       "text": "Servicio al cliente Whatsapp"
     }
   },
-  "rich-text#1-col__3--2-text": {
+  "rich-text#servicio__whatsapp--numero": {
+    "title": "Text Servicio al cliente Whatsapp - número",
     "props": {
-      "blockClass": "1-col__3--2-text",
+      "blockClass": "servicio__whatsapp--numero",
       "text": "[(+57) 305 261 54 42](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "flex-layout.row#1-col__4": {
+  "flex-layout.row#linea__nacional": {
+    "title": "Container Linea nacional",
     "children": [
-      "rich-text#1-col__4--1-text",
-      "rich-text#1-col__4--2-text"
+      "rich-text#linea__nacional",
+      "rich-text#linea__nacional--numero"
     ],
     "props": {
-      "blockClass": "1-col__4",
+      "blockClass": "linea__nacional",
       "colSizing": "auto",
       "colJustify": "left"
     }
   },
-  "rich-text#1-col__4--1-text": {
+  "rich-text#linea__nacional": {
+    "title": "Text Línea de servicio al cliente nacional:",
     "props": {
-      "blockClass": "1-col__4--1-text",
+      "blockClass": "linea__nacional",
       "text": "Línea de servicio al cliente nacional:"
     }
   },
-  "rich-text#1-col__4--2-text": {
+  "rich-text#linea__nacional--numero": {
+    "title": "Text Línea de servicio al cliente nacional: - número",
     "props": {
-      "blockClass": "1-col__4--2-text",
+      "blockClass": "linea__nacional--numero",
       "text": "[01 8000 428 800](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "flex-layout.row#1-col__5": {
+  "flex-layout.row#medellin": {
+    "title": "Container Medellín",
     "children": [
-      "rich-text#1-col__5--1-text",
-      "rich-text#1-col__5--2-text"
+      "rich-text#medellin",
+      "rich-text#medellin__numero"
     ],
     "props": {
-      "blockClass": "1-col__5",
+      "blockClass": "medellin",
       "colSizing": "auto",
       "colJustify": "left"
     }
   },
-  "rich-text#1-col__5--1-text": {
+  "rich-text#medellin": {
+    "title": "Text Medellín",
     "props": {
-      "blockClass": "1-col__5--1-text",
+      "blockClass": "medellin",
       "text": "Medellín:"
     }
   },
-  "rich-text#1-col__5--2-text": {
+  "rich-text#medellin__numero": {
+    "title": "Text Medellín - número",
     "props": {
-      "blockClass": "1-col__5--2-text",
+      "blockClass": "medellin__numero",
       "text": "[(4) 604 19 19](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  "flex-layout.row#1-col__6": {
+  "flex-layout.row#resto__ciudades": {
+    "title": "Container Resto ciudades",
     "children": [
-      "rich-text#1-col__6--1-text"
+      "rich-text#resto__ciudades"
     ],
     "props": {
-      "blockClass": "1-col__1",
+      "blockClass": "ventas__telefonicas",
       "colSizing": "auto",
       "colJustify": "left"
     }
   },
-  "rich-text#1-col__6--1-text": {
+  "rich-text#resto__ciudades": {
+    "title": "Text Resto de ciudades",
     "props": {
-      "blockClass": "1-col__6--1-text",
+      "blockClass": "resto__ciudades",
       "text": "[Resto de ciudades](https://joseluiscrr--itgloberspartnercl.myvtex.com/about-us)"
     }
   },
-  ///////////////////////////////////////////////////////////////////
-  "flex-layout.col#footer__section--2-2": {
+  ////////////////////////////////////////////////////// Newsletter
+  "flex-layout.col#newsletter": {
+    "title": "Section Newsletter",
     "children": [
-      "flex-layout.row#section__2--2-1",
-      "flex-layout.row#section__2--2-2"
-    ],
-    "props": {
-      "blockClass": "footer__section--2-2"
-    }
-  },
-  "flex-layout.row#section__2--2-1": {
-    "children": [
-      "flex-layout.col#col__2--2-1"
-    ]
-  },
-  "flex-layout.col#col__2--2-1": {
-    "children": [
-      "rich-text#section__2--2-1-text",
-      "rich-text#section__2--2-2-text"
-    ],
-    "props": {
-      "blockClass": "col__2--2-1"
-    }
-  },
-  "rich-text#section__2--2-1-text": {
-    "props": {
-      "blockClass": "section__2--2-1-text",
-      "text": "Suscríbete a nuestro newsletter"
-    }
-  },
-  "rich-text#section__2--2-2-text": {
-    "props": {
-      "blockClass": "section__2--2-2-text",
-      "text": "Entérate de nuestras ofertas y lanzamientos exclusivos"
-    }
-  },
-  "flex-layout.row#section__2--2-2": {
-    "children": [
-      "flex-layout.col#2-col__1"
-    ]
-  },
-  "flex-layout.col#2-col__1": {
-    "children": [
-      "flex-layout.row#newsletter"
-      // "flex-layout.row#2-row__1--2"
-    ]
-  },
-  "flex-layout.row#newsletter": {
-    "children": [
-      "newsletter-form#footer__newsletter"
+      "flex-layout.row#suscribete",
+      "flex-layout.row#newsletter__container"
     ],
     "props": {
       "blockClass": "newsletter"
     }
   },
-  "newsletter-form#footer__newsletter": {
+  "flex-layout.row#suscribete": {
+    "title": "Row Suscríbete",
     "children": [
-      "flex-layout.row#footer__newsletter--row",
-      "newsletter-checkbox-confirmation#newsletter__checkbox"
-    ],
-    "props": {
-      "blockClass": "footer__newsletter"
-    }
-  },
-  "flex-layout.row#footer__newsletter--row": {
-    "children": [
-      "newsletter-input-email#newsletter__email",
-      "newsletter-submit#newsletter__submit"
+      "flex-layout.col#suscribete"
     ]
   },
-  "newsletter-input-email#newsletter__email": {
+  "flex-layout.col#suscribete": {
+    "title": "Container Suscríbete",
+    "children": [
+      "rich-text#nuestro__newsletter",
+      "rich-text#ofertas__newsletter"
+    ],
     "props": {
-      "blockClass": "newsletter__email",
+      "blockClass": "suscribete"
+    }
+  },
+  "rich-text#nuestro__newsletter": {
+    "title": "Text Suscríbete a nuestro newsletter",
+    "props": {
+      "blockClass": "nuestro__newsletter",
+      "text": "Suscríbete a nuestro newsletter"
+    }
+  },
+  "rich-text#ofertas__newsletter": {
+    "title": "Text Entérate de nuestras ofertas y lanzamientos exclusivos",
+    "props": {
+      "blockClass": "ofertas__newsletter",
+      "text": "Entérate de nuestras ofertas y lanzamientos exclusivos"
+    }
+  },
+  "flex-layout.row#newsletter__container": {
+    "title": "Row Newsletter",
+    "children": [
+      "flex-layout.col#newsletter__container"
+    ]
+  },
+  "flex-layout.col#newsletter__container": {
+    "title": "Column Newsletter",
+    "children": [
+      "flex-layout.row#newsletter"
+    ]
+  },
+  "flex-layout.row#newsletter": {
+    "title": "Container Form newsletter",
+    "children": [
+      "newsletter-form#newsletter"
+    ],
+    "props": {
+      "blockClass": "newsletter"
+    }
+  },
+  "newsletter-form#newsletter": {
+    "title": "Container Email - Submit, Checkbox",
+    "children": [
+      "flex-layout.row#email__submit",
+      "newsletter-checkbox-confirmation#checkbox"
+    ],
+    "props": {
+      "blockClass": "newsletter"
+    }
+  },
+  "flex-layout.row#email__submit": {
+    "title": "Row EmailInput - SubmitButton",
+    "children": [
+      "newsletter-input-email#email",
+      "newsletter-submit#submit"
+    ],
+    "props": {
+      "blockClass": "email__submit"
+    }
+  },
+  "newsletter-input-email#email": {
+    "title": "Input Email",
+    "props": {
+      "blockClass": "email",
       "placeholderText": "Ingresa tu correo"
     }
   },
-  "newsletter-submit#newsletter__submit": {
+  "newsletter-submit#submit": {
+    "title": "Button Submit",
     "props": {
-      "blockClass": "newsletter__submit",
+      "blockClass": "submit",
       "submitButtonLabel": "Suscríbete"
     }
   },
-  "newsletter-checkbox-confirmation#newsletter__checkbox": {
+  "newsletter-checkbox-confirmation#checkbox": {
+    "title": "Input Checkbox",
     "props": {
-      "blockClass": "newsletter__checkbox",
+      "blockClass": "checkbox",
       "checkboxLabel": "Acepto términos y condiciones, términos y condiciones marketplace y autorizo el tratamiento de mis datos personales con las siguientes condiciones."
     }
   },
-  ///////////////////////////////////////////////////////////////////
-  "flex-layout.col#footer__section--2-3": {
+  ////////////////////////////////////////////////////// QR - Networks
+  "flex-layout.col#qr__networks": {
+    "title": "Section QR - Networks",
     "children": [
-      "flex-layout.row#section__2--3-1",
-      "flex-layout.row#section__2--3-2"
+      "flex-layout.row#qr",
+      "flex-layout.row#networks"
     ],
     "props": {
-      "blockClass": "footer__section--2-3"
+      "blockClass": "qr__networks"
     }
   },
-  "flex-layout.row#section__2--3-1": {
+  "flex-layout.row#qr": {
+    "title": "Row QR",
     "children": [
-      "flex-layout.col#3__col--1"
+      "flex-layout.col#qr"
     ],
     "props": {
-      "blockClass": "section__2--3-1"
+      "blockClass": "qr"
     }
   },
-  "flex-layout.col#3__col--1": {
+  "flex-layout.col#qr": {
+    "title": "Column Descargar - QR",
     "children": [
-      "rich-text#3-col__1--text",
-      "flex-layout.row#3-col__1--row"
+      "rich-text#descargar",
+      "flex-layout.row#qr__container"
     ],
     "props": {
-      "blockClass": "3__col--1"
+      "blockClass": "qr"
     }
   },
-  "rich-text#3-col__1--text": {
+  "rich-text#descargar": {
+    "title": "Text ¡Descarga gratis la app!",
     "props": {
-      "blockClass": "3-col__1--text",
+      "blockClass": "descargar",
       "text": "¡Descarga gratis la app!"
     }
   },
-  "flex-layout.row#3-col__1--row": {
+  "flex-layout.row#qr__container": {
+    "title": "Container QR",
     "children": [
-      "image#3-col__1--image-1",
-      "rich-text#3-col__1--text-app",
-      "image#3-col__1--image-2"
+      "image#qr",
+      "rich-text#app",
+      "image#exclamation"
     ],
     "props": {
-      "blockClass": "3-col__1--row"
+      "blockClass": "qr__container"
     }
   },
-  "image#3-col__1--image-1": {
+  "image#qr": {
+    "title": "Image QR",
     "props": {
-      "blockClass": "3-col__1--image-1",
+      "blockClass": "qr",
       "src": "assets/img/footer-section--2-1.webp"
     }
   },
-  "rich-text#3-col__1--text-app": {
+  "rich-text#app": {
+    "title": "Text app",
     "props": {
-      "blockClass": "3-col__1--text-app",
+      "blockClass": "app",
       "text": "app"
     }
   },
-  "image#3-col__1--image-2": {
+  "image#exclamation": {
+    "title": "Image Exclamation",
     "props": {
-      "blockClass": "3-col__1--image-2",
+      "blockClass": "exclamation",
       "src": "assets/img/footer-section--2-2.png"
     }
   },
-  "flex-layout.row#section__2--3-2": {
+  "flex-layout.row#networks": {
+    "title": "Row Networks",
     "children": [
-      "flex-layout.col#3__col--2"
+      "flex-layout.col#networks__container"
     ],
     "props": {
-      "blockClass": "section__2--3-2"
+      "blockClass": "networks"
     }
   },
-  "flex-layout.col#3__col--2": {
+  "flex-layout.col#networks__container": {
+    "title": "Container Networks",
     "children": [
-      "rich-text#3-col__2--text",
-      "social-networks#3-col__2--social"
+      "rich-text#siguenos__en",
+      "social-networks#networks__icons"
     ],
     "props": {
-      "blockClass": "3__col--2"
+      "blockClass": "networks__container"
     }
   },
-  "rich-text#3-col__2--text": {
+  "rich-text#siguenos__en": {
+    "title": "Text Síguenos en:",
     "props": {
-      "blockClass": "3-col__2--text",
+      "blockClass": "siguenos__en",
       "text": "Síguenos en:"
     }
   },
-  "social-networks#3-col__2--social": {
+  "social-networks#networks__icons": {
+    "title": "Icons Networks",
     "props": {
-      "blockClass": "3-col__2--social",
+      "blockClass": "networks__icons",
       "socialNetworks": [
         {
           "url": "https://facebook.com/foo",

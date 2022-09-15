@@ -1,0 +1,23 @@
+.wishlistIconContainer {
+    margin-right: 2px;
+}
+
+:global(.vtex-wish-list-1-x-wishlistIcon),
+:global(.vtex-wish-list-1-x-outline),
+:global(.vtex-wish-list-1-x-iconSize) {
+    background-image: url(https://vtexcol.vteximg.com.br/arquivos/corazon-wish-list.png) !important;
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.vtex-flex-layout-0-x-flexColChild--wishlist-container, .vtex-wish-list-1-x-outline {
+    background-image: url(https://vtexcol.vteximg.com.br/arquivos/corazon-wish-list.png) !important;
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}

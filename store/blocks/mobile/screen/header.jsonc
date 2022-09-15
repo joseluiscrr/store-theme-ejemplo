@@ -1,0 +1,37 @@
+{
+  "header-layout.mobile": {
+    "children": [
+      "header-row#header__mobile--first",
+      "header-row#header__mobile--second",
+      "header-row#header__mobile--third"
+    ]
+  },
+  "header-row#header__mobile--first": {
+    "children": [
+      "drawer",
+      "logo#header__desktop",
+      "header-spacer",
+      "login",
+      "minicart.v2#header__desktop"
+    ],
+    "props": {
+      "blockClass": "header__mobile--first"
+    }
+  },
+  "header-row#header__mobile--second": {
+    "children": [
+      "search-bar#header__desktop"
+    ],
+    "props": {
+      "blockClass": "header__mobile--second"
+    }
+  },
+  "header-row#header__mobile--third": {
+    "children": [
+      "flex-layout.row#header__desktop"
+    ],
+    "props": {
+      "blockClass": "header__mobile--third"
+    }
+  }
+}

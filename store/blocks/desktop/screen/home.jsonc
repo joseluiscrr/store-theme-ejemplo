@@ -1,24 +1,42 @@
 {
   "store.home": {
+    "title": "Home",
     "blocks": [
-      "mega-menu#home__menu",
-      "whatsapp-button",
-      "bullets-diagramation"
+      // "mega-menu#home__menu"
+      // "whatsapp-button"
+      // "bullets-diagramation"
+      // "list-context.bullet-group"
       // "flex-layout.row#home__sections"
-      // "search-result-layout.customQuery#home__search"
     ]
   },
+  ////////////////////////////////////////////////////// Mega-menu
   "mega-menu#home__menu": {
+    "title": "Home Mega-menu",
     "props": {
       "blockClass": "home__menu",
       "openOnly": "horizontal"
     }
   },
+  ////////////////////////////////////////////////////// WhatsApp Button
   "whatsapp-button": {
+    "title": "Home WhatsApp Button",
     "props": {
       "logo": "assets/img/logo-whatsapp.png",
       "phone": "3228628568",
       "message": "VTEX U RLZ"
+    }
+  },
+  ////////////////////////////////////////////////////// Bullets Diagramation
+  "bullets-diagramation": {
+    "title": "Home Bullets Diagramation",
+    "props": {
+      "bullets": {
+        "image": "mi-imagen.png",
+        "titleBullet": "Computadores",
+        "link": {
+          "url": "/"
+        }
+      }
     }
   }
 }

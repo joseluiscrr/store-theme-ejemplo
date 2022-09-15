@@ -1,0 +1,68 @@
+.containerNormal {
+    background: #fff 0 0 no-repeat padding-box;
+    padding: 4px 12px;
+    border-radius: 0;
+    max-width: none !important;
+}
+
+.imageNormal {
+    width: 209px;
+    height: 209px;
+}
+
+.imageStackContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productBrandContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.productBrandName {
+    font-size: .75rem;
+    color: #333;
+    padding: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.brandName {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    color: #333;
+    font-size: .75rem;
+}
+
+.nameContainer {
+    padding: 0;
+}
+
+.productNameContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.priceContainer {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+:global(.vtex-add-to-cart-button-0-x-buttonText) {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+:global(.vtex-add-to-cart-button-0-x-buttonText)::after {
+    content: url(https://exitocol.vteximg.com.br/arquivos/add-to-cart-button-icon.png);
+}

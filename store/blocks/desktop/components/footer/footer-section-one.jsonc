@@ -1,151 +1,177 @@
 {
-  "flex-layout.row#footer__section--1": {
+  "flex-layout.row#footer__desktop--section-one": {
+    "title": "Footer Section 1",
     "children": [
-      "flex-layout.col#footer__section--1-1",
-      "flex-layout.col#footer__section--1-2",
-      "flex-layout.col#footer__section--1-3",
-      "flex-layout.col#footer__section--1-4",
-      "flex-layout.col#footer__section--1-5"
+      "flex-layout.col#retail__ecommerce",
+      "flex-layout.col#400__productos",
+      "flex-layout.col#compras__seguras",
+      "flex-layout.col#acumula__puntos",
+      "flex-layout.col#pago__linea"
     ],
     "props": {
-      "blockClass": "footer__section--1"
+      "blockClass": "footer__desktop--section-one"
     }
   },
-  "flex-layout.col#footer__section--1-1": {
+  ////////////////////////////////////////////////////// Retail eCommerce Award 2022
+  "flex-layout.col#retail__ecommerce": {
+    "title": "Column Retail eCommerce",
     "children": [
-      "flex-layout.row#section__1"
+      "flex-layout.row#retail__ecommerce"
     ],
     "props": {
-      "blockClass": "footer__section--1-1"
+      "blockClass": "retail__ecommerce"
     }
   },
-  "flex-layout.row#section__1": {
+  "flex-layout.row#retail__ecommerce": {
+    "title": "Row container Retail eCommerce",
     "children": [
-      "logo#section__1--logo",
-      "rich-text#section__1--text"
+      "logo#retail__ecommerce",
+      "rich-text#retail__ecommerce"
     ],
     "props": {
-      "blockClass": "section__1",
+      "blockClass": "retail__ecommerce",
       "colSizing": "auto"
     }
   },
-  "logo#section__1--logo": {
+  "logo#retail__ecommerce": {
+    "title": "Logo Retail eCommerce",
     "props": {
-      "blockClass": "section__1--logo",
+      "blockClass": "retail__ecommerce",
       "url": "assets/img/footer-section--1-1.webp"
     }
   },
-  "rich-text#section__1--text": {
+  "rich-text#retail__ecommerce": {
+    "title": "Text Retail eCommerce",
     "props": {
-      "blockClass": "section__1--text",
+      "blockClass": "retail__ecommerce",
       "text": "Retail eCommerce Award 2022"
     }
   },
-  "flex-layout.col#footer__section--1-2": {
+  ////////////////////////////////////////////////////// Más de 400 mil productos
+  "flex-layout.col#400__productos": {
+    "title": "Column 400 Mil Productos",
     "children": [
-      "flex-layout.row#section__2"
+      "flex-layout.row#400__productos"
     ]
   },
-  "flex-layout.row#section__2": {
+  "flex-layout.row#400__productos": {
+    "title": "Row container 400 Mil Productos",
     "children": [
-      "logo#section__2--logo",
-      "rich-text#section__2--text"
+      "logo#400__productos",
+      "rich-text#400__productos"
     ],
     "props": {
-      "blockClass": "section__2",
+      "blockClass": "400__productos",
       "colSizing": "auto"
     }
   },
-  "logo#section__2--logo": {
+  "logo#400__productos": {
+    "title": "Logo 400 Mil Productos",
     "props": {
-      "blockClass": "section__2--logo",
+      "blockClass": "400__productos",
       "url": "assets/img/footer-section--1-2.svg"
     }
   },
-  "rich-text#section__2--text": {
+  "rich-text#400__productos": {
+    "title": "Text 400 Mil Productos",
     "props": {
-      "blockClass": "section__2--text",
+      "blockClass": "400__productos",
       "text": "Más de 400 mil productos"
     }
   },
-  "flex-layout.col#footer__section--1-3": {
+  ////////////////////////////////////////////////////// Compras seguras
+  "flex-layout.col#compras__seguras": {
+    "title": "Column Compras Seguras",
     "children": [
-      "flex-layout.row#section__3"
+      "flex-layout.row#compras__seguras"
     ]
   },
-  "flex-layout.row#section__3": {
+  "flex-layout.row#compras__seguras": {
+    "title": "Row container Compras Seguras",
     "children": [
-      "logo#section__3--logo",
-      "rich-text#section__3--text"
+      "logo#compras__seguras",
+      "rich-text#compras__seguras"
     ],
     "props": {
-      "blockClass": "section__3",
+      "blockClass": "compras__seguras",
       "colSizing": "auto"
     }
   },
-  "logo#section__3--logo": {
+  "logo#compras__seguras": {
+    "title": "Logo Compra Seguras",
     "props": {
-      "blockClass": "section__3--logo",
+      "blockClass": "compras__seguras",
       "url": "assets/img/footer-section--1-3.svg"
     }
   },
-  "rich-text#section__3--text": {
+  "rich-text#compras__seguras": {
+    "title": "Text Compra Seguras",
     "props": {
-      "blockClass": "section__3--text",
+      "blockClass": "compras__seguras",
       "text": "Compras seguras"
     }
   },
-  "flex-layout.col#footer__section--1-4": {
+  ////////////////////////////////////////////////////// Acumula puntos
+  "flex-layout.col#acumula__puntos": {
+    "title": "Column Acumula Puntos",
     "children": [
-      "flex-layout.row#section__4"
+      "flex-layout.row#acumula__puntos"
     ]
   },
-  "flex-layout.row#section__4": {
+  "flex-layout.row#acumula__puntos": {
+    "title": "Row container Acumula Puntos",
     "children": [
-      "logo#section__4--logo",
-      "rich-text#section__4--text"
+      "logo#acumula__puntos",
+      "rich-text#acumula__puntos"
     ],
     "props": {
-      "blockClass": "section__4",
+      "blockClass": "acumula__puntos",
       "colSizing": "auto"
     }
   },
-  "logo#section__4--logo": {
+  "logo#acumula__puntos": {
+    "title": "Logo Acumula Puntos",
     "props": {
-      "blockClass": "section__4--logo",
+      "blockClass": "acumula__puntos",
       "url": "assets/img/footer-section--1-4.svg"
     }
   },
-  "rich-text#section__4--text": {
+  "rich-text#acumula__puntos": {
+    "title": "Text Acumula Puntos",
     "props": {
-      "blockClass": "section__4--text",
+      "blockClass": "acumula__puntos",
       "text": "Acumulas Puntos"
     }
   },
-  "flex-layout.col#footer__section--1-5": {
+  ////////////////////////////////////////////////////// Paga en línea o en efectivo
+  "flex-layout.col#pago__linea": {
+    "title": "Column Pago en Línea",
     "children": [
-      "flex-layout.row#section__5"
+      "flex-layout.row#pago__linea"
     ]
   },
-  "flex-layout.row#section__5": {
+  "flex-layout.row#pago__linea": {
+    "title": "Row container Pago en Línea",
     "children": [
-      "logo#section__5--logo",
-      "rich-text#section__5--text"
+      "logo#pago__linea",
+      "rich-text#pago__linea"
     ],
     "props": {
-      "blockClass": "section__5",
+      "blockClass": "pago__linea",
       "colSizing": "auto"
     }
   },
-  "logo#section__5--logo": {
+  "logo#pago__linea": {
+    "title": "Logo Pago en Línea",
     "props": {
-      "blockClass": "section__5--logo",
+      "blockClass": "pago__linea",
       "url": "assets/img/footer-section--1-5.svg"
     }
   },
-  "rich-text#section__5--text": {
+  "rich-text#pago__linea": {
+    "title": "Text Pago en Línea",
     "props": {
-      "blockClass": "section__5--text",
+      "blockClass": "pago__linea",
       "text": "Paga en línea o en efectivo"
     }
   }

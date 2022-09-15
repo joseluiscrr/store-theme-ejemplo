@@ -1,81 +1,80 @@
 {
-  "header": {
-    "title": "Header",
-    "blocks": [
-      "header-layout.desktop",
-      "header-layout.mobile"
-    ]
-  },
-  "header.full": {
-    "title": "Header",
-    "blocks": [
-      "header-layout.desktop",
-      "header-layout.mobile"
-    ]
-  },
   "header-layout.desktop": {
+    "title": "Header",
     "children": [
-      "header-row#header__main"
+      "header-row#header__desktop"
     ]
   },
-  "header-row#header__main": {
-    "props": {
-      "blockClass": "header__main",
-      "sticky": true
-    },
+  "header-row#header__desktop": {
+    "title": "Header Components",
     "children": [
       "mega-menu-trigger-btn",
-      "logo#header__main--logo",
-      "flex-layout.row#header__main--order",
-      "search-bar#header__main--search",
+      "logo#header__desktop",
+      "flex-layout.row#header__desktop",
+      "search-bar#header__desktop",
       "header-spacer",
       "login",
-      "minicart.v2#header__main--minicart"
-    ]
-  },
-  "logo#header__main--logo": {
+      "minicart.v2#header__desktop"
+    ],
     "props": {
-      "blockClass": "header__main--logo",
+      "blockClass": "header__desktop",
+      "sticky": true
+    }
+  },
+  ////////////////////////////////////////////////////// Logo exito.com
+  "logo#header__desktop": {
+    "title": "Header Logo",
+    "props": {
+      "blockClass": "header__desktop",
       "url": "assets/img/exito-logo.svg",
       "width": 80,
       "href": "/"
     }
   },
-  "flex-layout.row#header__main--order": {
+  ////////////////////////////////////////////////////// Texto Domicilio
+  "flex-layout.row#header__desktop": {
+    "title": "Header container delivery addres",
     "children": [
       "icon#location",
       "rich-text#receive__order",
       "icon#nav-caret--right"
     ],
     "props": {
-      "blockClass": "header__main--order"
+      "blockClass": "header__desktop"
     }
   },
   "icon#location": {
+    "title": "Icon Location",
     "props": {
       "id": "hpa-location-marker",
       "size": 12
     }
   },
   "rich-text#receive__order": {
+    "title": "Text ¿Cómo quieres recibir tu pedido?",
     "props": {
       "blockClass": "receive__order",
-      "text": "**¿Cómo quieres recibir tu pedido?**"
+      "text": "**[¿Cómo quieres recibir tu pedido?](https://joseluiscrr--itgloberspartnercl.myvtex.com/)**"
     }
   },
   "icon#nav-caret--right": {
+    "title": "Icon Caret right",
     "props": {
       "id": "nav-caret--right",
       "size": 9
     }
   },
-  "search-bar#header__main--search": {
+  ////////////////////////////////////////////////////// Searchbar
+  "search-bar#header__desktop": {
+    "title": "Header Searchbar",
     "props": {
-      "blockClass": "header__main--search",
+      "blockClass": "header__desktop",
       "placeholder": "Buscar en exito.com"
     }
   },
+  ////////////////////////////////////////////////////// Login
   "login": {
+    "title": "Header Login",
     "props": {
       "showPasswordVerificationIntoTooltip": true,
       "passwordPlaceholder": "Contraseña",
@@ -85,18 +84,21 @@
       "showIconProfile": true
     }
   },
-    "minicart.v2#header__main--minicart": {
-    "props": {
-      "blockClass": "header__main--minicart",
-      "MinicartIcon": "icon-cart#minicart__icon",
-      "variation": "link",
-      "linkVariationUrl": "/cart"
-    },
+  ////////////////////////////////////////////////////// Minicart
+  "minicart.v2#header__desktop": {
+    "title": "Header Minicart",
     "children": [
       "minicart-base-content"
-    ]
+    ],
+    "props": {
+      "blockClass": "header__desktop",
+      "MinicartIcon": "icon-cart",
+      "variation": "link",
+      "linkVariationUrl": "/cart"
+    }
   },
-  "icon-cart#minicart__icon": {
+  "icon-cart": {
+    "title": "Icon Cart",
     "props": {
       "id": "hpa-cart",
       "size": 20

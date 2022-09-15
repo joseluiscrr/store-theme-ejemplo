@@ -19,8 +19,67 @@
   },
   "search-result-layout.desktop#department": {
     "children": [
+      "flex-layout.row#bread__grid",
       "flex-layout.row#department__results"
     ]
+  },
+  "flex-layout.row#bread__grid": {
+    "children": [
+      "breadcrumb.search",
+      "order-by.v2",
+      "gallery-layout-switcher"
+    ],
+    "props": {
+      "blockClass": "bread__grid"
+    }
+  },
+  "gallery-layout-switcher": {
+    "children": [
+      "gallery-layout-option#grid",
+      "gallery-layout-option#list"
+    ]
+  },
+  "gallery-layout-option#grid": {
+    "props": {
+      "name": "grid"
+    },
+    "children": [
+      "icon-grid",
+      "responsive-layout.desktop#textOptionGrid"
+    ]
+  },
+  "gallery-layout-option#list": {
+    "props": {
+      "name": "list"
+    },
+    "children": [
+      "icon-inline-grid",
+      "responsive-layout.desktop#textOptionList"
+    ]
+  },
+  "responsive-layout.desktop#textOptionGrid": {
+    "children": [
+      "rich-text#option-grid"
+    ]
+  },
+  "responsive-layout.desktop#textOptionList": {
+    "children": [
+      "rich-text#option-list"
+    ]
+  },
+  "rich-text#option-grid": {
+    "props": {
+      "text": "Grid",
+      "textColor": "c-auto",
+      "blockClass": "layout-option"
+    }
+  },
+  "rich-text#option-list": {
+    "props": {
+      "text": "List",
+      "textColor": "c-auto",
+      "blockClass": "layout-option"
+    }
   },
   "flex-layout.row#department__results": {
     "title": "Department results",
@@ -34,7 +93,7 @@
   },
   "flex-layout.col#product__filter--department": {
     "children": [
-      "flex-layout.row#title__department",
+      // "flex-layout.row#title__department",
       "flex-layout.row#filter__department"
     ],
     "props": {
@@ -63,7 +122,7 @@
       "search-content#products__gallery"
     ],
     "props": {
-      "width": "79%",
+      "width": "80%",
       "blockClass": "container__content--gallery"
     }
   },
@@ -87,13 +146,12 @@
   "product-summary.shelf#deparment": {
     "children": [
       "flex-layout.row#add__list--button-deparment",
-      "flex-layout.row#name__product-deparment",
-      "product-rating-inline",
+      "flex-layout.row#card"
+      // "flex-layout.row#name__product-deparment",
+      // "product-rating-inline",
       //"flex-layout.row#description__product",
-      "flex-layout.row#image__product-deparment",
-      "flex-layout.row#cartbutton__product-deparment",
-      "flex-layout.row#price__product-deparment",
-      "modal-trigger#global__quick-view-deparment"
+      // "flex-layout.row#cartbutton__product-deparment",
+      // "modal-trigger#global__quick-view-deparment"
     ]
   },
   "flex-layout.row#add__list--button-deparment": {
@@ -104,80 +162,71 @@
       "blockClass": "add__list-button"
     }
   },
-  "flex-layout.row#name__product-deparment": {
+  "flex-layout.row#card": {
     "children": [
-      "product-summary-name#name__product"
+      "flex-layout.col#card"
+    ]
+  },
+  "flex-layout.col#card": {
+    "children": [
+      "product-summary-image",
+      "product-summary-brand",
+      "product-summary-name",
+      "product-summary-price",
+      "product-selling-price",
+      "add-to-cart-button"
     ],
     "props": {
-      "blockClass": "product-name"
+      "blockClass": "card"
     }
   },
-  "product-summary-name#name__product": {
+  "product-summary-name": {
     "props": {
       "tag": "h3"
     }
   },
-  "flex-layout.row#description__product": {
-    "children": [
-      "product-summary-description"
-    ]
-  },
-  "flex-layout.row#image__product-deparment": {
-    "children": [
-      "product-summary-image"
-    ],
+  "add-to-cart-button": {
     "props": {
-      "blockClass": "product--image"
+      "text": "Agregar"
     }
-  },
-  "flex-layout.row#cartbutton__product-deparment": {
-    "children": [
-      "add-to-cart-button"
-    ]
-  },
-  "flex-layout.row#price__product-deparment": {
-    "children": [
-      "product-summary-price",
-      "product-selling-price"
-    ]
-  },
-  "modal-trigger#global__quick-view-deparment": {
-    "children": [
-      "rich-text#global__quick-view-trigger-deparment",
-      "modal-layout#global__quick-view--modal-deparment"
-    ]
-  },
-  "rich-text#global__quick-view-trigger-deparment": {
-    "props": {
-      "text": "Vista Rapida",
-      "blockClass": "quick-view__trigger"
-    }
-  },
-  "modal-layout#global__quick-view--modal-deparment": {
-    "children": [
-      "flex-layout.row#quick-view__modal-deparment"
-    ]
-  },
-  "flex-layout.row#quick-view__modal-deparment": {
-    "children": [
-      "flex-layout.col#quick-view__modal--image-deparment",
-      "flex-layout.col#quick-view__modal--info-deparment"
-    ]
-  },
-  "flex-layout.col#quick-view__modal--image-deparment": {
-    "children": [
-      "vtex.store-components:product-images"
-    ]
-  },
-  "flex-layout.col#quick-view__modal--info-deparment": {
-    "children": [
-      "add-to-list-btn",
-      "vtex.store-components:product-name",
-      "vtex.store-components:product-brand",
-      "vtex.store-components:product-description",
-      "vtex.store-components:share",
-      "product-quantity",
-      "add-to-cart-button"
-    ]
   }
+  // "modal-trigger#global__quick-view-deparment": {
+  //   "children": [
+  //     "rich-text#global__quick-view-trigger-deparment",
+  //     "modal-layout#global__quick-view--modal-deparment"
+  //   ]
+  // },
+  // "rich-text#global__quick-view-trigger-deparment": {
+  //   "props": {
+  //     "text": "Vista Rapida",
+  //     "blockClass": "quick-view__trigger"
+  //   }
+  // },
+  // "modal-layout#global__quick-view--modal-deparment": {
+  //   "children": [
+  //     "flex-layout.row#quick-view__modal-deparment"
+  //   ]
+  // },
+  // "flex-layout.row#quick-view__modal-deparment": {
+  //   "children": [
+  //     "flex-layout.col#quick-view__modal--image-deparment",
+  //     "flex-layout.col#quick-view__modal--info-deparment"
+  //   ]
+  // },
+  // "flex-layout.col#quick-view__modal--image-deparment": {
+  //   "children": [
+  //     "vtex.store-components:product-images"
+  //   ]
+  // },
+  // "flex-layout.col#quick-view__modal--info-deparment": {
+  //   "children": [
+  //     "add-to-list-btn",
+  //     "vtex.store-components:product-name",
+  //     "vtex.store-components:product-brand",
+  //     "vtex.store-components:product-description",
+  //     "vtex.store-components:share",
+  //     "product-quantity",
+  //     "add-to-cart-button"
+  //   ]
+  // }
 }

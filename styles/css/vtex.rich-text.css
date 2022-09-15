@@ -2,11 +2,11 @@
     margin: 0;
 }
 
-.paragraph--section__1--text,
-.paragraph--section__2--text,
-.paragraph--section__3--text,
-.paragraph--section__4--text,
-.paragraph--section__5--text {
+.paragraph--retail__ecommerce,
+.paragraph--400__productos,
+.paragraph--compras__seguras,
+.paragraph--acumula__puntos,
+.paragraph--pago__linea {
     color: #373737;
     font-size: 14px;
     line-height: normal;
@@ -16,17 +16,19 @@
 .paragraph--derechos {
     color: #4d5766;
     font-size: 12px;
-    margin: auto 50px;
+    /* margin: auto 50px; */
+    margin: 0;
 }
 
-.wrapper--section__2--1-text {
+.wrapper--contactanos {
     width: 100% !important;
 }
 
-.paragraph--section__2--1-text {
+.paragraph--contactanos {
     color: #222;
     font-size: 15px;
     font-weight: 400;
+    height: 18px;
 }
 
 :global(.vtex-rich-text-0-x-link) {
@@ -34,11 +36,11 @@
     text-decoration: none;
 }
 
-.paragraph--1-col__1--2-text,
-.paragraph--1-col__2--2-text,
-.paragraph--1-col__3--2-text,
-.paragraph--1-col__4--2-text,
-.paragraph--1-col__5--2-text,
+.paragraph--ventas__telefonicas--numero,
+.paragraph--ventas__whatsapp--numero,
+.paragraph--servicio__whatsapp--numero,
+.paragraph--linea__nacional--numero,
+.paragraph--medellin__numero,
 .paragraph--1-col__6--2-text {
     font-size: 13px;
     font-weight: 600;
@@ -46,18 +48,18 @@
     text-decoration: underline !important;
 }
 
-.paragraph--1-col__1--1-text,
-.paragraph--1-col__2--1-text,
-.paragraph--1-col__3--1-text,
-.paragraph--1-col__4--1-text,
-.paragraph--1-col__5--1-text {
+.paragraph--ventas__telefonicas,
+.paragraph--ventas__whatsapp,
+.paragraph--servicio__whatsapp,
+.paragraph--linea__nacional,
+.paragraph--medellin {
     color: #414141;
     font-size: 13px;
     font-weight: 500;
     height: 15px;
 }
 
-.paragraph--1-col__6--1-text {
+.paragraph--resto__ciudades {
     color: #414141;
     font-size: 13px;
     font-weight: 400;
@@ -66,29 +68,29 @@
     height: 15px;
 }
 
-.paragraph--section__2--2-1-text {
+.paragraph--nuestro__newsletter {
     color: #222;
     font-size: 15px;
     height: 17px;
 }
 
-.wrapper--section__2--2-1-text {
+.wrapper--nuestro__newsletter {
     width: 100% !important;
 }
 
-.paragraph--section__2--2-2-text {
+.paragraph--ofertas__newsletter {
     color: #222;
     font-size: 13px;
     height: 15px;
 }
 
-.paragraph--3-col__1--text {
+.paragraph--descargar {
     color: #222;
     font-size: 15px;
     height: 17px;
 }
 
-.paragraph--3-col__1--text-app {
+.paragraph--app {
     border-left: 2px solid #d3d3d3;
     color: #222;
     font-size: 23px;
@@ -98,18 +100,28 @@
     text-align: center;
 }
 
-.paragraph--3-col__2--text {
+.paragraph--app__mobile {
+    border-right: 2px solid #d3d3d3;
+    color: #222;
+    font-size: 23px;
+    font-weight: 700;
+    margin: 0 0 0 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.paragraph--siguenos__en {
     color: #222;
     font-size: 12px;
     font-weight: 600;
     height: 14px;
 }
 
-.flexCol--footer__section--2-3 {
+.flexCol--qr__networks {
     padding-left: 102px !important;
 }
 
-.wrapper--more__information {
+.wrapper--mas__informacion {
     font-size: 13px;
     font-weight: 600;
     margin-right: 15px;
@@ -125,11 +137,11 @@
     text-decoration: underline;
 }
 
-.paragraph--help__center-trigger,
-.paragraph--exito__com-trigger,
-.paragraph--our__company-trigger,
-.paragraph--community-trigger,
-.paragraph--legal__information-trigger {
+.paragraph--trigger__centro--ayuda,
+.paragraph--trigger__exito--com,
+.paragraph--trigger__nuestra--compania,
+.paragraph--trigger__comunidad,
+.paragraph--trigger__informacion--legal {
     margin-right: 15px;
     line-height: 15px !important;
     color: #000;
@@ -150,11 +162,14 @@
     overflow: hidden;
     text-overflow: ellipsis;
     letter-spacing: -.2px;
-    font-family: Poppins,Helvetica,sans-serif!important;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: Poppins, Helvetica, sans-serif !important;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.paragraph--hsection__six--title, .paragraph--hsection__six-1-title,.paragraph--hsection__nine-title, .paragraph--hsection__ten-title {
+.paragraph--hsection__six--title,
+.paragraph--hsection__six-1-title,
+.paragraph--hsection__nine-title,
+.paragraph--hsection__ten-title {
     color: rgb(119, 119, 119);
     font-size: 20px;
     font-weight: 500;
@@ -168,4 +183,20 @@
     font-weight: 500;
     margin-left: 30px;
     margin-bottom: 5px;
+}
+
+.paragraph--visita__mobile {
+    color: #4d5766;
+    font-size: 12px;
+    margin: 0;
+}
+
+.paragraph--retail__ecommerce-mobile,
+.paragraph--400__productos-mobile,
+.paragraph--compras__seguras-mobile,
+.paragraph--acumula__puntos-mobile,
+.paragraph--pago__linea-mobile {
+    font-size: 10px;
+    text-align: center;
+    color: #373737;
 }

@@ -1,0 +1,54 @@
+.filterIcon {
+    color: #4c98ce !important;
+}
+
+.filterTitleSpan {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: .04px;
+    text-transform: capitalize;
+}
+
+:global(.vtex-checkbox__label) {
+    font-weight: lighter;
+    font-size: 14px;
+    color: #3f3f40;
+    text-transform: uppercase;
+}
+
+:global(.vtex-slider-container) {
+    width: 50%;
+    margin: 1.4rem auto 0;
+}
+
+:global(.vtex-slider__selector) {
+    width: 26px!important;
+    height: 26px!important;
+    background-color: #fff;
+    border: 3px solid #5bc0de;
+    /* box-shadow: rgb(0 0 0 / 15%) -1px 1px 3px; */
+}
+
+:global(.vtex-slider__selector-container) {
+    top: 0 !important;
+}
+
+:global(.vtex-slider__values-container) {
+    justify-content: space-between;
+    width: 165%;
+    margin-left: -30px;
+    margin-top: 10px;
+}
+
+:global(.vtex-slider__base-internal) {
+    background-color: #313131;
+    height: 2px!important;
+}
+
+.gallery--gallery__product {
+    padding: 0;
+}
+
+:global(.vtex-button__label) {
+    padding: 0;
+}

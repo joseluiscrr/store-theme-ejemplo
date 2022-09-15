@@ -23,7 +23,7 @@
   },
   "store.search#subcategory": {
     "blocks": [
-      "search-result-layout"
+      "search-result-layout#department"
     ],
     "props": {
       "context": {
@@ -34,7 +34,7 @@
   },
   "store.search#brand": {
     "blocks": [
-      "search-result-layout"
+      "search-result-layout#department"
     ],
     "props": {
       "context": {
@@ -74,7 +74,7 @@
     "children": [
       "add-to-list-btn",
       "product-summary-image",
-      "product-summary-name",
+      // "product-summary-name",
       "product-rating-inline",
       "product-list-price",
       "product-selling-price",

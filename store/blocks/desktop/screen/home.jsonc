@@ -2,8 +2,9 @@
   "store.home": {
     "title": "Home",
     "blocks": [
-      // "whatsapp-button"
+      "whatsapp-button",
       // "bullets-diagramation"
+      "list-context.bullet-group"
       // "list-context.bullet-group"
       // "flex-layout.row#home__sections"
     ]
@@ -13,21 +14,71 @@
     "title": "Home WhatsApp Button",
     "props": {
       "logo": "assets/img/logo-whatsapp.png",
-      "phone": "3228628568",
+      "phone": "3228984861",
       "message": "VTEX U RLZ"
     }
   },
   ////////////////////////////////////////////////////// Bullets Diagramation
-  "bullets-diagramation": {
-    "title": "Home Bullets Diagramation",
+  "list-context.bullet-group": {
+    "title": "Mi contecto de lista de Bullets",
+    "children": [
+      "slider-layout#bullet__group"
+    ],
     "props": {
-      "bullets": {
-        "image": "mi-imagen.png",
-        "titleBullet": "Computadores",
-        "link": {
-          "url": "/"
+      "bullets": [
+        {
+          "image": "assets/img/category-item-4.webp",
+          "titleBullet": "Celulares",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/category-item-5.webp",
+          "titleBullet": "Televisores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/category-item-1.webp",
+          "titleBullet": "Mercaweek",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/category-item-2.webp",
+          "titleBullet": "Compras",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/category-item-3.webp",
+          "titleBullet": "Ropa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/category-item-7.webp",
+          "titleBullet": "Ropa",
+          "link": {
+            "url": "/"
+          }
         }
-      }
+      ]
+    }
+  },
+  "slider-layout#bullet__group": {
+    "props": {
+      "itemPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "mobile": 2
+      },
+      "infinite": true
     }
   }
 }

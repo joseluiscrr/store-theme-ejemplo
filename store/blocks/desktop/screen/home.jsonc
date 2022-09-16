@@ -2,20 +2,11 @@
   "store.home": {
     "title": "Home",
     "blocks": [
-      // "mega-menu#home__menu"
       // "whatsapp-button"
       // "bullets-diagramation"
       // "list-context.bullet-group"
       // "flex-layout.row#home__sections"
     ]
-  },
-  ////////////////////////////////////////////////////// Mega-menu
-  "mega-menu#home__menu": {
-    "title": "Home Mega-menu",
-    "props": {
-      "blockClass": "home__menu",
-      "openOnly": "horizontal"
-    }
   },
   ////////////////////////////////////////////////////// WhatsApp Button
   "whatsapp-button": {

@@ -1,0 +1,37 @@
+.productImage {
+    width: 90px;
+    height: 90px;
+}
+
+.price {
+    text-align: center;
+    font-weight: 600;
+}
+
+.inputContainer {
+    padding: 0;
+}
+
+.removeButtonContainer {
+    height: 65% !important;
+    margin: auto;
+    margin-right: 10px;
+}
+
+.productName {
+    font-size: 13px;
+    color: #222;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.unitPriceMeasurementUnit {
+    color: #dc0b13;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.quantitySelectorButton {
+    color: orange;
+}

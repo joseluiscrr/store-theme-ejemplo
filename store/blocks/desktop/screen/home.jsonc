@@ -4,7 +4,8 @@
     "blocks": [
       "whatsapp-button",
       // "bullets-diagramation"
-      "list-context.bullet-group"
+      "list-context.bullet-group",
+      "flex-layout.row#bullets__container"
       // "list-context.bullet-group"
       // "flex-layout.row#home__sections"
     ]
@@ -19,6 +20,11 @@
     }
   },
   ////////////////////////////////////////////////////// Bullets Diagramation
+  "flex-layout.row#bullets__container": {
+    "children": [
+      "list-context.bullet-group"
+    ]
+  },
   "list-context.bullet-group": {
     "title": "Mi contecto de lista de Bullets",
     "children": [
@@ -63,6 +69,20 @@
         },
         {
           "image": "assets/img/category-item-7.webp",
+          "titleBullet": "Ropa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/category-item-9.webp",
+          "titleBullet": "Ropa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/category-item-8.webp",
           "titleBullet": "Ropa",
           "link": {
             "url": "/"

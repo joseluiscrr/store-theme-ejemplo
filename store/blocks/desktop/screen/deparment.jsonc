@@ -19,18 +19,87 @@
   },
   "search-result-layout.desktop#department": {
     "children": [
-      "flex-layout.row#bread__grid",
+      "flex-layout.row#bread",
       "flex-layout.row#department__results"
     ]
   },
-  "flex-layout.row#bread__grid": {
+  "flex-layout.row#bread": {
     "children": [
-      "breadcrumb.search",
+      "breadcrumb.search"
+    ],
+    "props": {
+      "blockClass": "bread"
+    }
+  },
+  "flex-layout.row#department__results": {
+    "title": "Department results",
+    "children": [
+      "flex-layout.col#product__filter--department",
+      "flex-layout.col#products__gallery--departmen"
+    ],
+    "props": {
+      "blockClass": "container__department"
+    }
+  },
+  "flex-layout.col#product__filter--department": {
+    "children": [
+      "flex-layout.row#filter__department"
+    ],
+    "props": {
+      "width": "20%",
+      "blockClass": "container__filter--department"
+    }
+  },
+  "flex-layout.row#title__department": {
+    "children": [
+      "search-title.v2"
+    ],
+    "props": {
+      "blockClass": "title__department"
+    }
+  },
+  "flex-layout.row#filter__department": {
+    "children": [
+      "filter-navigator.v3"
+    ],
+    "props": {
+      "blockClass": "filter__department"
+    }
+  },
+  "flex-layout.col#products__gallery--departmen": {
+    "children": [
+      "flex-layout.row#total__switcher",
+      "search-content#products__gallery"
+    ],
+    "props": {
+      "width": "80%",
+      "blockClass": "container__content--gallery"
+    }
+  },
+  "flex-layout.row#total__switcher": {
+    "children": [
+      "total-products.v2",
+      "flex-layout.col#order__switcher"
+    ],
+    "props": {
+      "blockClass": "total__switcher"
+    }
+  },
+  "flex-layout.col#order__switcher": {
+    "children": [
+      "flex-layout.row#order__switcher"
+    ],
+    "props": {
+      "blockClass": "total__switcher"
+    }
+  },
+  "flex-layout.row#order__switcher": {
+    "children": [
       "order-by.v2",
       "gallery-layout-switcher"
     ],
     "props": {
-      "blockClass": "bread__grid"
+      "blockClass": "order__switcher"
     }
   },
   "gallery-layout-switcher": {
@@ -44,8 +113,8 @@
       "name": "grid"
     },
     "children": [
-      "icon-grid",
-      "responsive-layout.desktop#textOptionGrid"
+      "icon-grid"
+      // "responsive-layout.desktop#textOptionGrid"
     ]
   },
   "gallery-layout-option#list": {
@@ -53,8 +122,8 @@
       "name": "list"
     },
     "children": [
-      "icon-inline-grid",
-      "responsive-layout.desktop#textOptionList"
+      "icon-inline-grid"
+      // "responsive-layout.desktop#textOptionList"
     ]
   },
   "responsive-layout.desktop#textOptionGrid": {
@@ -81,51 +150,6 @@
       "blockClass": "layout-option"
     }
   },
-  "flex-layout.row#department__results": {
-    "title": "Department results",
-    "children": [
-      "flex-layout.col#product__filter--department",
-      "flex-layout.col#products__gallery--departmen"
-    ],
-    "props": {
-      "blockClass": "container__department"
-    }
-  },
-  "flex-layout.col#product__filter--department": {
-    "children": [
-      // "flex-layout.row#title__department",
-      "flex-layout.row#filter__department"
-    ],
-    "props": {
-      "width": "20%",
-      "blockClass": "container__filter--department"
-    }
-  },
-  "flex-layout.row#title__department": {
-    "children": [
-      "search-title.v2"
-    ],
-    "props": {
-      "blockClass": "title__department"
-    }
-  },
-  "flex-layout.row#filter__department": {
-    "children": [
-      "filter-navigator.v3"
-    ],
-    "props": {
-      "blockClass": "filter__department"
-    }
-  },
-  "flex-layout.col#products__gallery--departmen": {
-    "children": [
-      "search-content#products__gallery"
-    ],
-    "props": {
-      "width": "80%",
-      "blockClass": "container__content--gallery"
-    }
-  },
   "search-content#products__gallery": {
     "blocks": [
       "gallery",
@@ -136,21 +160,32 @@
     }
   },
   "gallery": {
-    "blocks": [
-      "product-summary.shelf#deparment"
-    ],
     "props": {
-      "blockClass": "gallery__product"
+      "blockClass": "gallery__product",
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          }
+        },
+        {
+          "name": "list",
+          "component": "ListSummary",
+          "itemsPerRow": 1
+        }
+      ],
+      "ListSummary": "product-summary.shelf#list",
+      "GridSummary": "product-summary.shelf#deparment"
     }
   },
   "product-summary.shelf#deparment": {
     "children": [
       "flex-layout.row#add__list--button-deparment",
       "flex-layout.row#card"
-      // "flex-layout.row#name__product-deparment",
-      // "product-rating-inline",
-      //"flex-layout.row#description__product",
-      // "flex-layout.row#cartbutton__product-deparment",
       // "modal-trigger#global__quick-view-deparment"
     ]
   },
@@ -189,7 +224,7 @@
     "props": {
       "text": "Agregar"
     }
-  }
+  },
   // "modal-trigger#global__quick-view-deparment": {
   //   "children": [
   //     "rich-text#global__quick-view-trigger-deparment",
@@ -229,4 +264,48 @@
   //     "add-to-cart-button"
   //   ]
   // }
+  "product-summary.shelf#list": {
+    "children": [
+      "flex-layout.row#add__list--button-list",
+      "flex-layout.row#card__list"
+      // "modal-trigger#global__quick-view-deparment"
+    ]
+  },
+  "flex-layout.row#add__list--button-list": {
+    "children": [
+      "add-to-list-btn"
+    ],
+    "props": {
+      "blockClass": "add__list-button"
+    }
+  },
+  "flex-layout.row#card__list": {
+    "children": [
+      "product-summary-image",
+      "flex-layout.col#card__list",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "blockClass": "card__list"
+    }
+  },
+  "flex-layout.col#card__list": {
+    "children": [
+      "flex-layout.row#brand__name",
+      "product-summary-price",
+      "product-selling-price"
+    ],
+    "props": {
+      "blockClass": "card__list"
+    }
+  },
+  "flex-layout.row#brand__name": {
+    "children": [
+      "product-summary-brand",
+      "product-summary-name"
+    ],
+    "props": {
+      "blockClass": "brand__name"
+    }
+  }
 }

@@ -4,7 +4,7 @@
     "blocks": [
       "whatsapp-button",
       // "bullets-diagramation"
-      "list-context.bullet-group",
+      // "list-context.bullet-group",
       "flex-layout.row#bullets__container"
       // "list-context.bullet-group"
       // "flex-layout.row#home__sections"

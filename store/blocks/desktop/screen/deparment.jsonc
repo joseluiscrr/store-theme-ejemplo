@@ -209,7 +209,8 @@
       "product-summary-name",
       "product-summary-price",
       "product-selling-price",
-      "add-to-cart-button"
+      "add-to-cart-button",
+      "add-to-cart-info"
     ],
     "props": {
       "blockClass": "card"

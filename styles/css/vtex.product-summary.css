@@ -5,10 +5,10 @@
     max-width: none !important;
 }
 
-/* .imageNormal {
+.imageNormal {
     width: 209px;
     height: 209px;
-} */
+}
 
 .imageStackContainer {
     display: flex;

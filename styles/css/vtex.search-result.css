@@ -64,3 +64,9 @@
     display: flex;
     align-items: center;
 }
+
+.galleryItem--gallery__product--grid :global(.vtex-product-summary-2-x-element) {
+    height: 440px !important;
+    display: flex;
+    justify-content: space-between;
+}

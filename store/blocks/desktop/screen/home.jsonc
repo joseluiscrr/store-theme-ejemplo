@@ -5,7 +5,8 @@
       "whatsapp-button",
       // "bullets-diagramation"
       // "list-context.bullet-group",
-      "flex-layout.row#bullets__container"
+      // "flex-layout.row#bullets__container"
+      "pdf-reader"
       // "list-context.bullet-group"
       // "flex-layout.row#home__sections"
     ]
@@ -99,6 +100,13 @@
         "mobile": 2
       },
       "infinite": true
+    }
+  },
+  "pdf-reader": {
+    "props": {
+      "pdfUrl": "assets/documents/trial.pdf",
+      "width": 500,
+      "height": 800
     }
   }
 }

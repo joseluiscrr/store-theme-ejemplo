@@ -8,19 +8,19 @@
     "children": [
       "flex-layout.row#home__top",
       "flex-layout.row#home__section--one",
-      // "flex-layout.row#home__categories"
-      // "list-context.image-list#home__section--two"
-      // "flex-layout.row#home__section-three"
-      // "flex-layout.row#home__section-three-1"
-      "flex-layout.row#home__section-fourth"
-      // "flex-layout.row#home__section-fourth-1"
-      // "flex-layout.row#home__section-five"
-      // "flex-layout.row#home__section-six",
-      // "flex-layout.row#home__section-six-1",
-      // "flex-layout.row#home__section-seven",
-      // "flex-layout.row#home__section-eight",
-      // "flex-layout.row#home__section-nine",
-      // "flex-layout.row#home__section-ten"
+      "flex-layout.row#home__categories",
+      "list-context.image-list#home__section--two",
+      "flex-layout.row#home__section-three",
+      "flex-layout.row#home__section-three-1",
+      "flex-layout.row#home__section-fourth",
+      "flex-layout.row#home__section-fourth-1",
+      "flex-layout.row#home__section-five",
+      "flex-layout.row#home__section-six",
+      "flex-layout.row#home__section-six-1",
+      "flex-layout.row#home__section-seven",
+      "flex-layout.row#home__section-eight",
+      "flex-layout.row#home__section-nine",
+      "flex-layout.row#home__section-ten"
     ],
     "props": {
       "blockClass": "home__sections"

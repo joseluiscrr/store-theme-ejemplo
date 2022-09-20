@@ -3,11 +3,10 @@
     "title": "Home",
     "blocks": [
       "whatsapp-button",
-      // "bullets-diagramation"
-      // "list-context.bullet-group",
-      // "flex-layout.row#bullets__container"
+      "department-search",
+      "quick-order",
+      "flex-layout.row#bullets__container",
       "pdf-reader"
-      // "list-context.bullet-group"
       // "flex-layout.row#home__sections"
     ]
   },

@@ -12,8 +12,7 @@
       "mega-menu-trigger-btn",
       "logo#header__desktop",
       "flex-layout.row#header__desktop",
-      // "search-bar#header__desktop",
-      "department-search",
+      "search-bar#header__desktop",
       "header-spacer",
       "login",
       "minicart.v2#header__desktop"

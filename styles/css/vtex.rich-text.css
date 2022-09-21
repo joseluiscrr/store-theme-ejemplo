@@ -200,3 +200,10 @@
     text-align: center;
     color: #373737;
 }
+
+.wrapper--custom__grid--2,
+.wrapper--custom__grid--3,
+.wrapper--custom__grid--4,
+.wrapper--custom__grid--5 {
+    color: white;
+}

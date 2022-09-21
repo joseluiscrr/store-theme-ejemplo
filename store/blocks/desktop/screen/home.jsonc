@@ -2,8 +2,8 @@
   "store.home": {
     "title": "Home",
     "blocks": [
-      "whatsapp-button"
-      // "flex-layout.row#home__sections"
+      "whatsapp-button",
+      "flex-layout.row#home__sections"
     ]
   },
   "whatsapp-button": {

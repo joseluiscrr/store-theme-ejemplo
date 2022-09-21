@@ -11,11 +11,11 @@
   },
   "flex-layout.col#custom__components": {
     "children": [
-      "department-search",
-      "quick-order",
-      "flex-layout.row#bullets__container",
-      "pdf-reader",
-      "custom-grid"
+      "department-search"
+      // "quick-order"
+      // "flex-layout.row#bullets__container",
+      // "pdf-reader",
+      // "custom-grid"
     ]
   },
    ////////////////////////////////////////////////////// Bullets Diagramation

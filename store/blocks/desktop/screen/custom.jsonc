@@ -1,0 +1,149 @@
+{
+  "store.custom#custom__components": {
+    "blocks": [
+      "flex-layout.row#custom__components"
+    ]
+  },
+  "flex-layout.row#custom__components": {
+    "children": [
+      "flex-layout.col#custom__components"
+    ]
+  },
+  "flex-layout.col#custom__components": {
+    "children": [
+      "department-search",
+      "quick-order",
+      "flex-layout.row#bullets__container",
+      "custom-grid",
+      "pdf-reader"
+    ]
+  },
+   ////////////////////////////////////////////////////// Bullets Diagramation
+   "flex-layout.row#bullets__container": {
+    "children": [
+      "list-context.bullet-group"
+    ]
+  },
+  "list-context.bullet-group": {
+    "title": "Mi contecto de lista de Bullets",
+    "children": [
+      "slider-layout#bullet__group"
+    ],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/category-item-4.webp",
+          "titleBullet": "Celulares",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/category-item-5.webp",
+          "titleBullet": "Televisores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/category-item-1.webp",
+          "titleBullet": "Mercaweek",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/category-item-2.webp",
+          "titleBullet": "Compras",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/category-item-3.webp",
+          "titleBullet": "Ropa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/category-item-7.webp",
+          "titleBullet": "Ropa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/category-item-9.webp",
+          "titleBullet": "Ropa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/category-item-8.webp",
+          "titleBullet": "Ropa",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet__group": {
+    "props": {
+      "itemPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "mobile": 2
+      },
+      "infinite": true
+    }
+  },
+  "pdf-reader": {
+    "props": {
+      "pdfUrl": "assets/documents/trial.pdf",
+      "width": 500,
+      "height": 800
+    }
+  },
+  "custom-grid": {
+    "children": [
+      "rich-text#custom__grid--1",
+      "rich-text#custom__grid--2",
+      "rich-text#custom__grid--3",
+      "rich-text#custom__grid--4",
+      "rich-text#custom__grid--5"
+    ]
+  },
+  "rich-text#custom__grid--1": {
+    "props": {
+      "blockClass": "custom__grid--1",
+      "text": "# 1"
+    }
+  },
+  "rich-text#custom__grid--2": {
+    "props": {
+      "blockClass": "custom__grid--2",
+      "text": "# 2"
+    }
+  },
+  "rich-text#custom__grid--3": {
+    "props": {
+      "blockClass": "custom__grid--3",
+      "text": "# 3"
+    }
+  },
+  "rich-text#custom__grid--4": {
+    "props": {
+      "blockClass": "custom__grid--4",
+      "text": "# 4"
+    }
+  },
+  "rich-text#custom__grid--5": {
+    "props": {
+      "blockClass": "custom__grid--5",
+      "text": "# 5"
+    }
+  }
+}

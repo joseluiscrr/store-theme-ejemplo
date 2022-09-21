@@ -4,5 +4,8 @@
   },
   "store.custum#cart": {
     "path": "/cart"
+  },
+  "store.custum#custom__components": {
+    "path": "/custom-components"
   }
 }

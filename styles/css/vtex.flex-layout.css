@@ -358,6 +358,7 @@
 
 .flexColChild--home__sections {
     margin: 10px auto;
+    width: 100%;
 }
 
 .flexRowContent--home__section--one :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {

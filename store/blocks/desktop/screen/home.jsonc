@@ -3,6 +3,7 @@
     "title": "Home",
     "blocks": [
       "whatsapp-button",
+      "flex-layout.row#custom__components--link",
       "flex-layout.row#home__sections"
     ]
   },
@@ -12,6 +13,21 @@
       "logo": "assets/img/logo-whatsapp.png",
       "phone": "3228984861",
       "message": "VTEX U RLZ"
+    }
+  },
+  "flex-layout.row#custom__components--link": {
+    "children": [
+      "rich-text#custom__components",
+      "icon#nav-caret--right"
+    ],
+    "props": {
+      "blockClass": "custom__components--link"
+    }
+  },
+  "rich-text#custom__components": {
+    "props": {
+      "blockClass": "custom__components",
+      "text": "[Custom components](/custom-components)"
     }
   }
 }

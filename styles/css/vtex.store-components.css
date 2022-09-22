@@ -146,3 +146,42 @@
 .sizeDesktop {
     min-width: 10px !important;
 }
+
+.shareContainer {
+    display: flex;
+    align-items: center;
+}
+
+.shareLabel {
+    margin-right: 20px;
+}
+
+.shareButtons {
+    gap: 30px;
+}
+
+.productNameContainer--product__name,
+.productBrandContainer--product__brand {
+    margin: auto;
+    max-width: 97%;
+    text-transform: capitalize;
+}
+
+.productBrandContainer--product__brand {
+    color: #bdb6c4;
+    text-transform: uppercase;
+}
+
+.price_sellingPriceContainer {
+    text-align: left;
+    color: black;
+}
+
+.currencyCode {
+    display: none;
+}
+
+.currencyLiteral::after {
+    content: "$";
+    margin-right: 1px;
+}

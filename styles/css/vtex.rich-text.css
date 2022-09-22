@@ -211,3 +211,24 @@
 .paragraph--custom__components {
     margin: 0;
 }
+
+.wrapper--go__checkout {
+    width: 100%;
+}
+
+.paragraph--go__checkout {
+    width: 97%;
+    border: 1px solid #f78523 !important;
+    background-color: #fff4c3 !important;
+    border-radius: 16px;
+    margin: 0;
+    margin-top: 15px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link--go__checkout {
+    color: #f78523 !important;
+}

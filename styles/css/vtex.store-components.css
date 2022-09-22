@@ -171,3 +171,17 @@
     color: #bdb6c4;
     text-transform: uppercase;
 }
+
+.price_sellingPriceContainer {
+    text-align: left;
+    color: black;
+}
+
+.currencyCode {
+    display: none;
+}
+
+.currencyLiteral::after {
+    content: "$";
+    margin-right: 1px;
+}

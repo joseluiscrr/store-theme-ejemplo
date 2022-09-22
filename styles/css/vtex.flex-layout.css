@@ -626,3 +626,20 @@
     margin: auto;
     max-width: 97%;
 }
+
+.flexRow--custom__components--link {
+    max-width: 93%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.flexRowContent--custom__components--link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: flex-end;
+}
+
+.flexRowContent--custom__components--link :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: auto !important;
+}

@@ -66,3 +66,17 @@
 :global(.vtex-add-to-cart-button-0-x-buttonText)::after {
     content: url(https://exitocol.vteximg.com.br/arquivos/add-to-cart-button-icon.png);
 }
+
+.price_sellingPriceContainer {
+    text-align: left;
+    color: black;
+}
+
+.currencyCode {
+    display: none;
+}
+
+.currencyLiteral::after {
+    content: "$";
+    margin-right: 1px;
+}

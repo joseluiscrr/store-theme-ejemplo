@@ -2,77 +2,87 @@
   "store.product": {
     "children": [
       "flex-layout.row#product__breadcrumb",
-      "flex-layout.row#product__info",
-      "flex-layout.row#product__tabs"
+      "vtex.store-components:product-name",
+      "vtex.store-components:product-brand",
+      "flex-layout.row#product__info"
+      // "flex-layout.row#product__tabs"
     ]
   },
-  "flex-layout.row#product__tabs": {
-    "title": "Informacion adicional",
+  "flex-layout.row#product__breadcrumb": {
     "children": [
-      "tab-layout#product__tabs"
-    ]
-  },
-  "tab-layout#product__tabs": {
-    "children": [
-      "tab-list#product__tabs--list",
-      "tab-content#product__tabs--content"
-    ]
-  },
-  "tab-list#product__tabs--list": {
-    "children": [
-      "tab-list.item#tabs__list--reviews-and-ratings",
-      "tab-list.item#tabs__list--product-specification",
-      "tab-list.item#tabs__list--questions"
-    ]
-  },
-  "tab-list.item#tabs__list--reviews-and-ratings": {
+      "flex-layout.col#product__breadcrumb"
+    ],
     "props": {
-      "tabId": "reviews-and-ratings",
-      "label": "Revisiones y calificaciones",
-      "defaultActivateTab": false
+      "blockClass": "product__breadcrumb"
     }
   },
-  "tab-list.item#tabs__list--product-specification": {
+  "flex-layout.col#product__breadcrumb": {
+    "children": [
+      "breadcrumb"
+    ],
     "props": {
-      "tabId": "reviews-and-ratings",
-      "label": "Revisiones y calificaciones",
-      "defaultActivateTab": false
+      "blockClass": "product__breadcrumb"
     }
   },
-  "tab-list.item#tabs__list--questions": {
+  "vtex.store-components:product-name": {
     "props": {
-      "tabId": "reviews-and-ratings",
-      "label": "Revisiones y calificaciones",
-      "defaultActivateTab": false
+      "blockClass": "product__name"
     }
   },
-  "tab-content#product__tabs--content": {
-    "children": [
-      "tab-content.item#tabs__content--reviews-and-ratings",
-      "tab-content.item#tabs__content--product-specification",
-      "tab-content.item#tabs__content--questions"
-    ]
-  },
-  "tab-content.item#tabs__content--reviews-and-ratings": {
+  "vtex.store-components:product-brand": {
     "props": {
-      "tabId": "reviews-and-ratings"
-    },
-    "children": [
-      "product-reviews"
-    ]
+      "blockClass": "product__brand"
+    }
   },
-  "tab-content.item#tabs__content--product-specification": {
-    "props": {
-      "tabId": "reviews-and-ratings"
-    },
+  "flex-layout.row#product__info": {
     "children": [
-      "product-specifications"
-    ]
-  },
-  "tab-content.item#tabs__content--questions": {
+      "flex-layout.col#product__info--image",
+      "flex-layout.col#product__info--data"
+    ],
     "props": {
-      "tabId": "reviews-and-ratings"
-    },
-    "children": []
+      "blockClass": "product__info"
+    }
+  },
+  "flex-layout.col#product__info--image": {
+    "children": [
+      "product-images#product__info--image"
+    ],
+    "props": {
+      "blockClass": "product__info--image"
+    }
+  },
+  "product-images#product__info--image": {
+    "props": {
+      "blockClass": "product__info--image",
+      "zoomMode": "open-modal"
+    }
+  },
+  "flex-layout.col#product__info--data": {
+    "children": [
+      "product-price",
+      "product-quantity",
+      "product-rating-inline",
+      "add-to-cart-button",
+      "modal-trigger#add__to--card-info",
+      // "product-description",
+      // "shipping-simulator",
+      "share"
+    ],
+    "props": {
+      "blockClass": "product__info--data"
+    }
+  },
+  "share": {
+    "props": {
+      "options": {
+        "size": 20
+      },
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": true,
+        "Pinterest": false
+      }
+    }
   }
 }

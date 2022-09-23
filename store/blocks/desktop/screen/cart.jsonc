@@ -45,25 +45,35 @@
   "flex-layout.row#content__desktop": {
     "children": [
       "product-list-image",
-      "flex-layout.col#product__name",
-      "unit-price",
-      "quantity-selector",
-      "price",
+      "flex-layout.col#product__info",
       "remove-button"
     ],
     "props": {
       "blockClass": "content__desktop"
     }
   },
-  "flex-layout.col#product__name": {
-    "children":  [
-      "vtex.product-list:product-name",
-      "vtex.product-list:product-brand",
-      "product-reference"
+  "flex-layout.col#product__info": {
+    "children": [
+      "flex-layout.row#product__name",
+      "product-reference",
+      "unit-price",
+      "quantity-selector",
+      "price"
     ],
     "props": {
-      "blockClass": "product__name"
+      "blockClass": "product__info"
     }
+  },
+  "flex-layout.row#product__name": {
+    "children": [
+      "flex-layout.col#product__name"
+    ]
+  },
+  "flex-layout.col#product__name": {
+    "children": [
+      "vtex.product-list:product-name",
+      "vtex.product-list:product-brand"
+    ]
   },
   "quantity-selector": {
     "props": {

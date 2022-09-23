@@ -11,7 +11,7 @@
     overflow-y: auto;
     padding: 0;
     margin-right: 15px;
-    min-height: 440px!important;
+    min-height: 440px !important;
     border-right: 1px solid #ddd;
     height: calc(100vh - 445px);
     max-height: none;
@@ -25,4 +25,11 @@
     margin: 0 auto;
     line-height: 29px;
     height: 61px !important;
+}
+
+@media screen and (max-width: 600px) {
+    .minicartProductListContainer {
+        margin-right: 0 !important;
+        border-right: none !important;
+    }
 }

@@ -675,3 +675,12 @@
         flex-direction: column;
     }
 }
+
+.flexColChild--product__info--data {
+    width: 97%;
+}
+
+.flexCol--product__info--data {
+    display: flex;
+    align-items: center;
+}

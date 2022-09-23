@@ -57,7 +57,10 @@
   },
   "image#item__1--image": {
     "props": {
-      "src": "assets/img/category-item-1.webp"
+      "src": "assets/img/category-item-1.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "rich-text#item__1--title": {
@@ -79,7 +82,10 @@
   },
   "image#item__2--image": {
     "props": {
-      "src": "assets/img/category-item-2.webp"
+      "src": "assets/img/category-item-2.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "rich-text#item__2--title": {
@@ -101,7 +107,10 @@
   },
   "image#item__3--image": {
     "props": {
-      "src": "assets/img/category-item-3.webp"
+      "src": "assets/img/category-item-3.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "rich-text#item__3--title": {
@@ -123,7 +132,10 @@
   },
   "image#item__4--image": {
     "props": {
-      "src": "assets/img/category-item-4.webp"
+      "src": "assets/img/category-item-4.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "rich-text#item__4--title": {
@@ -145,7 +157,10 @@
   },
   "image#item__5--image": {
     "props": {
-      "src": "assets/img/category-item-5.webp"
+      "src": "assets/img/category-item-5.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "rich-text#item__5--title": {
@@ -167,7 +182,10 @@
   },
   "image#item__6--image": {
     "props": {
-      "src": "assets/img/category-item-6.webp"
+      "src": "assets/img/category-item-6.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "rich-text#item__6--title": {
@@ -202,7 +220,10 @@
   },
   "image#item__7--image": {
     "props": {
-      "src": "assets/img/category-item-7.webp"
+      "src": "assets/img/category-item-7.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "rich-text#item__7--title": {
@@ -224,7 +245,10 @@
   },
   "image#item__8--image": {
     "props": {
-      "src": "assets/img/category-item-8.webp"
+      "src": "assets/img/category-item-8.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "rich-text#item__8--title": {
@@ -246,7 +270,10 @@
   },
   "image#item__9--image": {
     "props": {
-      "src": "assets/img/category-item-9.webp"
+      "src": "assets/img/category-item-9.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "rich-text#item__9--title": {
@@ -268,7 +295,10 @@
   },
   "image#item__10--image": {
     "props": {
-      "src": "assets/img/category-item-10.webp"
+      "src": "assets/img/category-item-10.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "rich-text#item__10--title": {
@@ -290,7 +320,10 @@
   },
   "image#item__11--image": {
     "props": {
-      "src": "assets/img/category-item-11.webp"
+      "src": "assets/img/category-item-11.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "rich-text#item__11--title": {
@@ -317,7 +350,10 @@
   },
   "image#item__12--image": {
     "props": {
-      "src": "assets/img/category-item-12.webp"
+      "src": "assets/img/category-item-12.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   }
-}
+} 

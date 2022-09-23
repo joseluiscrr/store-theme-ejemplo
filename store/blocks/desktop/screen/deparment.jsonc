@@ -181,8 +181,8 @@
       "product-summary-brand",
       "product-summary-name",
       "product-summary-price",
-      "add-to-cart-button",
-      "modal-trigger#add__to--card-info"
+      "add-to-cart-button"
+      // "modal-trigger#add__to--card-info"
     ],
     "props": {
       "blockClass": "card"

@@ -334,11 +334,14 @@
 .flexRowContent--hsection__ten-images-2-2 {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
+    height: 100%;
 }
 
 .flexColChild--hsection__ten-images-2 {
     display: flex;
     align-items: flex-end;
+    margin: 5px;
 }
 
 .flexRow--hsection__ten-images-2-1,
@@ -354,6 +357,7 @@
 
 .flexCol--section__one--col-one {
     margin: 0;
+    margin-right: 2px;
 }
 
 .flexColChild--home__sections {
@@ -368,6 +372,7 @@
 
 .flexCol--section__one-image {
     margin: 0;
+    margin-left: 2px;
 }
 
 .flexColChild--footer__mobile--section-three {
@@ -616,9 +621,9 @@
 }
 
 .flexColChild--product__info--data :global(.vtex-button) {
-    background-color: #e26800!important;
-    border-color: #e26800!important;
-    color: #fff!important;
+    background-color: #e26800 !important;
+    border-color: #e26800 !important;
+    color: #fff !important;
     border-radius: 15px;
 }
 
@@ -642,4 +647,31 @@
 
 .flexRowContent--custom__components--link :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     width: auto !important;
+}
+
+.flexRowContent--container__list--one,
+.flexRowContent--container__list--two {
+    flex-wrap: wrap;
+}
+
+.flexRowContent--home__section-three {
+    display: flex;
+}
+
+.flexRowContent--home__section-fourth,
+.flexRowContent--home__section-five,
+.flexRowContent--home__section-seven,
+.flexRowContent--hsection__eight-images-1,
+.flexRowContent--hsection__eight-images-2,
+.flexRowContent--hsection__eight-images-3,
+.flexRowContent--hsection__nine-images-2 {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .flexRowContent--hsection__ten-images-1 {
+        display: flex;
+        flex-direction: column;
+    }
 }

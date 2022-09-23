@@ -38,7 +38,10 @@
   },
   "image#home__top--gif": {
     "props": {
-      "src": "assets/img/main-gif-1.gif"
+      "src": "assets/img/main-gif-1.gif",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -76,7 +79,10 @@
   },
   "image#col__two--image": {
     "props": {
-      "src": "assets/img/image-section-one.webp"
+      "src": "assets/img/image-section-one.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -89,19 +95,31 @@
       "images": [
         {
           "image": "assets/img/home-section--2-1.webp",
-          "description": "Slide 1"
+          "description": "Slide 1",
+          "link": {
+            "url": "/construccion"
+          }
         },
         {
           "image": "assets/img/home-section--2-2.webp",
-          "description": "Slide 2"
+          "description": "Slide 2",
+          "link": {
+            "url": "/construccion"
+          }
         },
         {
           "image": "assets/img/home-section--2-3.webp",
-          "description": "Slide 3"
+          "description": "Slide 3",
+          "link": {
+            "url": "/construccion"
+          }
         },
         {
           "image": "assets/img/home-section--2-4.webp",
-          "description": "Slide 4"
+          "description": "Slide 4",
+          "link": {
+            "url": "/construccion"
+          }
         }
       ]
     }
@@ -128,12 +146,18 @@
   },
   "image#hsection__three--image-1": {
     "props": {
-      "src": "assets/img/home-section--3-1.webp"
+      "src": "assets/img/home-section--3-1.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__three--image-2": {
     "props": {
-      "src": "assets/img/home-section--3-2.webp"
+      "src": "assets/img/home-section--3-2.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "flex-layout.row#home__section-three-1": {
@@ -144,7 +168,10 @@
   "image#hsection__three--image-1-1": {
     "props": {
       "blockClass": "hsection__three--image-1-1",
-      "src": "assets/img/home-section--3-1-1.webp"
+      "src": "assets/img/home-section--3-1-1.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "flex-layout.row#home__section-fourth": {
@@ -160,19 +187,28 @@
   "image#hsection__fourth--image-1": {
     "props": {
       "blockClass": "hsection__fourth--image-1",
-      "src": "assets/img/home-section--4-1.webp"
+      "src": "assets/img/home-section--4-1.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__fourth--image-2": {
     "props": {
       "blockClass": "hsection__fourth--image-2",
-      "src": "assets/img/home-section--4-2.webp"
+      "src": "assets/img/home-section--4-2.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__fourth--image-3": {
     "props": {
       "blockClass": "hsection__fourth--image-3",
-      "src": "assets/img/home-section--4-3.webp"
+      "src": "assets/img/home-section--4-3.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "flex-layout.row#home__section-fourth-1": {
@@ -186,7 +222,10 @@
   "image#hsection__fourth--image-1-1": {
     "props": {
       "blockClass": "hsection__fourth--image-1-1",
-      "src": "assets/img/home-section--4-1-1.png"
+      "src": "assets/img/home-section--4-1-1.png",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "flex-layout.row#home__section-five": {
@@ -202,19 +241,28 @@
   "image#hsection__five--image-1": {
     "props": {
       "blockClass": "hsection__five--image-1",
-      "src": "assets/img/home-section--5-1.webp"
+      "src": "assets/img/home-section--5-1.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__five--image-2": {
     "props": {
       "blockClass": "hsection__five--image-2",
-      "src": "assets/img/home-section--5-2.webp"
+      "src": "assets/img/home-section--5-2.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__five--image-3": {
     "props": {
       "blockClass": "hsection__five--image-3",
-      "src": "assets/img/home-section--5-3.webp"
+      "src": "assets/img/home-section--5-3.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "flex-layout.row#home__section-six": {
@@ -267,37 +315,58 @@
   },
   "image#hsection__six--image-1": {
     "props": {
-      "src": "assets/img/home-section--6-1.webp"
+      "src": "assets/img/home-section--6-1.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__six--image-2": {
     "props": {
-      "src": "assets/img/home-section--6-2.webp"
+      "src": "assets/img/home-section--6-2.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__six--image-3": {
     "props": {
-      "src": "assets/img/home-section--6-3.webp"
+      "src": "assets/img/home-section--6-3.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__six--image-4": {
     "props": {
-      "src": "assets/img/home-section--6-4.webp"
+      "src": "assets/img/home-section--6-4.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__six--image-5": {
     "props": {
-      "src": "assets/img/home-section--6-5.webp"
+      "src": "assets/img/home-section--6-5.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__six--image-6": {
     "props": {
-      "src": "assets/img/home-section--6-1.webp"
+      "src": "assets/img/home-section--6-1.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__six--image-7": {
     "props": {
-      "src": "assets/img/home-section--6-2.webp"
+      "src": "assets/img/home-section--6-2.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "flex-layout.row#home__section-six-1": {
@@ -334,12 +403,18 @@
   },
   "image#hsection__six-1-image-1": {
     "props": {
-      "src": "assets/img/home-section--6-1-1.webp"
+      "src": "assets/img/home-section--6-1-1.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__six-1-image-2": {
     "props": {
-      "src": "assets/img/home-section--6-1-2.webp"
+      "src": "assets/img/home-section--6-1-2.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "flex-layout.row#home__section-seven": {
@@ -355,22 +430,34 @@
   },
   "image#hsection__seven--image-1": {
     "props": {
-      "src": "assets/img/home-section--7-1.webp"
+      "src": "assets/img/home-section--7-1.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__seven--image-2": {
     "props": {
-      "src": "assets/img/home-section--7-2.webp"
+      "src": "assets/img/home-section--7-2.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__seven--image-3": {
     "props": {
-      "src": "assets/img/home-section--7-3.webp"
+      "src": "assets/img/home-section--7-3.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__seven--image-4": {
     "props": {
-      "src": "assets/img/home-section--7-4.webp"
+      "src": "assets/img/home-section--7-4.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "flex-layout.row#home__section-eight": {
@@ -410,17 +497,26 @@
   },
   "image#hsection__eight-image-1-1": {
     "props": {
-      "src": "assets/img/home-section--8-1.webp"
+      "src": "assets/img/home-section--8-1.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__eight-image-1-2": {
     "props": {
-      "src": "assets/img/home-section--8-2.webp"
+      "src": "assets/img/home-section--8-2.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__eight-image-1-3": {
     "props": {
-      "src": "assets/img/home-section--8-3.webp"
+      "src": "assets/img/home-section--8-3.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "flex-layout.row#hsection__eight-images-2": {
@@ -435,17 +531,26 @@
   },
   "image#hsection__eight-image-2-1": {
     "props": {
-      "src": "assets/img/home-section--8-4.webp"
+      "src": "assets/img/home-section--8-4.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__eight-image-2-2": {
     "props": {
-      "src": "assets/img/home-section--8-5.webp"
+      "src": "assets/img/home-section--8-5.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__eight-image-2-3": {
     "props": {
-      "src": "assets/img/home-section--8-6.webp"
+      "src": "assets/img/home-section--8-6.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "flex-layout.row#hsection__eight-images-3": {
@@ -460,17 +565,26 @@
   },
   "image#hsection__eight-image-3-1": {
     "props": {
-      "src": "assets/img/home-section--8-7.webp"
+      "src": "assets/img/home-section--8-7.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__eight-image-3-2": {
     "props": {
-      "src": "assets/img/home-section--8-8.webp"
+      "src": "assets/img/home-section--8-8.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__eight-image-3-3": {
     "props": {
-      "src": "assets/img/home-section--8-9.webp"
+      "src": "assets/img/home-section--8-9.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "flex-layout.row#home__section-nine": {
@@ -504,7 +618,10 @@
   },
   "image#hsection__nine-image-1": {
     "props": {
-      "src": "assets/img/home-section--9-1.webp"
+      "src": "assets/img/home-section--9-1.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "flex-layout.row#hsection__nine-images-2": {
@@ -513,26 +630,41 @@
       "image#hsection__nine-image-3",
       "image#hsection__nine-image-4",
       "image#hsection__nine-image-5"
-    ]
+    ],
+    "props": {
+      "blockClass": "hsection__nine-images-2"
+    }
   },
   "image#hsection__nine-image-2": {
     "props": {
-      "src": "assets/img/home-section--9-2.webp"
+      "src": "assets/img/home-section--9-2.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__nine-image-3": {
     "props": {
-      "src": "assets/img/home-section--9-3.webp"
+      "src": "assets/img/home-section--9-3.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__nine-image-4": {
     "props": {
-      "src": "assets/img/home-section--9-4.webp"
+      "src": "assets/img/home-section--9-4.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__nine-image-5": {
     "props": {
-      "src": "assets/img/home-section--9-5.webp"
+      "src": "assets/img/home-section--9-5.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "flex-layout.row#home__section-ten": {
@@ -566,7 +698,10 @@
   },
   "image#hsection__ten-image-1": {
     "props": {
-      "src": "assets/img/home-section--10-1.webp"
+      "src": "assets/img/home-section--10-1.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "flex-layout.row#hsection__ten-images-1": {
@@ -581,7 +716,10 @@
   "image#hsection__ten-images-1": {
     "props": {
       "blockClass": "hsection__ten-images-1",
-      "src": "assets/img/home-section--10-2.webp"
+      "src": "assets/img/home-section--10-2.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "flex-layout.col#hsection__ten-images-2": {
@@ -606,13 +744,19 @@
   "image#hsection__ten-image-1-3": {
     "props": {
       "blockClass": "hsection__ten-image-1-3",
-      "src": "assets/img/home-section--10-3.webp"
+      "src": "assets/img/home-section--10-3.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__ten-image-1-4": {
     "props": {
       "blockClass": "hsection__ten-image-1-4",
-      "src": "assets/img/home-section--10-4.webp"
+      "src": "assets/img/home-section--10-4.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "flex-layout.row#hsection__ten-images-2-2": {
@@ -627,13 +771,19 @@
   "image#hsection__ten-image-2-5": {
     "props": {
       "blockClass": "hsection__ten-image-2-5",
-      "src": "assets/img/home-section--10-5.webp"
+      "src": "assets/img/home-section--10-5.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   },
   "image#hsection__ten-image-2-6": {
     "props": {
       "blockClass": "hsection__ten-image-2-6",
-      "src": "assets/img/home-section--10-6.webp"
+      "src": "assets/img/home-section--10-6.webp",
+      "link": {
+        "url": "/construccion"
+      }
     }
   }
 }

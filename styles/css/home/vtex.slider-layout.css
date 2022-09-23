@@ -26,7 +26,7 @@
     transition: all .2s ease;
     border-radius: 50px 50px;
     margin-left: 20px;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
 }
 
 .sliderRightArrow--home__slider {
@@ -53,7 +53,7 @@
     transition: all .2s ease;
     border-radius: 50px 50px;
     margin-right: 20px;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
 }
 
 .paginationDot--home__slider--isActive, .paginationDot--isActive {
@@ -79,4 +79,8 @@
 .bullet__item--title {
     color: black;
     text-align: center;
+}
+
+.paginationDotsContainer--home__section--two-list {
+    transform: translateY(20px);
 }

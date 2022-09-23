@@ -104,16 +104,15 @@
 }
 
 .imageElement--hsection__three--image-1-1 {
-    max-width: 1280px;
     gap: 21px;
     margin: 0px auto;
     padding: 20px 0px;
 }
 
-.imageElement--hsection__ten-images-1 {
+/* .imageElement--hsection__ten-images-1 {
     min-width: 566px;
     min-height: 475px;
-}
+} */
 
 .searchBarIcon--header__desktop--search {
     padding: 0;
@@ -184,4 +183,10 @@
 .currencyLiteral::after {
     content: "$";
     margin-right: 1px;
+}
+
+.imageElementLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

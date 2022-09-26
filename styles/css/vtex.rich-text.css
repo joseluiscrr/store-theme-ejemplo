@@ -19,6 +19,14 @@
     margin: 0;
 }
 
+.paragraph--visita {
+    margin-left: 20px;
+}
+
+.paragraph--derechos {
+    margin-right: 20px;
+}
+
 .wrapper--contactanos {
     width: 100% !important;
 }
@@ -217,7 +225,7 @@
 
 .paragraph--go__checkout {
     border: 1px solid var(--primary-color-button) !important;
-    background-color: var(--white-color) !important;
+    background-color: #fff4c3 !important;
     border-radius: 16px;
     margin: 0;
     margin-top: 15px;
@@ -227,6 +235,16 @@
     justify-content: center;
 }
 
+.paragraph--go__checkout:hover {
+    background-color: #fcdf5f !important;
+    border: 1px solid #e26800 !important;
+}
+
 .link--go__checkout {
     color: var(--primary-color-button) !important;
+}
+
+.link--custom__components:hover {
+    text-decoration: underline;
+    color: var(--primary-text-color);
 }

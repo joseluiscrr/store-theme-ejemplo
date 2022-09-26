@@ -630,6 +630,10 @@
     border-radius: 15px;
 }
 
+.flexColChild--product__info--data :global(.vtex-button):hover {
+    background-color: var(--hover-button-color) !important;
+}
+
 .flexCol--product__breadcrumb {
     margin: auto;
     max-width: 97%;
@@ -672,7 +676,7 @@
     gap: 10px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1080px) {
 
     .flexRowContent--hsection__ten-images-1 {
         display: flex;
@@ -717,4 +721,8 @@
 
 .flexColChild--product__info {
     height: auto !important;
+}
+
+.flexRowContent--order__switcher {
+    display: flex;
 }

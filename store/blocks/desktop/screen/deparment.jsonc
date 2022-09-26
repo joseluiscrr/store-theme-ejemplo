@@ -234,19 +234,44 @@
   },
   "flex-layout.row#card__list": {
     "children": [
-      "product-summary-image",
-      "flex-layout.col#card__list",
-      "add-to-cart-button"
+      "flex-layout.col#card__list--image",
+      "flex-layout.col#card__list--container"
+      // "add-to-cart-button"
     ],
     "props": {
       "blockClass": "card__list"
     }
   },
+  "flex-layout.col#card__list--image": {
+    "children": [
+      "product-summary-image"
+    ],
+    "props": {
+      "blockClass": "card__list--image",
+      "width": "30%"
+    }
+  },
+  "flex-layout.col#card__list--container": {
+    "children": [
+      "flex-layout.row#card__list--container"
+    ],
+    "props": {
+      "blockClass": "card__list--container"
+    }
+  },
+  "flex-layout.row#card__list--container": {
+    "children": [
+      "flex-layout.col#card__list",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "blockClass": "card__list--container"
+    }
+  },
   "flex-layout.col#card__list": {
     "children": [
       "flex-layout.row#brand__name",
-      "product-summary-price",
-      "product-selling-price"
+      "product-summary-price"
     ],
     "props": {
       "blockClass": "card__list"

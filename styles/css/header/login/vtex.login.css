@@ -1,7 +1,40 @@
 .container {
     height: 36px;
+    width: 36px;
 }
 
 .profileIcon, .label {
     color: var(--primary-text-color);
+}
+
+.container :global(.vtex-button:hover) {
+    background: var(--white-color);
+    width: 36px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container :global(.vtex-button) {
+    border: 0;
+    width: 36px;
+    height: 36px;
+    min-height: 0 !important;
+    transition: all .2s ease;
+}
+
+.buttonLink {
+    width: 36px;
+    height: 36px;
+}
+
+.container :global(.vtex-button__label) {
+    padding: 0 !important;
+    height: 36px;
+    margin-left: 12px;
+}
+
+.profile, .label {
+    display: none;
 }

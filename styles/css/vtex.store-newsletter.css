@@ -56,3 +56,7 @@
     margin: 0;
     position: relative;
 }
+
+.emailInputContainer--email :global(.vtex-input-prefix__group) {
+    border: none;
+}

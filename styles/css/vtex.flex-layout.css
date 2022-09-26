@@ -54,7 +54,7 @@
 }
 
 .flexCol--contactos {
-    color: #414141;
+    color: var(--gray-color);
     display: flex;
     flex-direction: column;
     font-size: 13px;
@@ -127,7 +127,7 @@
 }
 
 .flexColChild--contactos :global(.vtex-rich-text-0-x-link) {
-    color: black !important;
+    color: var(--primary-text-color) !important;
 }
 
 .flexRowContent--footer__desktop--section-three :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
@@ -169,7 +169,7 @@
 
 .flexRow--trigger__desktop--titles {
     background-color: #f7f7f7;
-    color: #4d5766;
+    color: var(--gray-color);
     border: 1px solid #ededed;
     border-bottom: transparent;
     display: flex;
@@ -185,7 +185,7 @@
 
 .flexRowContent--disclosure__desktop {
     background-color: #f7f7f7;
-    color: #4d5766;
+    color: var(--gray-color);
     padding: 0 20px;
     width: 100%;
 }
@@ -229,7 +229,7 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 4px 20px;
-    color: #000;
+    color: var(--primary-text-color);
     transform: translateY(0px);
 }
 
@@ -401,7 +401,7 @@
 
 .flexColChild--footer__mobile--section-three {
     background-color: #f7f7f7;
-    color: #4d5766;
+    color: var(--gray-color);
     border: 1px solid #ededed;
     display: flex;
     -webkit-box-pack: center;
@@ -512,8 +512,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-color: #f78523;
-    background-color: #f78523;
+    border-color: var(--primary-color-button);
+    background-color: var(--primary-color-button);
     margin-top: 10px;
 }
 
@@ -557,7 +557,7 @@
     width: 200px !important;
     overflow: hidden;
     font-size: 13px;
-    color: #222;
+    color: var(--primary-text-color);
     font-weight: 600;
     margin-bottom: 0;
     text-decoration: none;
@@ -620,12 +620,13 @@
 
 .flexColChild--product__info--data {
     height: auto !important;
+    width: 97%;
 }
 
 .flexColChild--product__info--data :global(.vtex-button) {
-    background-color: #e26800 !important;
-    border-color: #e26800 !important;
-    color: #fff !important;
+    background-color: var(--primary-color-button) !important;
+    border-color: var(--primary-color-button)!important;
+    color: var(--white-color) !important;
     border-radius: 15px;
 }
 
@@ -694,10 +695,6 @@
         height: auto !important;
         margin-bottom: 20px;
     }
-}
-
-.flexColChild--product__info--data {
-    width: 97%;
 }
 
 .flexCol--product__info--data {

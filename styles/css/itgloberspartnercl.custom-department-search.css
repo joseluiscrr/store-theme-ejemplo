@@ -1,12 +1,12 @@
 .searchBarIcon {
-    background-color: #676767;
+    background-color: var(--gray-color);
     padding: 0 10px;
 }
 
 .searchIcon,
 .closeIconm,
 .searchBarIcon {
-    color: white;
+    color: var(--white-color);
 }
 
 .autoCompleteOuterContainer :global(.vtex-input-prefix__group) {

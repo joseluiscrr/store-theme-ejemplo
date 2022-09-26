@@ -3,5 +3,5 @@
 }
 
 .profileIcon, .label {
-    color: black;
+    color: var(--primary-text-color);
 }

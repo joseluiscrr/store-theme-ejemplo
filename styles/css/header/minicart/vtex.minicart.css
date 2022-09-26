@@ -18,7 +18,7 @@
 }
 
 .minicartCheckoutButton :global(.vtex-button) {
-    background: #f78523 !important;
+    background: var(--primary-color-button) !important;
     border-radius: 16px;
     border: none !important;
     text-shadow: none;

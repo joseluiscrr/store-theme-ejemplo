@@ -46,7 +46,8 @@
     width: 18px;
 }
 
-.confirmationCheckboxContainer--checkbox :global(.vtex-checkbox__label) {color: #8e8e8e;
+.confirmationCheckboxContainer--checkbox :global(.vtex-checkbox__label) {
+    color: var(--dark-gray-color);
     cursor: pointer;
     font-size: 10px;
     font-weight: 400;

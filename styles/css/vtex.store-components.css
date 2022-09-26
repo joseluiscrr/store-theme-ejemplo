@@ -31,12 +31,12 @@
     height: 36px;
     font-size: 14px;
     font-weight: 500;
-    color: #222;
+    color: var(--primary-text-color);
 }
 
 .autoCompleteOuterContainer--header__desktop :global(.vtex-input__suffix) {
     height: 36px;
-    background-color: #676767;
+    background-color: var(--gray-color);
     padding: 0 10px;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .searchBarIcon--header__desktop--search {
-    color: white;
+    color: var(--white-color);
 }
 
 .logoImage--retail__ecommerce,
@@ -167,13 +167,13 @@
 }
 
 .productBrandContainer--product__brand {
-    color: #bdb6c4;
+    color: var(--gray-color);
     text-transform: uppercase;
 }
 
 .price_sellingPriceContainer {
     text-align: left;
-    color: black;
+    color: var(--primary-text-color);
 }
 
 .currencyCode {

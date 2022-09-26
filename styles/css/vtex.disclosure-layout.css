@@ -22,7 +22,7 @@
     border: 0;
     border-bottom: 1px solid #dadada;
     align-items: center;
-    color: #000;
+    color: var(--primary-text-color);
     font-weight: 700;
     font-size: 13px;
     margin-bottom: 5px;

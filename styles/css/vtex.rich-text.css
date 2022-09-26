@@ -7,16 +7,15 @@
 .paragraph--compras__seguras,
 .paragraph--acumula__puntos,
 .paragraph--pago__linea {
-    color: #373737;
+    color: var(--gray-color);
     font-size: 14px;
     line-height: normal;
 }
 
 .paragraph--visita,
 .paragraph--derechos {
-    color: #4d5766;
+    color: var(--dark-gray-color);
     font-size: 12px;
-    /* margin: auto 50px; */
     margin: 0;
 }
 
@@ -25,14 +24,14 @@
 }
 
 .paragraph--contactanos {
-    color: #222;
+    color: var(--primary-text-color);
     font-size: 15px;
     font-weight: 400;
     height: 18px;
 }
 
 :global(.vtex-rich-text-0-x-link) {
-    color: #636e74 !important;
+    color: var(--dark-gray-color) !important;
     text-decoration: none;
 }
 
@@ -53,14 +52,14 @@
 .paragraph--servicio__whatsapp,
 .paragraph--linea__nacional,
 .paragraph--medellin {
-    color: #414141;
+    color: var(--dark-gray-color);
     font-size: 13px;
     font-weight: 500;
     height: 15px;
 }
 
 .paragraph--resto__ciudades {
-    color: #414141;
+    color: var(--dark-gray-color);
     font-size: 13px;
     font-weight: 400;
     cursor: pointer;
@@ -69,7 +68,7 @@
 }
 
 .paragraph--nuestro__newsletter {
-    color: #222;
+    color: var(--primary-text-color);
     font-size: 15px;
     height: 17px;
 }
@@ -79,20 +78,20 @@
 }
 
 .paragraph--ofertas__newsletter {
-    color: #222;
+    color: var(--primary-text-color);
     font-size: 13px;
     height: 15px;
 }
 
 .paragraph--descargar {
-    color: #222;
+    color: var(--primary-text-color);
     font-size: 15px;
     height: 17px;
 }
 
 .paragraph--app {
     border-left: 2px solid #d3d3d3;
-    color: #222;
+    color: var(--primary-text-color);
     font-size: 23px;
     font-weight: 700;
     margin: 0 0 0 15px;
@@ -102,7 +101,7 @@
 
 .paragraph--app__mobile {
     border-right: 2px solid #d3d3d3;
-    color: #222;
+    color: var(--primary-text-color);
     font-size: 23px;
     font-weight: 700;
     margin: 0 0 0 15px;
@@ -111,7 +110,7 @@
 }
 
 .paragraph--siguenos__en {
-    color: #222;
+    color: var(--primary-text-color);
     font-size: 12px;
     font-weight: 600;
     height: 14px;
@@ -128,7 +127,7 @@
 }
 
 .paragraph--disclosure__links {
-    color: #636e74;
+    color: var(--gray-color);
     font-size: 13px;
     margin: 5px 0;
 }
@@ -144,14 +143,14 @@
 .paragraph--trigger__informacion--legal {
     margin-right: 15px;
     line-height: 15px !important;
-    color: #000;
+    color: var(--primary-text-color);
     font-weight: 700;
     font-size: 13px;
 }
 
 .paragraph--receive__order {
     margin: 0 5px;
-    color: #222;
+    color: var(--primary-text-color);
     font-size: 14px;
     padding-left: 3px;
     font-weight: 500;
@@ -170,7 +169,7 @@
 .paragraph--hsection__six-1-title,
 .paragraph--hsection__nine-title,
 .paragraph--hsection__ten-title {
-    color: rgb(119, 119, 119);
+    color: var(--gray-color);
     font-size: 20px;
     font-weight: 500;
     margin-left: 10px;
@@ -178,7 +177,7 @@
 }
 
 .paragraph--hsection__eight-title {
-    color: rgb(119, 119, 119);
+    color: var(--gray-color);
     font-size: 20px;
     font-weight: 500;
     margin-left: 30px;
@@ -186,7 +185,7 @@
 }
 
 .paragraph--visita__mobile {
-    color: #4d5766;
+    color: var(--dark-gray-color);
     font-size: 12px;
     margin: 0;
 }
@@ -198,14 +197,14 @@
 .paragraph--pago__linea-mobile {
     font-size: 10px;
     text-align: center;
-    color: #373737;
+    color: var(--dark-gray-color);
 }
 
 .wrapper--custom__grid--2,
 .wrapper--custom__grid--3,
 .wrapper--custom__grid--4,
 .wrapper--custom__grid--5 {
-    color: white;
+    color: var(--white-color);
 }
 
 .paragraph--custom__components {
@@ -217,8 +216,8 @@
 }
 
 .paragraph--go__checkout {
-    border: 1px solid #f78523 !important;
-    background-color: #fff4c3 !important;
+    border: 1px solid var(--primary-color-button) !important;
+    background-color: var(--white-color) !important;
     border-radius: 16px;
     margin: 0;
     margin-top: 15px;
@@ -229,5 +228,5 @@
 }
 
 .link--go__checkout {
-    color: #f78523 !important;
+    color: var(--primary-color-button) !important;
 }

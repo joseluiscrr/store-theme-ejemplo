@@ -109,11 +109,6 @@
     padding: 20px 0px;
 }
 
-/* .imageElement--hsection__ten-images-1 {
-    min-width: 566px;
-    min-height: 475px;
-} */
-
 .searchBarIcon--header__desktop--search {
     padding: 0;
 }
@@ -189,4 +184,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.logoContainer--retail__ecommerce-mobile,
+.logoContainer--400__productos-mobile,
+.logoContainer--compras__seguras-mobile,
+.logoContainer--acumula__puntos-mobile,
+.logoContainer--pago__linea-mobile {
+    margin: auto;
+}
+
+.productNameContainer--product__name {
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.productBrandContainer--product__brand {
+    padding-left: 17px;
+    padding-top: 5px;
 }

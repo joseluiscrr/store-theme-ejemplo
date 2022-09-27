@@ -1,11 +1,19 @@
 @media screen and (max-width: 600px) {
-  .form__input {
-    width: 100%;
-    margin: 0 !important;
-  }
-  .form__submit {
-    margin-top: 10px;
-    margin-left: 0;
-    width: 100%;
-  }
+    .form__input {
+        width: 100%;
+        margin: 0 !important;
+    }
+
+    .form__submit {
+        margin-top: 10px;
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .quick__order--form {
+        display: flex;
+        flex-direction: column;
+    }
 }

@@ -64,8 +64,8 @@
       "add-to-cart-button",
       "flex-layout.row#checkout__button",
       "modal-trigger#add__to--card-info",
-      "product-rating-inline",
       "product-description",
+      "product-rating-inline",
       // "shipping-simulator",
       "share"
     ],

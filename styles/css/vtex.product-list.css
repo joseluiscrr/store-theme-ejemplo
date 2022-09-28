@@ -1,3 +1,9 @@
+@media screen and (max-width: 1025px) {
+    .productPriceCurrency {
+        display: none;
+    }
+}
+
 .price {
     text-align: center;
     font-weight: 600;
@@ -37,12 +43,6 @@
 .productImage {
     width: 100% !important;
     height: 100% !important;
-}
-
-@media screen and (max-width: 1025px) {
-    .productPriceCurrency {
-        display: none;
-    }
 }
 
 .productListUnavailableItemsMessage {

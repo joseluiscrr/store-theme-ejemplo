@@ -1,3 +1,10 @@
+@media screen and (max-width: 600px) {
+    .minicartProductListContainer {
+        margin-right: 0 !important;
+        border-right: none !important;
+    }
+}
+
 .openIconContainer--header__desktop--minicart {
     padding: 0;
     height: 36px;
@@ -47,13 +54,6 @@
 
 .minicartCheckoutButton :global(.vtex-button):hover {
     background: var(--hover-button-color) !important;
-}
-
-@media screen and (max-width: 600px) {
-    .minicartProductListContainer {
-        margin-right: 0 !important;
-        border-right: none !important;
-    }
 }
 
 .minicartQuantityBadgeDefault {

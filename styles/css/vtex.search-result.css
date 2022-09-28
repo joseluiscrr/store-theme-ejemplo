@@ -22,8 +22,8 @@
 }
 
 :global(.vtex-slider__selector) {
-    width: 26px!important;
-    height: 26px!important;
+    width: 26px !important;
+    height: 26px !important;
     background-color: var(--white-color);
     border: 3px solid var(--primary-color-focus);
 }
@@ -41,18 +41,17 @@
 
 :global(.vtex-slider__base-internal) {
     background-color: #313131;
-    height: 2px!important;
+    height: 2px !important;
 }
 
-.gallery--gallery__product {
-    padding: 0;
-}
-
+.gallery--gallery__product,
 :global(.vtex-button__label) {
     padding: 0;
 }
 
-.totalProducts--layout, .orderByButton, .filterPopupTitle  {
+.totalProducts--layout,
+.orderByButton,
+.filterPopupTitle {
     text-transform: capitalize;
     padding: 0;
     color: var(--gray-color);

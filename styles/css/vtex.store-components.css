@@ -88,7 +88,9 @@
 }
 
 .container--newsletter,
-.inputGroup--newsletter {
+.inputGroup--newsletter,
+.searchBarIcon--header__desktop--search,
+.container {
     padding: 0;
 }
 
@@ -107,14 +109,6 @@
     gap: 21px;
     margin: 0px auto;
     padding: 20px 0px;
-}
-
-.searchBarIcon--header__desktop--search {
-    padding: 0;
-}
-
-.container {
-    padding: 0;
 }
 
 .logoContainer--retail__ecommerce-mobile,

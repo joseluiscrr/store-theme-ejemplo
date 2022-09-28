@@ -1,3 +1,10 @@
+@media screen and (max-width: 600px) {
+    .group__searhbar {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .searchBarIcon {
     background-color: var(--gray-color);
     padding: 0 10px;
@@ -13,11 +20,4 @@
     border-radius: 10px;
     box-shadow: 0 2px 6px rgb(0 0 0 / 16%);
     border: 0;
-}
-
-@media screen and (max-width: 600px) {
-    .group__searhbar {
-        display: flex;
-        flex-direction: column;
-    }
 }

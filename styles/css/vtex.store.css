@@ -18,3 +18,7 @@
     --text-light: lighter;
     --text-bold: bold;
 }
+
+:global(.vtex-store__template) {
+    overflow-x: hidden;
+}

@@ -1,4 +1,5 @@
-.heading-level-4 {
+.heading-level-4,
+.paragraph--custom__components {
     margin: 0;
 }
 
@@ -213,10 +214,6 @@
 .wrapper--custom__grid--4,
 .wrapper--custom__grid--5 {
     color: var(--white-color);
-}
-
-.paragraph--custom__components {
-    margin: 0;
 }
 
 .wrapper--go__checkout {

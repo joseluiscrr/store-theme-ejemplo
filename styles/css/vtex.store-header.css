@@ -1,4 +1,44 @@
+.headerStickyRow--header__desktop {
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-right: 35px;
+    padding-left: 35px;
+    background-color: #ffe800;
+}
+
+.headerRowBackground--header__desktop,
+.headerRowBackground--header__middle,
+.headerRowBackground--header__mobile--first,
+.headerRowBackground--header__mobile--second,
+.headerRowBackground--header__mobile--third {
+    background-color: #ffe800;
+}
+
+.headerRowContentContainer--header__mobile--first,
+.headerRowContentContainer--header__mobile--second,
+.headerRowContentContainer--header__mobile--third {
+    padding: 0;
+}
+
+.headerRowContainer--header__mobile--first {
+    min-height: 50px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.headerRowContainer--header__mobile--second {
+    min-height: 36px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.headerRowContainer--header__mobile--third {
+    min-height: 52px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
 .headerRowContainer--header__desktop :global(.vtex-store-components-3-x-searchBarContainer) {
-  max-width: 466px;
-  margin-left: 10px;
+    max-width: 466px;
+    margin-left: 10px;
 }

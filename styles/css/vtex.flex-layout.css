@@ -758,3 +758,21 @@
 .flexRowContent--order__switcher {
     display: flex;
 }
+
+.flexRowContent--checkbox :global(.vtex-checkbox__label) {
+    display: none;
+}
+
+.flexRowContent--checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.flexRowContent--checkbox :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: auto !important;
+}
+
+.flexRow--product__info {
+    width: 95% !important;
+    margin: auto;
+}

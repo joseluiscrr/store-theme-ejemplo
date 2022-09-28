@@ -7,7 +7,7 @@
     cursor: pointer;
     box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 22%);
     padding: 12px 14px;
-    background-color: hsla(0,0%,89.8%,.75)!important;
+    background-color: hsla(0, 0%, 89.8%, .75) !important;
     display: flex;
     opacity: .5;
     transition: all .2s ease;
@@ -15,12 +15,12 @@
     margin-left: 20px;
 }
 
-.sliderLeftArrow  {
+.sliderLeftArrow {
     z-index: 1;
     cursor: pointer;
     box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 22%);
     padding: 12px 14px;
-    background-color: hsla(0,0%,89.8%,.75)!important;
+    background-color: hsla(0, 0%, 89.8%, .75) !important;
     display: flex;
     opacity: .5;
     transition: all .2s ease;
@@ -34,7 +34,7 @@
     cursor: pointer;
     box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 22%);
     padding: 12px 14px;
-    background-color: hsla(0,0%,89.8%,.75)!important;
+    background-color: hsla(0, 0%, 89.8%, .75) !important;
     display: flex;
     opacity: .5;
     transition: all .2s ease;
@@ -42,12 +42,12 @@
     margin-right: 20px;
 }
 
-.sliderRightArrow  {
+.sliderRightArrow {
     z-index: 1;
     cursor: pointer;
     box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 22%);
     padding: 12px 14px;
-    background-color: hsla(0,0%,89.8%,.75)!important;
+    background-color: hsla(0, 0%, 89.8%, .75) !important;
     display: flex;
     opacity: .5;
     transition: all .2s ease;
@@ -55,11 +55,13 @@
     margin-right: 20px;
 }
 
-.paginationDot--home__slider--isActive, .paginationDot--isActive {
+.paginationDot--home__slider--isActive,
+.paginationDot--isActive {
     background-color: var(--gray-color);
 }
 
-.paginationDot--home__slider, .paginationDot {
+.paginationDot--home__slider,
+.paginationDot {
     width: 8px !important;
     height: 8px !important;
 }
@@ -82,4 +84,9 @@
 
 .paginationDotsContainer--home__section--two-list {
     transform: translateY(20px);
+}
+
+.sliderTrack--home__section--two-list,
+.sliderTrack--home__slider {
+    gap: 10px;
 }

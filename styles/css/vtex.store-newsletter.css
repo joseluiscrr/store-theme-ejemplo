@@ -31,10 +31,6 @@
     height: auto !important;
 }
 
-.confirmationCheckboxContainer--checkbox {
-    margin-top: 10px;
-}
-
 .confirmationCheckboxContainer--checkbox :global(.vtex-checkbox__line-container) {
     display: flex;
     align-items: center;

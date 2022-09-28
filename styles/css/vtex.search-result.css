@@ -69,3 +69,16 @@
     display: flex;
     justify-content: space-between;
 }
+
+.sidebar {
+    width: 25rem;
+    max-height: 100vh;
+}
+
+.filterBreadcrumbsItem {
+    margin-left: 10px;
+}
+
+.filterTemplateOverflow {
+    width: 90%;
+}

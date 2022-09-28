@@ -264,3 +264,19 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.wrapper--checkbox {
+    color: #8e8e8e;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: .00938em;
+    line-height: 1.5;
+    margin: 0;
+    position: relative;
+}
+
+.wrapper--checkbox :global(.vtex-rich-text-0-x-link) {
+    color: var(--primary-text-color) !important;
+    text-decoration: underline;
+}

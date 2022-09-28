@@ -271,7 +271,8 @@
     "title": "Container Email - Submit, Checkbox",
     "children": [
       "flex-layout.row#email__submit",
-      "newsletter-checkbox-confirmation#checkbox"
+      "flex-layout.row#checkbox"
+      // "newsletter-checkbox-confirmation#checkbox"
     ],
     "props": {
       "blockClass": "newsletter"
@@ -301,11 +302,26 @@
       "submitButtonLabel": "Suscríbete"
     }
   },
+  "flex-layout.row#checkbox": {
+    "children": [
+      "newsletter-checkbox-confirmation#checkbox",
+      "rich-text#checkbox"
+    ],
+    "props": {
+      "blockClass": "checkbox"
+    }
+  },
   "newsletter-checkbox-confirmation#checkbox": {
     "title": "Input Checkbox",
     "props": {
       "blockClass": "checkbox",
       "checkboxLabel": "Acepto términos y condiciones, términos y condiciones marketplace y autorizo el tratamiento de mis datos personales con las siguientes condiciones."
+    }
+  },
+  "rich-text#checkbox": {
+    "props": {
+      "blockClass": "checkbox",
+      "text": "[Acepto términos y condiciones](/about-us), [términos y condiciones marketplace](/about-us) y autorizo el [tratamiento de mis datos personales con las siguientes condiciones.](/about-us)"
     }
   },
   ////////////////////////////////////////////////////// QR - Networks

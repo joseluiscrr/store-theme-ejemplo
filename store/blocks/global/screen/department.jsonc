@@ -141,8 +141,8 @@
           "name": "grid",
           "component": "GridSummary",
           "itemsPerRow": {
-            "desktop": 3,
-            "tablet": 3,
+            "desktop": 4,
+            "tablet": 2,
             "phone": 1
           }
         },

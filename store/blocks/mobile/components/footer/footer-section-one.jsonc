@@ -1,4 +1,5 @@
 {
+  /////////////////////////////////////////////////////// Footer sección 1 - Contiene logos y rich-text's
   "flex-layout.row#footer__mobile--section-one": {
     "children": [
       "flex-layout.col#retail__ecommerce-mobile",

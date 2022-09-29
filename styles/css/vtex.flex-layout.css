@@ -548,7 +548,7 @@
 
 .flexRow--content__desktop {
     width: 97%;
-    height: 110px !important;
+    height: 110px;
 }
 
 .flexRowContent--content__desktop {

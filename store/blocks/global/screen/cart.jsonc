@@ -13,6 +13,7 @@
       "blockClass": "cart"
     }
   },
+  /////////////////////////////////////////////////////////////// Cart productos
   "flex-layout.col#cart": {
     "children": [
       "flex-layout.row#cart__container"
@@ -105,6 +106,7 @@
       "mode": "stepper"
     }
   },
+  /////////////////////////////////////////////////////////////// Checkout
   "flex-layout.col#summary__checkout": {
     "children": [
       "minicart-summary",

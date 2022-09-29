@@ -72,6 +72,7 @@
 .sidebar {
     width: 25rem;
     max-height: 100vh;
+    max-width: 90%;
 }
 
 .filterBreadcrumbsItem {
@@ -80,4 +81,29 @@
 
 .filterTemplateOverflow {
     width: 90%;
+}
+
+.filterApplyButtonWrapper :global(.vtex-button) {
+    background-color: #2c2c2c;
+    border-radius: 14px;
+    border: 1px solid #2c2c2c;
+    color: #fff;
+    cursor: pointer;
+    height: 46px;
+    min-width: 116px;
+    outline: none;
+    padding: 15px;
+    margin: auto;
+}
+
+.filterClearButtonWrapper :global(.vtex-button) {
+    border-radius: 14px;
+    border: 1px solid #2c2c2c;
+    color: #2c2c2c;
+    cursor: pointer;
+    height: 46px;
+    min-width: 116px;
+    outline: none;
+    padding: 15px;
+    margin: auto;
 }

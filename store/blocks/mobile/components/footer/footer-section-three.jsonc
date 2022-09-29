@@ -1,4 +1,5 @@
 {
+  /////////////////////////////////////////////////////// Footer sección 3 - Contiene disclosure
   "flex-layout.row#footer__mobile--section-three": {
     "title": "Footer Section 3",
     "children": [
@@ -17,6 +18,7 @@
       "blockClass": "footer__mobile--section-three"
     }
   },
+  /////////////////////////////////////////////////////// Footer sección 1 - Disclosure (Literal en sólo un disclosure)
   "disclosure-layout#disclosure__mobile": {
     "title": "Container Disclosure layout",
     "children": [

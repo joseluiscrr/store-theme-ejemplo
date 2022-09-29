@@ -277,3 +277,9 @@
     color: var(--primary-text-color) !important;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 1025px) {
+    .paragraph--checkbox {
+        width: 50%;
+    }
+}

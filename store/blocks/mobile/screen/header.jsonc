@@ -6,6 +6,7 @@
       "header-row#header__mobile--third"
     ]
   },
+  /////////////////////////////////////////////////////// Primera línea Header - Contiene menu, logo, login y minicart
   "header-row#header__mobile--first": {
     "children": [
       "drawer#header__mobile--menu",
@@ -18,7 +19,7 @@
       "blockClass": "header__mobile--first"
     }
   },
-  "drawer#header__mobile--menu": {
+  "drawer#header__mobile--menu": {                // Drawer para que mega-menu pueda funcionar
     "children": [
       "mega-menu#mobile"
     ],
@@ -41,7 +42,6 @@
   "flex-layout.row#drawer-header": {
     "children": [
       "flex-layout.col#mega-menu-go-back-btn",
-      // "flex-layout.col#spacer",
       "flex-layout.col#drawer-close-button"
     ],
     "props": {
@@ -71,6 +71,7 @@
       "paddingLeft": 4
     }
   },
+  /////////////////////////////////////////////////////// Segunda línea Header - Contiene searchbar
   "header-row#header__mobile--second": {
     "children": [
       "search-bar#header__desktop"
@@ -79,6 +80,7 @@
       "blockClass": "header__mobile--second"
     }
   },
+  /////////////////////////////////////////////////////// Tercera línea Header - Contiene searchbar
   "header-row#header__mobile--third": {
     "children": [
       "flex-layout.row#header__desktop"

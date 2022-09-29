@@ -1,4 +1,5 @@
 {
+  /////////////////////////////////////////////////////// Footer sección 4 - Contiene logos y rich-text's
   "flex-layout.row#footer__mobile--section-fourth": {
     "title": "Footer Section 4",
     "children": [

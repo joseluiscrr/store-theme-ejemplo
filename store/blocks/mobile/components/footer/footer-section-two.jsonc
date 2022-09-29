@@ -1,4 +1,5 @@
 {
+  /////////////////////////////////////////////////////// Footer sección 2 - Contiene líneas de atención, newsletter y código qr app
   "flex-layout.row#footer__mobile--section-two": {
     "title": "Footer Section 2",
     "children": [

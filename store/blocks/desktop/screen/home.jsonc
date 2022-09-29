@@ -7,6 +7,7 @@
       "flex-layout.row#home__sections"
     ]
   },
+  /////////////////////////////////////////////////////////////// WhatsApp button
   "whatsapp-button": {
     "title": "Home WhatsApp Button",
     "props": {
@@ -15,6 +16,7 @@
       "message": "VTEX U RLZ"
     }
   },
+  /////////////////////////////////////////////////////////////// Link de redirección /custom-components
   "flex-layout.row#custom__components--link": {
     "children": [
       "rich-text#custom__components",

@@ -4,7 +4,7 @@ El Minimum Boilerplate Theme es un modelo básico de escaparate basado en VTEX I
 
 La tienda está construida a partir de la viva imagen de exito.com
 
-<img src="assets\img\preview.jpeg" alt="preview" />
+<img src="https://raw.githubusercontent.com/joseluiscrr/store-theme-ejemplo/joseluiscrr/assets/img/preview.jpeg" alt="preview" />
 
 ## Configuración
 ### Paso 1 - Configuración básica

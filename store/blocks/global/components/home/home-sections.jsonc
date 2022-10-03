@@ -181,11 +181,27 @@
   "flex-layout.row#home__section-fourth": {
     "children": [
       "image#hsection__fourth--image-1",
+      "flex-layout.col#section__fourth--container"
+    ],
+    "props": {
+      "blockClass": "home__section-fourth"
+    }
+  },
+  "flex-layout.col#section__fourth--container": {
+    "children": [
+      "flex-layout.row#section__fourth--container"
+    ],
+    "props": {
+      "blockClass": "section__fourth--container"
+    }
+  },
+  "flex-layout.row#section__fourth--container": {
+    "children": [
       "image#hsection__fourth--image-2",
       "image#hsection__fourth--image-3"
     ],
     "props": {
-      "blockClass": "home__section-fourth"
+      "blockClass": "section__fourth--container"
     }
   },
   "image#hsection__fourth--image-1": {
@@ -237,11 +253,27 @@
   "flex-layout.row#home__section-five": {
     "children": [
       "image#hsection__five--image-1",
+      "flex-layout.col#section__five--container"
+    ],
+    "props": {
+      "blockClass": "home__section-five"
+    }
+  },
+  "flex-layout.col#section__five--container": {
+    "children": [
+      "flex-layout.row#section__five--container"
+    ],
+    "props": {
+      "blockClass": "section__five--container"
+    }
+  },
+  "flex-layout.row#section__five--container": {
+    "children": [
       "image#hsection__five--image-2",
       "image#hsection__five--image-3"
     ],
     "props": {
-      "blockClass": "home__section-five"
+      "blockClass": "section__five--container"
     }
   },
   "image#hsection__five--image-1": {
@@ -428,13 +460,45 @@
   /////////////////////////////////////////////////////////////// Home section Seven
   "flex-layout.row#home__section-seven": {
     "children": [
+      "flex-layout.col#section__seven--container-1",
+      "flex-layout.col#section__seven--container-2"
+    ],
+    "props": {
+      "blockClass": "home__section-seven"
+    }
+  },
+  "flex-layout.col#section__seven--container-1": {
+    "children": [
+      "flex-layout.row#section__seven--container-1"
+    ],
+    "props": {
+      "blockClass": "section__seven--container-1"
+    }
+  },
+  "flex-layout.col#section__seven--container-2": {
+    "children": [
+      "flex-layout.row#section__seven--container-2"
+    ],
+    "props": {
+      "blockClass": "section__seven--container-2"
+    }
+  },
+  "flex-layout.row#section__seven--container-1": {
+    "children": [
       "image#hsection__seven--image-1",
-      "image#hsection__seven--image-2",
+      "image#hsection__seven--image-2"
+    ],
+    "props": {
+      "blockClass": "section__seven--container-1"
+    }
+  },
+  "flex-layout.row#section__seven--container-2": {
+    "children": [
       "image#hsection__seven--image-3",
       "image#hsection__seven--image-4"
     ],
     "props": {
-      "blockClass": "home__section-seven"
+      "blockClass": "section__seven--container-2"
     }
   },
   "image#hsection__seven--image-1": {
@@ -498,11 +562,27 @@
   "flex-layout.row#hsection__eight-images-1": {
     "children": [
       "image#hsection__eight-image-1-1",
+      "flex-layout.col#section__eight--container-1"
+    ],
+    "props": {
+      "blockClass": "hsection__eight-images-1"
+    }
+  },
+  "flex-layout.col#section__eight--container-1": {
+    "children": [
+      "flex-layout.row#section__eight--container-1"
+    ],
+    "props": {
+      "blockClass": "section__eight--container-1"
+    }
+  },
+  "flex-layout.row#section__eight--container-1": {
+    "children": [
       "image#hsection__eight-image-1-2",
       "image#hsection__eight-image-1-3"
     ],
     "props": {
-      "blockClass": "hsection__eight-images-1"
+      "blockClass": "section__eight--container-1"
     }
   },
   "image#hsection__eight-image-1-1": {
@@ -531,12 +611,28 @@
   },
   "flex-layout.row#hsection__eight-images-2": {
     "children": [
-      "image#hsection__eight-image-2-1",
-      "image#hsection__eight-image-2-2",
+      "flex-layout.col#section__eight--container-2",
       "image#hsection__eight-image-2-3"
     ],
     "props": {
       "blockClass": "hsection__eight-images-2"
+    }
+  },
+  "flex-layout.col#section__eight--container-2": {
+    "children": [
+      "flex-layout.row#section__eight--container-2"
+    ],
+    "props": {
+      "blockClass": "section__eight--container-2"
+    }
+  },
+  "flex-layout.row#section__eight--container-2": {
+    "children": [
+      "image#hsection__eight-image-2-1",
+      "image#hsection__eight-image-2-2"
+    ],
+    "props": {
+      "blockClass": "section__eight--container-2"
     }
   },
   "image#hsection__eight-image-2-1": {
@@ -566,11 +662,27 @@
   "flex-layout.row#hsection__eight-images-3": {
     "children": [
       "image#hsection__eight-image-3-1",
+      "flex-layout.col#section__eight--container-3"
+    ],
+    "props": {
+      "blockClass": "hsection__eight-images-3"
+    }
+  },
+  "flex-layout.col#section__eight--container-3": {
+    "children": [
+      "flex-layout.row#section__eight--container-3"
+    ],
+    "props": {
+      "blockClass": "section__eight--container-3"
+    }
+  },
+  "flex-layout.row#section__eight--container-3": {
+    "children": [
       "image#hsection__eight-image-3-2",
       "image#hsection__eight-image-3-3"
     ],
     "props": {
-      "blockClass": "hsection__eight-images-3"
+      "blockClass": "section__eight--container-3"
     }
   },
   "image#hsection__eight-image-3-1": {
@@ -637,13 +749,45 @@
   },
   "flex-layout.row#hsection__nine-images-2": {
     "children": [
+      "flex-layout.col#section__nine--container-1",
+      "flex-layout.col#section__nine--container-2"
+    ],
+    "props": {
+      "blockClass": "hsection__nine-images-2"
+    }
+  },
+  "flex-layout.col#section__nine--container-1": {
+    "children": [
+      "flex-layout.row#section__nine--container-1"
+    ],
+    "props": {
+      "blockClass": "section__nine--container-1"
+    }
+  },
+  "flex-layout.col#section__nine--container-2": {
+    "children": [
+      "flex-layout.row#section__nine--container-2"
+    ],
+    "props": {
+      "blockClass": "section__nine--container-2"
+    }
+  },
+  "flex-layout.row#section__nine--container-1": {
+    "children": [
       "image#hsection__nine-image-2",
-      "image#hsection__nine-image-3",
+      "image#hsection__nine-image-3"
+    ],
+    "props": {
+      "blockClass": "section__nine--container-1"
+    }
+  },
+  "flex-layout.row#section__nine--container-2": {
+    "children": [
       "image#hsection__nine-image-4",
       "image#hsection__nine-image-5"
     ],
     "props": {
-      "blockClass": "hsection__nine-images-2"
+      "blockClass": "section__nine--container-2"
     }
   },
   "image#hsection__nine-image-2": {

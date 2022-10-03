@@ -3,7 +3,8 @@
     width: 36px;
 }
 
-.profileIcon, .label {
+.profileIcon,
+.label {
     color: var(--primary-text-color);
 }
 
@@ -35,6 +36,64 @@
     margin-left: 12px;
 }
 
-.profile, .label {
+.profile,
+.label {
     display: none;
+}
+
+.optionsList :global(.vtex-button__label) {
+    text-transform: initial;
+}
+
+.accessCodeOptionBtn :global(.vtex-button),
+.sendButton :global(.vtex-button) {
+    background-color: #2c2c2c;
+    border-radius: 14px;
+    border: 1px solid #2c2c2c;
+    color: #fff;
+    cursor: pointer;
+    height: 46px;
+    min-width: 116px;
+    outline: none;
+}
+
+.accessCodeOptionBtn :global(.vtex-button):hover,
+.sendButton :global(.vtex-button):hover {
+    background-color: #161616;
+    border: 1px solid #161616;
+}
+
+.emailPasswordOptionBtn :global(.vtex-button) {
+    border-radius: 14px;
+    border: 1px solid #2c2c2c;
+    background-color: #fff;
+    color: #2c2c2c;
+    cursor: pointer;
+    height: 46px;
+    min-width: 116px;
+    outline: none;
+}
+
+.emailPasswordOptionBtn :global(.vtex-button):hover {
+    background-color: #2c2c2c;
+    color: #fff;
+}
+
+.backButton :global(.vtex-button),
+.dontHaveAccount,
+.forgotPasswordLink {
+    color: #2c2c2c;
+}
+
+.backButton :global(.vtex-button):hover {
+    background-color: #fff !important;
+    border-color: #fff !important;
+}
+
+.backButton :global(.vtex-button__label):hover {
+    text-decoration: underline;
+}
+
+.inputContainer :global(.vtex-input-prefix__group) {
+    border-radius: 10px;
 }
